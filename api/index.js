@@ -2,6 +2,17 @@ const dateFormat = require('dateformat');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
+const makeName = (name) => {
+  const PRESETS = {
+    NY: 'NYC',
+    GS: 'GSW',
+    SA: 'SAS',
+    BK: 'BKL'
+  }
+
+  return PRESETS[name] || name;
+}
+
 module.exports = async (_, res) => {
   res.setHeader('Content-Type', 'text/html');
 
