@@ -34,6 +34,9 @@ module.exports = async (_, res) => {
     const scoreA = $(element).find('.cmg_matchup_list_score_away').text()
     const scoreB = $(element).find('.cmg_matchup_list_score_home').text()
 
+    obj.scoreA = scoreA;
+    obj.scoreB = scoreB;
+
     obj.delta = Math.abs(parseInt(scoreA, 10) - parseInt(scoreB));
     obj.sum = Math.abs(parseInt(scoreA, 10) + parseInt(scoreB));
 
