@@ -13,7 +13,8 @@ const makeName = (name) => {
   return PRESETS[name] || name;
 }
 
-module.exports = async (_, res) => {
+export default async function handler(_, res) {
+  res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
 
   const date = new Date();
