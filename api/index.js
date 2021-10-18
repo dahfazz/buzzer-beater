@@ -1,6 +1,11 @@
+const express = require('express');
+const app = express();
+
 const dateFormat = require('dateformat');
 const axios = require('axios');
 const cheerio = require('cheerio');
+
+let date;
 
 const makeName = (name) => {
   const PRESETS = {
@@ -13,11 +18,10 @@ const makeName = (name) => {
   return PRESETS[name] || name;
 }
 
-export default async function handler(_, res) {
-  res.statusCode = 200;
+app.get('/', async (_, res) => {
   res.setHeader('Content-Type', 'text/html');
 
-  const date = new Date();
+  date = new Date('03-10-2021');
   yesterday = date.setDate(date.getDate() - 1);
   formatted = dateFormat(yesterday, 'yyyy-mm-dd')
 
@@ -26,7 +30,7 @@ export default async function handler(_, res) {
   const $ = cheerio.load(result.data);
 
   const games = []
-  
+
   $('.cmg_matchup_game_box').each((_, element) => {
     const obj = {}
     obj.teamA = $(element).find('.cmg_matchup_list_column_1 .cmg_team_name').text().replace(/[^A-Za-z]/g, "")
@@ -54,59 +58,45 @@ export default async function handler(_, res) {
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="" rel="stylesheet">
-
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Anton&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap"></noscript>
-
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap" rel="stylesheet">
   <style>
   body {
     background: #040405;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     padding: 0;
     margin: 0;
     position: relative;
   }
   ul {
-    margin: 0;
+    margin: 2rem 0;
     padding: 0;
     list-style: none;
   }
   li {
-    font-size: 2rem;
+    font-size: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: .1;
-    ;
     margin: 5px 0;
   }
   
-  ul li:nth-child(1) {opacity: 1;}
-  ul li:nth-child(2) {opacity: .85;}
-  ul li:nth-child(3) {opacity: .7;}
-  ul li:nth-child(4) {opacity: .55;}
-  ul li:nth-child(5) {opacity: .4;}
-  ul li:nth-child(6) {opacity: .3;}
-  ul li:nth-child(7) {opacity: .2;}
-  ul li:nth-child(8) {opacity: .1;}
-  
-  
-  span {font-family: 'Anton', sans-serif;}
+  span {font-family: 'Cousine', sans-serif;}
   button {
-    font-family: 'Anton', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 1rem 2rem;
     text-align: center;
-    margin: 4rem auto;
-    border: 1px solid white;
-    background: transparent;
+    background: #000;
     color: white;
+    border: none;
     text-transform: uppercase;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
   }
   
   .score {
@@ -124,7 +114,7 @@ export default async function handler(_, res) {
   <body>
   <ul>`;
 
-  games.sort((a,b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
+  games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
     if (game.delta) {
       html += `<li>
           <span class="score">${game.scoreA}</span><span>${makeName(game.teamA)}</span>
@@ -147,5 +137,6 @@ export default async function handler(_, res) {
   </html>`;
 
   res.send(html);
+});
 
-};
+module.exports = app;
