@@ -2,20 +2,18 @@
   "name": "buzer-beater-api",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BuzzerBeaters/api.git"
+    "url": "git@github.com:dahfazz/buzzer-beater.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BuzzerBeaters/api/issues"
-  },
-  "homepage": "https://github.com/BuzzerBeaters/api#readme",
+  "homepage": "https://github.com/dahfazz/buzzer-beater",
   "devDependencies": {
     "dateformat": "^3.0.3",
     "express": "^4.17.1"

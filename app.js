@@ -26,7 +26,7 @@ const makeName = (name) => {
 app.get('/', async (_, res) => {
   res.setHeader('Content-Type', 'text/html');
 
-  date = new Date('03-10-2021');
+  date = new Date();
   yesterday = date.setDate(date.getDate() - 1);
   formatted = dateFormat(yesterday, 'yyyy-mm-dd')
 
