@@ -21,13 +21,13 @@ const makeName = (name) => {
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
-  .get('/', async (_, res) => {
+  .get('/', async (req, res) => {
     res.setHeader('Content-Type', 'text/html');
 
   date = new Date();
   yesterday = date.setDate(date.getDate() - 1);
-  formatted = dateFormat(yesterday, 'yyyy-mm-dd')
-
+  formatted = req.query.date || dateFormat(yesterday, 'yyyy-mm-dd');
+  
   const url = `https://www.covers.com/Sports/NBA/Matchups?selectedDate=${formatted}`;
   const result = await axios.get(url);
   const $ = cheerio.load(result.data);
@@ -61,10 +61,9 @@ express()
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="" rel="stylesheet">
-  
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap" rel="stylesheet">
   <style>
   body {
     background: #040405;
@@ -74,42 +73,21 @@ express()
     position: relative;
   }
   ul {
-    margin: 2rem 0;
+    margin: 1rem 1.5rem;
     padding: 0;
     list-style: none;
   }
   li {
-    font-size: 4rem;
     display: flex;
+    text-align: left;
     align-items: center;
-    justify-content: center;
-    margin: 5px 0;
+    margin: 0;
+    padding: .5rem 0;
   }
   
-  span {font-family: 'Cousine', sans-serif;}
-  button {
-    font-size: 1rem;
-    padding: 1rem 2rem;
-    text-align: center;
-    background: #000;
-    color: white;
-    border: none;
-    text-transform: uppercase;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-  .score {
-    opacity: 0;
-    margin: 0 10px;
-    font-size: 1rem;
-    transition: opacity 300ms linear;
-  }
-  .show-scores .score {
-    opacity: 1;
+  span {
+    font-family: "Cousine", monospace;
+    font-size: 2rem;
   }
   
   </style>
@@ -120,8 +98,8 @@ express()
   games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
     if (game.delta) {
       html += `<li>
-          <span class="score">${game.scoreA}</span><span>${makeName(game.teamA)}</span>
-          -<span>${makeName(game.teamB)}</span><span class="score">${game.scoreB}</span>
+          <span>${makeName(game.teamA)}</span>&nbsp;-&nbsp;
+          <span>${makeName(game.teamB)}</span> ${game.delta < 10 ? ' ⭐' : ''}
         </li>`;
     }
   });
@@ -129,13 +107,6 @@ express()
   html += `
     </li>
   </ul>
-  <button id="scores">scores</button>
-  <script>
-    const btn = document.getElementById('scores');
-    btn.addEventListener('click', () => {
-      document.body.classList.toggle('show-scores')
-    })
-  </script>
   </body>
   </html>`;
 
