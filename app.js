@@ -8,15 +8,37 @@ const cheerio = require('cheerio');
 
 let date;
 
-const makeName = (name) => {
-  const PRESETS = {
-    NY: 'NYC',
-    GS: 'GSW',
-    SA: 'SAS',
-    BK: 'BKL'
-  }
-
-  return PRESETS[name] || name;
+const TEAMS = {
+  ATL: {name: 'Hawks', colorA: '#ff0000', colorB: '#000000'},
+  BK: {name: 'Nets', colorA: '#fff', colorB: '#000000'},
+  BOS: {name: 'Celtics', colorA: '#00853F', colorB: '#000000'},
+  CHA: {name: 'Hornets', colorA: '#000000', colorB: '#000000'},
+  CHI: {name: 'Bulls', colorA: '#ff0000', colorB: '#000000'},
+  CLE: {name: 'Cavs', colorA: '#000000', colorB: '#000000'},
+  DAL: {name: 'Mavs', colorA: '#3345f2', colorB: '#000000'},
+  DEN: {name: 'Nuggets', colorA: '#000000', colorB: '#000000'},
+  DET: {name: 'Pistons', colorA: '#3345f2', colorB: '#000000'},
+  GS: {name: 'Warriors', colorA: '#000000', colorB: '#000000'},
+  HOU: {name: 'Rockets', colorA: '#000000', colorB: '#000000'},
+  IND: {name: 'Pacers', colorA: '#000000', colorB: '#000000'},
+  LAC: {name: 'Clippers', colorA: '#3345f2', colorB: '#000000'},
+  LAL: {name: 'Lakers', colorA: '#000000', colorB: '#000000'},
+  MEM: {name: 'Grizzlies', colorA: '#000000', colorB: '#000000'},
+  MIA: {name: 'Heat', colorA: '#000000', colorB: '#000000'},
+  MIL: {name: 'Bucks', colorA: '#000000', colorB: '#000000'},
+  MIN: {name: 'Wolves', colorA: '#000000', colorB: '#000000'},
+  NO: {name: 'Pelicans', colorA: '#000000', colorB: '#000000'},
+  NY: {name: 'Knicks', colorA: '#000000', colorB: '#000000'},
+  OKC: {name: 'Thunder', colorA: '#000000', colorB: '#000000'},
+  ORL: {name: 'Magic', colorA: '#000000', colorB: '#000000'},
+  PHI: {name: 'Sixers', colorA: '#000000', colorB: '#000000'},
+  PHO: {name: 'Suns', colorA: '#000000', colorB: '#000000'},
+  POR: {name: 'Blazers', colorA: '#fff', colorB: '#000000'},
+  SA: {name: 'Spurs', colorA: '#fff', colorB: '#000000'},
+  SAC: {name: 'Kings', colorA: '#000000', colorB: '#000000'},
+  TOR: {name: 'Raptors', colorA: '#f00', colorB: '#000000'},
+  UTA: {name: 'Jazz', colorA: '#000000', colorB: '#000000'},
+  WAS: {name: 'Wizards', colorA: '#f00', colorB: '#000000'},
 }
 
 express()
@@ -63,31 +85,39 @@ express()
     <link href="" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <style>
   body {
-    background: #040405;
-    color: white;
+    --bg: #000;
+    --text: #fff;
+
     padding: 0;
     margin: 0;
-    position: relative;
+    background: var(--bg);
+    color: var(--text);
   }
   ul {
-    margin: 1rem 1.5rem;
+    margin: 1rem 0rem;
     padding: 0;
     list-style: none;
   }
   li {
     display: flex;
     text-align: left;
-    align-items: center;
+    align-items:center;
     margin: 0;
-    padding: .5rem 0;
+    padding: 1rem 2rem;
   }
   
   span {
-    font-family: "Cousine", monospace;
-    font-size: 2rem;
+    margin-left: .5rem;
+    font-family: "Lobster";
+    font-size: 1.9rem;
+  }
+  
+  li > span:first-child {
+    margin-right: .5rem;
+    margin-left: 0;
   }
   
   </style>
@@ -98,8 +128,8 @@ express()
   games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
     if (game.delta) {
       html += `<li>
-          <span>${makeName(game.teamA)}</span>&nbsp;-&nbsp;
-          <span>${makeName(game.teamB)}</span> ${game.delta < 10 ? ' ⭐' : ''}
+          <span>${TEAMS[game.teamA].name}</span> •
+          <span>${TEAMS[game.teamB].name}</span>
         </li>`;
     }
   });
