@@ -105,6 +105,7 @@ express()
     display: flex;
     text-align: left;
     align-items:center;
+    justify-content: center;
     margin: 0;
     padding: 1rem 2rem;
   }
@@ -118,6 +119,7 @@ express()
   li > span:first-child {
     margin-right: .5rem;
     margin-left: 0;
+    text-align: right;
   }
   
   </style>
