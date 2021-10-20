@@ -2,10 +2,6 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => {
-  console.log('App listening', port);
-});
-
 const dateFormat = require('dateformat');
 const axios = require('axios');
 const cheerio = require('cheerio');
@@ -23,8 +19,10 @@ const makeName = (name) => {
   return PRESETS[name] || name;
 }
 
-app.get('/', async (_, res) => {
-  res.setHeader('Content-Type', 'text/html');
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .get('/', (_, res) => {
+    res.setHeader('Content-Type', 'text/html');
 
   date = new Date();
   yesterday = date.setDate(date.getDate() - 1);
@@ -141,7 +139,6 @@ app.get('/', async (_, res) => {
   </body>
   </html>`;
 
-  res.send(html);
-});
-
-module.exports = app;
+  return res.send(html);
+  })
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
