@@ -1,6 +1,6 @@
 const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000;
+const path = require('path')
+const PORT = process.env.PORT || 3000
 
 const dateFormat = require('dateformat');
 const axios = require('axios');
@@ -21,7 +21,7 @@ const makeName = (name) => {
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
-  .get('/', (_, res) => {
+  .get('/', async (_, res) => {
     res.setHeader('Content-Type', 'text/html');
 
   date = new Date();
