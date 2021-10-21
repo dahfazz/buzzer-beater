@@ -85,7 +85,7 @@ express()
     <link href="" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
   <style>
   body {
     --bg: #000;
@@ -112,8 +112,9 @@ express()
   
   span {
     margin-left: .5rem;
-    font-family: "Lobster";
-    font-size: 1.9rem;
+    font-family: "Montserrat";
+    color: white;
+    font-size: 1.6rem;
   }
   
   li > span:first-child {
