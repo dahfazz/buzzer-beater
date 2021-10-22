@@ -9,36 +9,36 @@ const cheerio = require('cheerio');
 let date;
 
 const TEAMS = {
-  ATL: {name: 'Hawks', colorA: '#ff0000', colorB: '#000000'},
-  BK: {name: 'Nets', colorA: '#fff', colorB: '#000000'},
-  BOS: {name: 'Celtics', colorA: '#00853F', colorB: '#000000'},
-  CHA: {name: 'Hornets', colorA: '#000000', colorB: '#000000'},
-  CHI: {name: 'Bulls', colorA: '#ff0000', colorB: '#000000'},
-  CLE: {name: 'Cavs', colorA: '#000000', colorB: '#000000'},
-  DAL: {name: 'Mavs', colorA: '#3345f2', colorB: '#000000'},
-  DEN: {name: 'Nuggets', colorA: '#000000', colorB: '#000000'},
-  DET: {name: 'Pistons', colorA: '#3345f2', colorB: '#000000'},
-  GS: {name: 'Warriors', colorA: '#000000', colorB: '#000000'},
-  HOU: {name: 'Rockets', colorA: '#000000', colorB: '#000000'},
-  IND: {name: 'Pacers', colorA: '#000000', colorB: '#000000'},
-  LAC: {name: 'Clippers', colorA: '#3345f2', colorB: '#000000'},
-  LAL: {name: 'Lakers', colorA: '#000000', colorB: '#000000'},
-  MEM: {name: 'Grizzlies', colorA: '#000000', colorB: '#000000'},
-  MIA: {name: 'Heat', colorA: '#000000', colorB: '#000000'},
-  MIL: {name: 'Bucks', colorA: '#000000', colorB: '#000000'},
-  MIN: {name: 'Wolves', colorA: '#000000', colorB: '#000000'},
-  NO: {name: 'Pelicans', colorA: '#000000', colorB: '#000000'},
-  NY: {name: 'Knicks', colorA: '#000000', colorB: '#000000'},
-  OKC: {name: 'Thunder', colorA: '#000000', colorB: '#000000'},
-  ORL: {name: 'Magic', colorA: '#000000', colorB: '#000000'},
-  PHI: {name: 'Sixers', colorA: '#000000', colorB: '#000000'},
-  PHO: {name: 'Suns', colorA: '#000000', colorB: '#000000'},
-  POR: {name: 'Blazers', colorA: '#fff', colorB: '#000000'},
-  SA: {name: 'Spurs', colorA: '#fff', colorB: '#000000'},
-  SAC: {name: 'Kings', colorA: '#000000', colorB: '#000000'},
-  TOR: {name: 'Raptors', colorA: '#f00', colorB: '#000000'},
-  UTA: {name: 'Jazz', colorA: '#000000', colorB: '#000000'},
-  WAS: {name: 'Wizards', colorA: '#f00', colorB: '#000000'},
+  ATL: {name: 'Hawks', colorA: '#ff0000', colorB: '#fff'},
+  BK: {name: 'Nets', colorA: '#fff', colorB: '#fff'},
+  BOS: {name: 'Celtics', colorA: '#00853F', colorB: '#fff'},
+  CHA: {name: 'Hornets', colorA: '#000000', colorB: '#fff'},
+  CHI: {name: 'Bulls', colorA: '#ff0000', colorB: '#fff'},
+  CLE: {name: 'Cavs', colorA: '#000000', colorB: '#fff'},
+  DAL: {name: 'Mavs', colorA: '#3345f2', colorB: '#fff'},
+  DEN: {name: 'Nuggets', colorA: '#000000', colorB: '#fff'},
+  DET: {name: 'Pistons', colorA: '#3345f2', colorB: '#fff'},
+  GS: {name: 'Warriors', colorA: '#000000', colorB: '#fff'},
+  HOU: {name: 'Rockets', colorA: '#000000', colorB: '#fff'},
+  IND: {name: 'Pacers', colorA: '#000000', colorB: '#fff'},
+  LAC: {name: 'Clippers', colorA: '#3345f2', colorB: '#fff'},
+  LAL: {name: 'Lakers', colorA: '#000000', colorB: '#fff'},
+  MEM: {name: 'Grizzlies', colorA: '#000000', colorB: '#fff'},
+  MIA: {name: 'Heat', colorA: '#000000', colorB: '#fff'},
+  MIL: {name: 'Bucks', colorA: '#000000', colorB: '#fff'},
+  MIN: {name: 'Wolves', colorA: '#000000', colorB: '#fff'},
+  NO: {name: 'Pelicans', colorA: '#000000', colorB: '#fff'},
+  NY: {name: 'Knicks', colorA: '#000000', colorB: '#fff'},
+  OKC: {name: 'Thunder', colorA: '#000000', colorB: '#fff'},
+  ORL: {name: 'Magic', colorA: '#000000', colorB: '#fff'},
+  PHI: {name: 'Sixers', colorA: '#000000', colorB: '#fff'},
+  PHO: {name: 'Suns', colorA: '#000000', colorB: '#fff'},
+  POR: {name: 'Blazers', colorA: '#fff', colorB: '#fff'},
+  SA: {name: 'Spurs', colorA: '#fff', colorB: '#fff'},
+  SAC: {name: 'Kings', colorA: '#000000', colorB: '#fff'},
+  TOR: {name: 'Raptors', colorA: '#f00', colorB: '#fff'},
+  UTA: {name: 'Jazz', colorA: '#000000', colorB: '#fff'},
+  WAS: {name: 'Wizards', colorA: '#f00', colorB: '#fff'},
 }
 
 express()
@@ -88,13 +88,9 @@ express()
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
   <style>
   body {
-    --bg: #000;
-    --text: #fff;
-
     padding: 0;
     margin: 0;
-    background: var(--bg);
-    color: var(--text);
+    background: #000;
   }
   ul {
     margin: 1rem 0rem;
@@ -103,24 +99,25 @@ express()
   }
   li {
     display: flex;
-    text-align: left;
     align-items:center;
     justify-content: center;
     margin: 0;
-    padding: 1rem 2rem;
+    padding: .5rem 1rem;
   }
   
   span {
-    margin-left: .5rem;
+    border: 2px solid white;
+    margin: 0;
     font-family: "Montserrat";
-    color: white;
     font-size: 1.6rem;
+    padding: .5rem;
+    flex: 1;
+    text-align: center;
+    background: white;
   }
   
   li > span:first-child {
-    margin-right: .5rem;
-    margin-left: 0;
-    text-align: right;
+    border-right: 1px solid black
   }
   
   </style>
@@ -131,7 +128,7 @@ express()
   games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
     if (game.delta) {
       html += `<li>
-          <span>${TEAMS[game.teamA].name}</span> •
+          <span>${TEAMS[game.teamA].name}</span>
           <span>${TEAMS[game.teamB].name}</span>
         </li>`;
     }
