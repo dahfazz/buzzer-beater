@@ -102,7 +102,7 @@ express()
     margin: 0 0 2rem;
     padding: 0;
     font-family: "Major Mono Display", monospace;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     color: white;
   }
