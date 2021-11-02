@@ -1,5 +1,5 @@
 body {
-  padding: 200px 0;
+  padding: 170px ​0 80px;
   margin: 0;
   background: #000;
 }
@@ -129,10 +129,11 @@ body {
 .flag {
   font-family: "Noto Sans", sans-serif;
   color: #fff;
-  border: 1px solid white;
+  border: 1px solid #666;
   background: rgba(255, 255, 255, .1);
-  padding: 5px 10px;
-  border-radius: 16px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
 }
 .flag.selected {
   background: rgba(255, 255, 255, .8);
