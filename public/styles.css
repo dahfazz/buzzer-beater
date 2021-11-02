@@ -148,18 +148,27 @@ ul {
   color: white;
 }
 
+.teamlogo {
+  background-size: cover;
+  width: 50px;
+  aspect-ratio: 1;
+}
+
 .gamedate {
   position: absolute;
   font-family: "Bebas Neue";
   z-index: 0;
-  font-size: 1rem;
-  color: #666;
-  left: 0;
-  right: 0;
-  bottom: .8rem;
-  width: 100%;
+  font-size: 1.1rem;
+  color: white;
+  background: black;
+  bottom: .3rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
   text-align: center;
   line-height: 30px;
+  padding: 0 .25rem;
+  margin: auto;
 }
 
 .onlytop .item:not(.top) {
@@ -195,7 +204,7 @@ ul {
   top: 160px;
   right: 0;
   left: 0;
-  z-index: 10;
+  z-index: 100;
   background: black;
 }
 .nav.visible {

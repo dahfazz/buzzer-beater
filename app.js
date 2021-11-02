@@ -38,6 +38,7 @@ const getHTMLheader = () => `<head>
 const getNav = () => {
   let _html = `<nav class="nav" id="nav">
   <div class="container">
+    <a class="navitem" href="/">Home...</a>
     <a class="navitem" href="/top">Season top games...</a>
     <div class="teamgrid">`;
     Object.keys(TEAMS).forEach(team => _html += `<a href="/team?key=${team}" style="background-image: url('logos/${TEAMS[team].key.toLowerCase()}.gif')"></a>`);
@@ -75,7 +76,7 @@ const isToday = (_date) => {
 app.get('/top', async (_, res) => {
   res.setHeader('Content-Type', 'text/html');
   
-  const games = SCORES.sort((a,b) => b.delta < a.delta ? 1 : 1).slice(0, 20);
+  const games = SCORES.sort((a,b) => a.delta < b.delta ? -1 : 1).slice(0, 20);
 
   let html = `
   <!DOCTYPE html>
@@ -84,10 +85,10 @@ app.get('/top', async (_, res) => {
   <body>
     <header class="mainheader">
       <div class="container">
-        <div class="otherlogo">
-          <span class="bg"></span>
-          <span class="time"></span>
-        </div>
+      <a href="/" class="otherlogo">
+        <span class="bg"></span>
+        <span class="time"></span>
+      </a>
       <div class="datewrapper">
         <span class="date">TOP 20</span>
       </div>
@@ -150,12 +151,12 @@ app.get('/team', async (req, res) => {
   <body>
     <header class="mainheader">
       <div class="container">
-        <div class="otherlogo">
+        <a href="/" class="otherlogo">
           <span class="bg"></span>
           <span class="time"></span>
-        </div>
+        </a>
       <div class="datewrapper">
-        <span class="date">TOP 20</span>
+        <div class="date">${TEAMS[req.query.key].name}</div>
       </div>
       </div>
     </header>
@@ -225,10 +226,10 @@ app.get('/', async (req, res) => {
     <body>
       <header class="mainheader">
         <div class="container">
-          <div class="otherlogo">
-            <span class="bg"></span>
-            <span class="time"></span>
-          </div>
+        <a href="/" class="otherlogo">
+          <span class="bg"></span>
+          <span class="time"></span>
+        </a>
         <div class="datewrapper">
         <span class="date">${date}</span>
         <a href="?date=${previous}"><span class="material-icons">navigate_before</span></a>
