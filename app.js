@@ -67,7 +67,8 @@ app.get('/', async (req, res) => {
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buzzer Beater</title>
+    <link rel="icon" href="favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,11 +78,14 @@ app.get('/', async (req, res) => {
   </head>
   <body>
     <header class="mainheader">
-      <div class="mainlogo"></div>
+      <div class="otherlogo">
+        <span class="bg"></span>
+        <span class="time"></span>
+      </div>
       <div class="datewrapper">
-        <a href="?date=${previous}"><span class="material-icons">navigate_before</span></a>
-        <span class="date">${formatted}</span>
-        ${
+      <span class="date">${formatted}</span>
+      <a href="?date=${previous}"><span class="material-icons">navigate_before</span></a>
+      ${
           isToday(date) ? `<a disabled><span class="material-icons">navigate_next</span></a>` : `<a href="?date=${next}"><span class="material-icons">navigate_next</span></a>`
         }
         
