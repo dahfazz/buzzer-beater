@@ -4,11 +4,19 @@ body {
   background: #000;
 }
 
-header {
+.mainheader {
   padding: 1rem;
   border-bottom: 1px solid #333;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.secondaryheader {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: start;
   align-items: center;
   margin-bottom: 1rem;
 }
@@ -60,13 +68,24 @@ ul {
   margin-bottom: 1rem;
   border: 2px solid #fff;
   padding: 0;
+  overflow: hidden;
 }
 
 .team {
   flex: 1;
+  z-index: 1;
   display: flex;
   justify-content: end;
   margin: 0;
+  transition: transform 300ms;
+}
+
+.withscores .team.away {
+  transform: translate(-50%);
+}
+
+.withscores .team.home {
+  transform: translate(50%);
 }
 
 .logo {
@@ -81,4 +100,41 @@ ul {
 .item .team:last-child {
   display: flex;
   justify-content: start;
+}
+
+.flag {
+  font-family: "Noto Sans", sans-serif;
+  color: #fff;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, .1);
+  padding: 5px 10px;
+}
+.flag.selected {
+  background: rgba(255, 255, 255, .8);
+  color: black;
+}
+.flag input {display: none}
+
+.flag + .flag {
+  margin-left: 1rem;
+}
+
+.score {
+  position: absolute;
+  font-family: "Bebas Neue";
+  z-index: 0;
+  font-size: 2rem;
+  color: #666;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 110px;
+}
+.score .winner {
+  color: white;
+}
+
+.onlytop .item:not(.top) {
+  display: none;
 }

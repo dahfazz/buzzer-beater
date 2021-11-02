@@ -72,11 +72,11 @@ app.get('/', async (req, res) => {
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="mainheader">
       <div class="mainlogo"></div>
       <div class="datewrapper">
         <a href="?date=${previous}"><span class="material-icons">navigate_before</span></a>
@@ -86,6 +86,14 @@ app.get('/', async (req, res) => {
         }
         
       </div>
+    </header>
+    <header class="secondaryheader">
+      <label id="scoresflag" for="scores" class="flag">
+        <input type="checkbox" id="scores"/> Scores
+      </label>
+      <label id="topflag" for="top" class="flag">
+        <input type="checkbox" id="top"/> Only tight scores
+      </label>
     </header>
     <ul>`;
 
@@ -97,6 +105,23 @@ app.get('/', async (req, res) => {
 
   html += `
   </ul>
+  <script>
+    const scores = document.querySelector('#scoresflag');
+    scores.addEventListener('change', (e) => {
+      e.currentTarget.querySelector('input').checked
+      ? e.currentTarget.classList.add('selected')
+      : e.currentTarget.classList.remove('selected')
+      document.body.classList.toggle('withscores')
+    })
+
+    const tops = document.querySelector('#topflag');
+    tops.addEventListener('change', (e) => {
+      e.currentTarget.querySelector('input').checked
+      ? e.currentTarget.classList.add('selected')
+      : e.currentTarget.classList.remove('selected')
+      document.body.classList.toggle('onlytop')
+    })
+  </script>
   </body>
   </html>`;
 
