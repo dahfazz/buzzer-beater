@@ -5,9 +5,13 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 const DATES = [];
+const GAMES = [];
 
 // PREPARE DATE FOR URL
-const formatDateForURL = (date) => dateFormat(date, 'yyyy-mm-dd')
+const formatDateForURL = (date) => {
+  const d = date;
+  return dateFormat(d, 'yyyy-mm-dd');
+}
 
 const OPENING_NIGHT = '10-19-2021';
 
@@ -26,15 +30,10 @@ const fillDaysArray = (date) => {
 
 // GET GAMES FOR THIS DATE
 const getDateGames = async (date) => {
-  formatted = formatDateForURL(date);
 
-  const _games = [];
-
-  const url = `https://www.covers.com/Sports/NBA/Matchups?selectedDate=${formatted}`;
+  const url = `https://www.covers.com/Sports/NBA/Matchups?selectedDate=${formatDateForURL(date)}`;
   const result = await axios.get(url);
   const $ = cheerio.load(result.data);
-
-  
 
   $('.cmg_matchup_game_box').each((_, element) => {
     const obj = {}
@@ -50,11 +49,9 @@ const getDateGames = async (date) => {
     obj.delta = Math.abs(parseInt(scoreA, 10) - parseInt(scoreB));
     obj.sum = Math.abs(parseInt(scoreA, 10) + parseInt(scoreB));
 
-    obj.date = formatted;
-    _games.push(obj)
+    obj.date = formatDateForURL(date);
+    GAMES.push(obj)
   });
-
-  return _games;
 }
 
 const init = async () => {
@@ -66,7 +63,7 @@ const init = async () => {
   })
 
   Promise.all(requests)
-    .then(values => fs.writeFileSync('SCORES.json', JSON.stringify(values, null, 2)))
+    .then(() => fs.writeFileSync('SCORES.json', JSON.stringify(GAMES, null, 2)))
 }
 
 init()

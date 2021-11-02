@@ -11,13 +11,15 @@ let date;
 
 const app = express();
 
+const SCORES = require('./SCORES.json')
+
 const getDayBefore = (_date) => {
   const _d = new Date(_date);
   return _d.setDate(_d.getDate() - 1)
 };
 const getDayAfter = (_date) => {
   const _d = new Date(_date);
-  return _d.setDate(_d.getDate() +1)
+  return _d.setDate(_d.getDate() + 1)
 };
 
 const isToday = (_date) => {
@@ -30,35 +32,13 @@ app.get('/', async (req, res) => {
     res.setHeader('Content-Type', 'text/html');
 
   date = req.query.date || new Date();
-  yesterday = getDayBefore(date);
-  formatted = dateFormat(yesterday, 'yyyy-mm-dd');
 
   previous = dateFormat(getDayBefore(date), 'yyyy-mm-dd')
   next = dateFormat(getDayAfter(date), 'yyyy-mm-dd')
   
-  const url = `https://www.covers.com/Sports/NBA/Matchups?selectedDate=${formatted}`;
-  const result = await axios.get(url);
-  const $ = cheerio.load(result.data);
-
-  const games = []
-
-  $('.cmg_matchup_game_box').each((_, element) => {
-    const obj = {}
-    obj.teamA = $(element).find('.cmg_matchup_list_column_1 .cmg_team_name').text().replace(/[^A-Za-z]/g, "")
-    obj.teamB = $(element).find('.cmg_matchup_list_column_3 .cmg_team_name').text().replace(/[^A-Za-z]/g, "")
-
-    const scoreA = $(element).find('.cmg_matchup_list_score_away').text()
-    const scoreB = $(element).find('.cmg_matchup_list_score_home').text()
-
-    obj.scoreA = scoreA;
-    obj.scoreB = scoreB;
-
-    obj.delta = Math.abs(parseInt(scoreA, 10) - parseInt(scoreB));
-    obj.sum = Math.abs(parseInt(scoreA, 10) + parseInt(scoreB));
-
-    obj.date = formatted;
-    games.push(obj)
-  });
+  const games = SCORES.filter(game => {
+    return game.date === date
+  })
 
   let html = `
   <!DOCTYPE html>
@@ -98,7 +78,7 @@ app.get('/', async (req, res) => {
           <span class="time"></span>
         </div>
       <div class="datewrapper">
-      <span class="date">${formatted}</span>
+      <span class="date">${date}</span>
       <a href="?date=${previous}"><span class="material-icons">navigate_before</span></a>
       ${
           isToday(date) ? `<a disabled><span class="material-icons">navigate_next</span></a>` : `<a href="?date=${next}"><span class="material-icons">navigate_next</span></a>`
