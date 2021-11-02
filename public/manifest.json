@@ -1,0 +1,15 @@
+{
+  "name": "Buzzer Beater",
+  "short_name": "Buzzer Beater",
+  "lang": "en",
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#000",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "90x90",
+      "type": "image/png"
+    }
+  ]
+}
