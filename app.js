@@ -12,12 +12,30 @@ let date;
 
 const app = express();
 
+const getDayBefore = (_date) => {
+  const _d = new Date(_date);
+  return _d.setDate(_d.getDate() - 1)
+};
+const getDayAfter = (_date) => {
+  const _d = new Date(_date);
+  return _d.setDate(_d.getDate() +1)
+};
+
+const isToday = (_date) => {
+  const _d = new Date(_date);
+  const today = new Date(); 
+  return _d.getDate() === today.getDate() && _d.getMonth() === today.getMonth() && _d.getFullYear() === today.getFullYear()
+}
+
 app.get('/', async (req, res) => {
     res.setHeader('Content-Type', 'text/html');
 
-  date = new Date();
-  yesterday = date.setDate(date.getDate() - 1);
-  formatted = req.query.date || dateFormat(yesterday, 'yyyy-mm-dd');
+  date = req.query.date || new Date();
+  yesterday = getDayBefore(date);
+  formatted = dateFormat(yesterday, 'yyyy-mm-dd');
+
+  previous = dateFormat(getDayBefore(date), 'yyyy-mm-dd')
+  next = dateFormat(getDayAfter(date), 'yyyy-mm-dd')
   
   const url = `https://www.covers.com/Sports/NBA/Matchups?selectedDate=${formatted}`;
   const result = await axios.get(url);
@@ -52,10 +70,24 @@ app.get('/', async (req, res) => {
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-  <div class="date">${formatted}</div>
-  <ul>`;
+    <header>
+      <div class="mainlogo"></div>
+      <div class="datewrapper">
+        <a href="?date=${previous}"><span class="material-icons">navigate_before</span></a>
+        <span class="date">${formatted}</span>
+        ${
+          isToday(date) ? `<a disabled><span class="material-icons">navigate_next</span></a>` : `<a href="?date=${next}"><span class="material-icons">navigate_next</span></a>`
+        }
+        
+      </div>
+    </header>
+    <ul>`;
 
   games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
     if (game.delta) {

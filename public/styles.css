@@ -4,13 +4,47 @@ body {
   background: #000;
 }
 
+header {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.mainlogo {
+  height: 50px;
+  aspect-ratio: 1;
+  background: url('logos/nba.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.datewrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.datewrapper a {
+  background: transparent;
+  border: 1px solid transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0;
+  aspect-ratio: 1;
+  text-decoration: none;
+}
+
 .date {
+  font-family: "Noto Sans", sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  color: white;
-  margin: 0 0 2rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid #333;
+  color: #666;
+  margin: 0 .5rem;
 }
 
 ul {
@@ -23,8 +57,8 @@ ul {
 .item {
   display: flex;
   position: relative;
-  margin-bottom: 2rem;
-  border: 3px solid white;
+  margin-bottom: 1rem;
+  border: 2px solid #fff;
   padding: 0;
 }
 
