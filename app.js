@@ -22,7 +22,7 @@ const getHTMLheader = () => `<head>
 <meta name="apple-mobile-web-app-title" content="Buzzer Beater">
 <meta name="theme-color" content="#000">
 <meta name="msapplication-navbutton-color" content="#000">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="msapplication-starturl" content="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -40,8 +40,9 @@ const getHTMLheader = () => `<head>
 const getNav = () => {
   let _html = `<nav class="nav" id="nav">
   <div class="container">
-    <a class="navitem" href="/">Home...</a>
-    <a class="navitem" href="/top">Season top games...</a>
+    <a class="navitem" href="/">HOME <span class="material-icons">navigate_next</span></a>
+    <a class="navitem" href="/top">TOP 20 <span class="material-icons">navigate_next</span></a>
+    <div class="teamgridtitle">Pick one team</div>
     <div class="teamgrid">`;
     Object.keys(TEAMS).forEach(team => _html += `<a href="/team?key=${team}" style="background-image: url('logos/${TEAMS[team].key.toLowerCase()}.gif')"></a>`);
   
@@ -55,6 +56,10 @@ const getNav = () => {
 const getFooter = (current) => 
 `<footer><div class="container">
   <a class="${current !== '/standings' ? 'active' : ''}" href="/">Scores</a>
+  <button id="navcontrol" class="navopener">
+    <span class="material-icons">menu</span>
+  </button>
+  <div></div>
   <a class="${current === '/standings' ? 'active' : ''}" href="/standings">Standings</a>
   </div>
   </footer>`
@@ -107,17 +112,14 @@ app.get('/top', async (req, res) => {
       <div class="container">
         <div>
           <label id="scoresflag" for="scores" class="flag">
-            <input type="checkbox" id="scores"/> Scores
+            <input type="checkbox" id="scores"/> Show scores
           </label>
         </div>
-        <button id="navcontrol" class="menuopener">
-          <span class="material-icons">menu</span>
-        </button>
       </div>
     </header>
     ${getNav()}
     <div class="container">
-    <ul>`;
+    <ul class="games">`;
 
   games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
     if (game.delta) {
@@ -129,20 +131,7 @@ app.get('/top', async (req, res) => {
   </ul>
   </div>
   ${getFooter(req.originalUrl)}
-  <script>
-  const scores = document.querySelector('#scoresflag');
-    scores.addEventListener('change', (e) => {
-      e.currentTarget.querySelector('input').checked
-      ? e.currentTarget.classList.add('selected')
-      : e.currentTarget.classList.remove('selected')
-      document.body.classList.toggle('withscores')
-    })
-
-    const navcontrol = document.querySelector('#navcontrol');
-      navcontrol.addEventListener('click', (e) => {
-        document.querySelector('#nav').classList.toggle('visible')
-      })
-  </script>
+  <script src="js/index.js"></script>
   </body>
   </html>`;
 
@@ -174,17 +163,14 @@ app.get('/team', async (req, res) => {
       <div class="container">
         <div>
           <label id="scoresflag" for="scores" class="flag">
-            <input type="checkbox" id="scores"/> Scores
+            <input type="checkbox" id="scores"/> Show scores
           </label>
         </div>
-        <button id="navcontrol" class="menuopener">
-          <span class="material-icons">menu</span>
-        </button>
       </div>
     </header>
     ${getNav()}
     <div class="container">
-    <ul>`;
+    <ul class="games">`;
 
   games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
     if (game.delta) {
@@ -196,20 +182,7 @@ app.get('/team', async (req, res) => {
   </ul>
   </div>
   ${getFooter(req.originalUrl)}
-  <script>
-    const scores = document.querySelector('#scoresflag');
-    scores.addEventListener('change', (e) => {
-      e.currentTarget.querySelector('input').checked
-      ? e.currentTarget.classList.add('selected')
-      : e.currentTarget.classList.remove('selected')
-      document.body.classList.toggle('withscores')
-    })
-
-    const navcontrol = document.querySelector('#navcontrol');
-      navcontrol.addEventListener('click', (e) => {
-        document.querySelector('#nav').classList.toggle('visible')
-      })
-  </script>
+  <script src="js/index.js"></script>
   </body>
   </html>`;
 
@@ -255,20 +228,17 @@ app.get('/', async (req, res) => {
         <div class="container">
           <div>
             <label id="scoresflag" for="scores" class="flag">
-              <input type="checkbox" id="scores"/> Scores
+              <input type="checkbox" id="scores"/> Show scores
             </label>
             <label id="tightflag" for="tight" class="flag">
               <input type="checkbox" id="tight"/> Only tight scores
             </label>
           </div>
-          <button id="navcontrol" class="menuopener">
-            <span class="material-icons">menu</span>
-          </button>
         </div>
       </header>
       ${getNav()}
       <div class="container">
-      <ul>`;
+      <ul class="games">`;
 
     games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
       if (game.delta) {
@@ -277,31 +247,10 @@ app.get('/', async (req, res) => {
     });
 
     html += `
-    </ul>
+    </>
     </div>
     ${getFooter(req.originalUrl)}
-    <script>
-      const scores = document.querySelector('#scoresflag');
-      scores.addEventListener('change', (e) => {
-        e.currentTarget.querySelector('input').checked
-        ? e.currentTarget.classList.add('selected')
-        : e.currentTarget.classList.remove('selected')
-        document.body.classList.toggle('withscores')
-      })
-
-      const tights = document.querySelector('#tightflag');
-      tights.addEventListener('change', (e) => {
-        e.currentTarget.querySelector('input').checked
-        ? e.currentTarget.classList.add('selected')
-        : e.currentTarget.classList.remove('selected')
-        document.body.classList.toggle('onlytop')
-      })
-
-      const navcontrol = document.querySelector('#navcontrol');
-      navcontrol.addEventListener('click', (e) => {
-        document.querySelector('#nav').classList.toggle('visible')
-      })
-    </script>
+    <script src="js/index.js"></script>
     </body>
     </html>`;
 
@@ -325,15 +274,6 @@ app.get('/', async (req, res) => {
         <div class="datewrapper">
           <div class="date">Standings</div>
         </div>
-        </div>
-      </header>
-      <header class="secondaryheader">
-        <div class="container">
-          <div>
-          </div>
-          <button id="navcontrol" class="menuopener">
-            <span class="material-icons">menu</span>
-          </button>
         </div>
       </header>
       ${getNav()}
@@ -370,12 +310,7 @@ app.get('/', async (req, res) => {
     </div>
     </div>
     ${getFooter(req.originalUrl)}
-    <script>
-      const navcontrol = document.querySelector('#navcontrol');
-        navcontrol.addEventListener('click', (e) => {
-          document.querySelector('#nav').classList.toggle('visible')
-        })
-    </script>
+    <script src="js/index.js"></script>
     </body>
     </html>`;
   
