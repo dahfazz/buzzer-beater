@@ -1,8 +1,7 @@
 const express = require('express');
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 
 const displayGame = require('./game');
-const TEAMS = require('./teams');
 
 const dateFormat = require('dateformat');
 const axios = require('axios');
