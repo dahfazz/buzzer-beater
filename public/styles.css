@@ -35,8 +35,9 @@ body {
 }
 .secondaryheader .container {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .datewrapper {
@@ -147,6 +148,20 @@ ul {
   color: white;
 }
 
+.gamedate {
+  position: absolute;
+  font-family: "Bebas Neue";
+  z-index: 0;
+  font-size: 1rem;
+  color: #666;
+  left: 0;
+  right: 0;
+  bottom: .8rem;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+}
+
 .onlytop .item:not(.top) {
   display: none;
 }
@@ -156,6 +171,63 @@ ul {
   src: url('fonts/ds_digital/DS-DIGI.TTF');
 }
 
+
+.menuopener {
+  background: transparent;
+  border: 1px solid transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0;
+  aspect-ratio: 1;
+  text-decoration: none;
+}
+
+.nav {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  display: none;
+  justify-content: start;
+  align-items: center;
+  position: fixed;
+  top: 160px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background: black;
+}
+.nav.visible {
+  display: flex;
+}
+.nav .container {
+  width: 100%;
+}
+.navitem {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.teamgrid {
+  display: grid;
+  grid-gap: 5px;
+  max-height: 60vh;
+  overflow: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+.teamgrid a {
+  display: block;
+  aspect-ratio: 1;
+  background-size: cover;
+}
+
+/* LOGOS */
 .otherlogo {
   height: 50px;
   aspect-ratio: 1;
