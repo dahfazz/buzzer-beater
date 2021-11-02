@@ -13,6 +13,49 @@ const formatDateForURL = (date) => {
   return dateFormat(d, 'yyyy-mm-dd');
 }
 
+const getStandings = async () => {
+  const result = await axios.get('https://www.basketball-reference.com/');
+  const $ = cheerio.load(result.data);
+
+  const STANDINGS = [];
+
+  ['E', 'W'].map(conf => {
+    $('#confs_standings_' + conf + ' th.left').each((_, element) => {
+      const obj = {}
+      obj.wins = parseInt($(element)
+        .find('td[data-stat="wins"]')
+        .text())
+      obj.losses = parseInt($(element)
+        .find('td[data-stat="losses"]')
+        .text())
+      obj.team = $(element)
+        .find('a')
+        .text()
+        .replace('NYK', 'NY')
+        .replace('GSW', 'GS')
+        .replace('CHO', 'CHA')
+        .replace('BRK', 'BK')
+        .replace('SAS', 'SA')
+        .replace('NOP', 'NO')
+      obj.rank = parseInt($(element)
+        .find('.seed')
+        .text()
+        .replace('(', "")
+        .replace(')', "")
+        .trim());
+      obj.conference = conf
+      if (obj.team) {
+        STANDINGS.push(obj);
+      }
+
+    });
+  })
+
+  fs.writeFileSync('STANDINGS.json', JSON.stringify(STANDINGS, null, 2))
+}
+
+
+
 const OPENING_NIGHT = '10-19-2021';
 
 const fillDaysArray = (date) => {
@@ -67,3 +110,4 @@ const init = async () => {
 }
 
 init()
+getStandings()

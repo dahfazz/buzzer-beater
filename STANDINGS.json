@@ -1,0 +1,212 @@
+[
+  {
+    "wins": null,
+    "losses": null,
+    "team": "CHI",
+    "rank": 1,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "MIA",
+    "rank": 2,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "NY",
+    "rank": 3,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "WAS",
+    "rank": 4,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "PHI",
+    "rank": 5,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "TOR",
+    "rank": 6,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "CHA",
+    "rank": 7,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "BK",
+    "rank": 8,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "ATL",
+    "rank": 9,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "CLE",
+    "rank": 10,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "MIL",
+    "rank": 11,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "BOS",
+    "rank": 12,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "ORL",
+    "rank": 13,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "IND",
+    "rank": 14,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "DET",
+    "rank": 15,
+    "conference": "E"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "UTA",
+    "rank": 1,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "GS",
+    "rank": 2,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "DAL",
+    "rank": 3,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "LAL",
+    "rank": 4,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "MEM",
+    "rank": 5,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "DEN",
+    "rank": 6,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "MIN",
+    "rank": 7,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "SAC",
+    "rank": 8,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "POR",
+    "rank": 9,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "PHO",
+    "rank": 10,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "LAC",
+    "rank": 11,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "SA",
+    "rank": 12,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "HOU",
+    "rank": 13,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "NO",
+    "rank": 14,
+    "conference": "W"
+  },
+  {
+    "wins": null,
+    "losses": null,
+    "team": "OKC",
+    "rank": 15,
+    "conference": "W"
+  }
+]

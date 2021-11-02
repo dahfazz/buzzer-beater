@@ -74,6 +74,13 @@ ul {
   margin: 0 1rem;
 }
 
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
 .item {
   display: flex;
   position: relative;
@@ -353,9 +360,63 @@ ul {
   96% {content: 'B'}
 }
 
-@media screen and (min-width: 800px) {
-  .container {
-    max-width: 500px;
-    margin: 0 auto;
-  }
+footer {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background: black;;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+}
+footer a {
+  flex: 1;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+  text-decoration: none;
+}
+footer a.active {
+  color: #fff;
+}
+
+.standingwrapper {
+  display: flex;
+  align-items: top;
+}
+
+.standing {
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.standing .conf {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  color: #666;
+}
+
+.standing li {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  margin: 1rem;
+}
+.standing li .teamlogo {
+  margin-right: 1rem;
+}
+
+.standing li:nth-child(8) {
+  border-bottom: 1px dashed white;
+  padding-bottom: 1rem;
 }

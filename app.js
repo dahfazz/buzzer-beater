@@ -3,6 +3,8 @@ const PORT = process.env.PORT || 3000;
 
 const TEAMS = require('./teams');
 
+const STANDINGS = require('./STANDINGS.json')
+
 const displayGame = require('./game');
 
 const dateFormat = require('dateformat');
@@ -50,6 +52,13 @@ const getNav = () => {
   return _html;
 }
 
+const getFooter = (current) => 
+`<footer><div class="container">
+  <a class="${current !== '/standings' ? 'active' : ''}" href="/">Scores</a>
+  <a class="${current === '/standings' ? 'active' : ''}" href="/standings">Standings</a>
+  </div>
+  </footer>`
+
 
 
 let date;
@@ -73,7 +82,7 @@ const isToday = (_date) => {
   return _d.getDate() === today.getDate() && _d.getMonth() === today.getMonth() && _d.getFullYear() === today.getFullYear()
 }
 
-app.get('/top', async (_, res) => {
+app.get('/top', async (req, res) => {
   res.setHeader('Content-Type', 'text/html');
   
   const games = SCORES.sort((a,b) => a.delta < b.delta ? -1 : 1).slice(0, 20);
@@ -119,8 +128,9 @@ app.get('/top', async (_, res) => {
   html += `
   </ul>
   </div>
+  ${getFooter(req.originalUrl)}
   <script>
-    const scores = document.querySelector('#scoresflag');
+  const scores = document.querySelector('#scoresflag');
     scores.addEventListener('change', (e) => {
       e.currentTarget.querySelector('input').checked
       ? e.currentTarget.classList.add('selected')
@@ -185,6 +195,7 @@ app.get('/team', async (req, res) => {
   html += `
   </ul>
   </div>
+  ${getFooter(req.originalUrl)}
   <script>
     const scores = document.querySelector('#scoresflag');
     scores.addEventListener('change', (e) => {
@@ -268,6 +279,7 @@ app.get('/', async (req, res) => {
     html += `
     </ul>
     </div>
+    ${getFooter(req.originalUrl)}
     <script>
       const scores = document.querySelector('#scoresflag');
       scores.addEventListener('change', (e) => {
@@ -293,6 +305,80 @@ app.get('/', async (req, res) => {
     </body>
     </html>`;
 
+    return res.send(html);
+  });
+
+  app.get('/standings', async (req, res) => {
+    res.setHeader('Content-Type', 'text/html');
+    
+    let html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    ${getHTMLheader()}
+    <body>
+      <header class="mainheader">
+        <div class="container">
+          <a href="/" class="otherlogo">
+            <span class="bg"></span>
+            <span class="time"></span>
+          </a>
+        <div class="datewrapper">
+          <div class="date">Standings</div>
+        </div>
+        </div>
+      </header>
+      <header class="secondaryheader">
+        <div class="container">
+          <div>
+          </div>
+          <button id="navcontrol" class="menuopener">
+            <span class="material-icons">menu</span>
+          </button>
+        </div>
+      </header>
+      ${getNav()}
+      <div class="container">
+      <div class="standingwrapper">
+      <ol class="standing">`;
+  
+      html += `<li class="conf">Eastern Conference</li>`;
+      STANDINGS
+        .filter(line => line.conference === 'E')
+        .sort((a, b) => a.rank > b.rank ? 1 : -1)
+        .forEach((line, index) => {
+        html += `<li>
+        ${index+1}. ${TEAMS[line.team].name}
+        </li>`;
+    });
+  
+    html += `
+    </ol>
+    <ol class="standing">`;
+  
+      html += `<li class="conf">Western Conference</li>`;
+      STANDINGS
+        .filter(line => line.conference === 'W')
+        .sort((a, b) => a.rank > b.rank ? 1 : -1)
+        .forEach((line, index) => {
+        html += `<li>
+        ${index+1}. ${TEAMS[line.team].name}
+        </li>`;
+    });
+  
+    html += `
+    </ol>
+    </div>
+    </div>
+    ${getFooter(req.originalUrl)}
+    <script>
+      const navcontrol = document.querySelector('#navcontrol');
+        navcontrol.addEventListener('click', (e) => {
+          document.querySelector('#nav').classList.toggle('visible')
+        })
+    </script>
+    </body>
+    </html>`;
+  
     return res.send(html);
   });
 
