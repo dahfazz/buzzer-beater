@@ -81,7 +81,7 @@ app.get('/', async (req, res) => {
     <meta name="msapplication-starturl" content="/">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="icon" type="image/png" sizes="90x90" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="favicon.png">
     <link rel="apple-touch-icon" type="image/png" sizes="110x110" href="favicon.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -93,10 +93,11 @@ app.get('/', async (req, res) => {
   </head>
   <body>
     <header class="mainheader">
-      <div class="otherlogo">
-        <span class="bg"></span>
-        <span class="time"></span>
-      </div>
+      <div class="container">
+        <div class="otherlogo">
+          <span class="bg"></span>
+          <span class="time"></span>
+        </div>
       <div class="datewrapper">
       <span class="date">${formatted}</span>
       <a href="?date=${previous}"><span class="material-icons">navigate_before</span></a>
@@ -105,15 +106,19 @@ app.get('/', async (req, res) => {
         }
         
       </div>
+      </div>
     </header>
     <header class="secondaryheader">
-      <label id="scoresflag" for="scores" class="flag">
-        <input type="checkbox" id="scores"/> Scores
-      </label>
-      <label id="topflag" for="top" class="flag">
-        <input type="checkbox" id="top"/> Only tight scores
-      </label>
+      <div class="container">
+        <label id="scoresflag" for="scores" class="flag">
+          <input type="checkbox" id="scores"/> Scores
+        </label>
+        <label id="topflag" for="top" class="flag">
+          <input type="checkbox" id="top"/> Only tight scores
+        </label>
+      </div>
     </header>
+    <div class="container">
     <ul>`;
 
   games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
@@ -124,6 +129,7 @@ app.get('/', async (req, res) => {
 
   html += `
   </ul>
+  </div>
   <script>
     const scores = document.querySelector('#scoresflag');
     scores.addEventListener('change', (e) => {

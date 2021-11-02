@@ -1,5 +1,5 @@
 body {
-  padding: 0;
+  padding: 168px 0 0;
   margin: 0;
   background: #000;
 }
@@ -7,6 +7,14 @@ body {
 .mainheader {
   padding: 1rem;
   border-bottom: 1px solid #333;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background: black;;
+}
+.mainheader .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +26,17 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-bottom: 1rem;
+  position: fixed;
+  top: 85px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background: black;;
+}
+.secondaryheader .container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .datewrapper {
@@ -151,8 +169,8 @@ ul {
 .otherlogo span {
   display: block;
   font-family: "ds_digital";
-  font-size: 3rem;
-  height: 52px;
+  font-size: 2rem;
+  height: 46px;
   width: 100%;
   text-align: center;
   line-height: 52px;
@@ -165,7 +183,7 @@ ul {
   color: rgba(255, 0, 0, .15);
   width: 50%;
   display: inline-block;
-  width: 26px;
+  width: 20px;
   text-align: right;
 }
 
@@ -174,7 +192,7 @@ ul {
   color: #f33;
   width: 50%;
   display: inline-block;
-  width: 26px;
+  width: 20px;
   text-align: right;
   z-index: 1;
 }
@@ -254,3 +272,9 @@ ul {
   96% {content: 'B'}
 }
 
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
