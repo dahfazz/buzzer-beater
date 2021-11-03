@@ -6,7 +6,7 @@ body {
   --border: #333;
 }
 .homebody {padding: 200px 0 90px;}
-.stbody {padding: 170px 0 90px;}
+.stbody {padding: 85px 0 90px;}
 .topbody {padding: 150px 0 90px;}
 .teambody {padding: 150px 0 90px;}
 
@@ -362,43 +362,62 @@ footer a.active {
   font-size: 1rem;
 }
 
-.standingwrapper {
-  display: flex;
-  margin-top: -110px;
-}
-
 .standing {
-  padding: 0;
-  margin: 0;
-  flex: 1;
+  width: 90%;
+  margin: 0 auto 2rem;
 }
-
-.standing .conf {
-  font-family: "Noto Sans", sans-serif;
+.standing th {
+  color: white;
   font-size: 1rem;
-  color: #666;
+  font-family: "Noto Sans", sans-serif;
 }
 
-.standing li {
-  display: flex;
-  align-items: center;
+.standing td {
   color: white;
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
-  margin: 1rem;
 }
-.standing li .teamlogo {
-  margin-right: 1rem;
+.standing .center {
+  text-align: center;
+}
+.standing thead th {
+  text-align: left;
+}
+.standing tbody th {
+  width: 40px;
+  height: 40px;
+}
+.standing tbody tr:nth-child(2n) th,
+.standing tbody tr:nth-child(2n) td {
+  background: rgba(255,255, 255, .06);
 }
 
-.standing li:not(.conf) {
-  padding-left: .5rem;
+.standing tbody tr:nth-child(1) th,
+.standing tbody tr:nth-child(1) td,
+.standing tbody tr:nth-child(8) td,
+.standing tbody tr:nth-child(8) th {
+  background: #2f165c;
+}
+.standing tbody tr:nth-child(2) th,
+.standing tbody tr:nth-child(2) td,
+.standing tbody tr:nth-child(7) td,
+.standing tbody tr:nth-child(7) th {
+  background: #3d1c77;
+}
+.standing tbody tr:nth-child(3) th,
+.standing tbody tr:nth-child(3) td,
+.standing tbody tr:nth-child(6) td,
+.standing tbody tr:nth-child(6) th {
+  background: #4b2393;
+}
+.standing tbody tr:nth-child(4) th,
+.standing tbody tr:nth-child(4) td,
+.standing tbody tr:nth-child(5) td,
+.standing tbody tr:nth-child(5) th {
+  background: #5929ae;
 }
 
-.standing li:nth-child(8) {
-  border-bottom: 1px dashed white;
-  padding-bottom: 1rem;
-}
+
 
 .notif {
   position: fixed;

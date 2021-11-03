@@ -1,5 +1,4 @@
 const notify = (msg) => {
-  console.log('NOTIFY')
   const el = document.createElement('div')
   el.classList.add('notif')
   el.innerText = msg;
@@ -39,10 +38,17 @@ if (tights) {
 }
 
 const lps = document.querySelectorAll('.js-long-press');
-
 const closeAll = () => {
   const array = Array.from(lps);
   array.forEach(lp => {
     lp.classList.remove('open');
   })
+}
+
+const dates = document.querySelector('.datewrapper')
+if (dates) {
+  const target = dates.querySelector('.current');
+  target.scrollIntoView({
+    inline: 'center',
+  });
 }

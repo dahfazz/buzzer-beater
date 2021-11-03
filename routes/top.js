@@ -31,10 +31,8 @@ module.exports = async (req, res) => {
     <div class="container">
     <ul class="games">`;
 
-  games.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach((game) => {
-    if (game.delta) {
-      html += displayGame(game);
-    }
+  games.sort((a, b) => a.rating < b.rating ? 1 : -1).forEach((game) => {
+    html += displayGame(game);
   });
 
   html += `

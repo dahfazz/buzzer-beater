@@ -5,6 +5,7 @@ const MONTHS = require('../months.json');
 const DATES = [];
 
 const OPENING_NIGHT = '10-19-2021';
+const LAST_NIGHT = '04-11-2022';
 
 const formatDateForURL = (date) => {
   const d = date;
@@ -12,7 +13,7 @@ const formatDateForURL = (date) => {
 }
 
 const fillDaysArray = (date) => {
-  date = date || new Date();
+  date = date || new Date(LAST_NIGHT);
 
   const yesterday = new Date(date.setDate(date.getDate() - 1));
 
@@ -32,7 +33,7 @@ module.exports = (date) => {
 
   const _date = new Date(date);
 
-  return DATES.map(value => {
+  return DATES.reverse().map(value => {
     const _d = new Date(value);
     return `<li>
     <a class="${areSameDate(_d, _date) ? 'current' : ''}" href="/?date=${dateFormat(formatDateForURL(_d), 'yyyy-mm-dd')}">

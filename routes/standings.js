@@ -8,7 +8,7 @@ const nav = require('../partials/nav');
 
 module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'text/html');
-    
+
   let html = `
   <!DOCTYPE html>
   <html lang="en">
@@ -17,41 +17,50 @@ module.exports = async (req, res) => {
     ${mainheader}
     ${nav()}
     <div class="container">
-    <div class="standingwrapper">
-    <ol class="standing">`;
+    <div class="standingwrapper">`;
 
-    html += `<li class="conf">Eastern Conference</li>`;
+  ['Eastern', 'Western'].map(conf => {
+    html += `<table class="standing" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th colspan="6">${conf} Conference</th>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th class="center">W</th>
+            <th class="center">L</th>
+          </tr>
+        </thead>
+      <tbody>`;
+
     STANDINGS
-      .filter(line => line.conference === 'E')
+      .filter(line => line.conference === conf[0])
       .sort((a, b) => a.rank > b.rank ? 1 : -1)
       .forEach((line, index) => {
-      html += `<li>
-      ${index+1}. ${TEAMS[line.team].name}
-      </li>`;
-  });
+        html += `<tr>
+        <th>${index < 8 ? index + 1 : ''}</th>
+        <td>${TEAMS[line.team].name}</td>
+        <td class="center">${line.wins}</td>
+        <td class="center">${line.losses}</td>
+        </tr>`;
+      });
 
-  html += `
-  </ol>
-  <ol class="standing">`;
+    html += `
+    </tbody>
+    </table>`;
+  })
 
-    html += `<li class="conf">Western Conference</li>`;
-    STANDINGS
-      .filter(line => line.conference === 'W')
-      .sort((a, b) => a.rank > b.rank ? 1 : -1)
-      .forEach((line, index) => {
-      html += `<li>
-      ${index+1}. ${TEAMS[line.team].name}
-      </li>`;
-  });
 
-  html += `
-  </ol>
-  </div>
-  </div>
-  ${footer(req.originalUrl)}
+
+  html += `</div >
+  </div >
+    ${footer(req.originalUrl)}
   <script src="js/index.js"></script>
-  </body>
-  </html>`;
+  </body >
+  </html > `;
 
   return res.send(html);
 };

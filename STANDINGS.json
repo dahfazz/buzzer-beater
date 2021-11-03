@@ -1,212 +1,212 @@
 [
   {
-    "wins": null,
-    "losses": null,
     "team": "MIA",
     "rank": 1,
-    "conference": "E"
+    "conference": "E",
+    "wins": 6,
+    "losses": 1
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "CHI",
     "rank": 2,
-    "conference": "E"
+    "conference": "E",
+    "wins": 6,
+    "losses": 1
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "NY",
     "rank": 3,
-    "conference": "E"
+    "conference": "E",
+    "wins": 5,
+    "losses": 2
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "WAS",
     "rank": 4,
-    "conference": "E"
+    "conference": "E",
+    "wins": 5,
+    "losses": 2
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "PHI",
     "rank": 5,
-    "conference": "E"
+    "conference": "E",
+    "wins": 5,
+    "losses": 2
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "TOR",
     "rank": 6,
-    "conference": "E"
+    "conference": "E",
+    "wins": 5,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "CHA",
     "rank": 7,
-    "conference": "E"
+    "conference": "E",
+    "wins": 5,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "BK",
     "rank": 8,
-    "conference": "E"
+    "conference": "E",
+    "wins": 4,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "ATL",
     "rank": 9,
-    "conference": "E"
+    "conference": "E",
+    "wins": 4,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "MIL",
     "rank": 10,
-    "conference": "E"
+    "conference": "E",
+    "wins": 4,
+    "losses": 4
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "CLE",
     "rank": 11,
-    "conference": "E"
+    "conference": "E",
+    "wins": 4,
+    "losses": 4
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "BOS",
     "rank": 12,
-    "conference": "E"
+    "conference": "E",
+    "wins": 2,
+    "losses": 5
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "ORL",
     "rank": 13,
-    "conference": "E"
+    "conference": "E",
+    "wins": 2,
+    "losses": 6
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "IND",
     "rank": 14,
-    "conference": "E"
+    "conference": "E",
+    "wins": 2,
+    "losses": 6
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "DET",
     "rank": 15,
-    "conference": "E"
+    "conference": "E",
+    "wins": 1,
+    "losses": 6
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "UTA",
     "rank": 1,
-    "conference": "W"
+    "conference": "W",
+    "wins": 6,
+    "losses": 1
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "GS",
     "rank": 2,
-    "conference": "W"
+    "conference": "W",
+    "wins": 5,
+    "losses": 1
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "LAL",
     "rank": 3,
-    "conference": "W"
+    "conference": "W",
+    "wins": 5,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "DAL",
     "rank": 4,
-    "conference": "W"
+    "conference": "W",
+    "wins": 4,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "MEM",
     "rank": 5,
-    "conference": "W"
+    "conference": "W",
+    "wins": 4,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "DEN",
     "rank": 6,
-    "conference": "W"
+    "conference": "W",
+    "wins": 4,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "MIN",
     "rank": 7,
-    "conference": "W"
+    "conference": "W",
+    "wins": 3,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "PHO",
     "rank": 8,
-    "conference": "W"
+    "conference": "W",
+    "wins": 3,
+    "losses": 3
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "SAC",
     "rank": 9,
-    "conference": "W"
+    "conference": "W",
+    "wins": 3,
+    "losses": 4
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "POR",
     "rank": 10,
-    "conference": "W"
+    "conference": "W",
+    "wins": 3,
+    "losses": 4
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "LAC",
     "rank": 11,
-    "conference": "W"
+    "conference": "W",
+    "wins": 2,
+    "losses": 4
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "SA",
     "rank": 12,
-    "conference": "W"
+    "conference": "W",
+    "wins": 2,
+    "losses": 5
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "HOU",
     "rank": 13,
-    "conference": "W"
+    "conference": "W",
+    "wins": 1,
+    "losses": 6
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "OKC",
     "rank": 14,
-    "conference": "W"
+    "conference": "W",
+    "wins": 1,
+    "losses": 6
   },
   {
-    "wins": null,
-    "losses": null,
     "team": "NO",
     "rank": 15,
-    "conference": "W"
+    "conference": "W",
+    "wins": 1,
+    "losses": 7
   }
 ]
