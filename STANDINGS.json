@@ -2,14 +2,14 @@
   {
     "wins": null,
     "losses": null,
-    "team": "CHI",
+    "team": "MIA",
     "rank": 1,
     "conference": "E"
   },
   {
     "wins": null,
     "losses": null,
-    "team": "MIA",
+    "team": "CHI",
     "rank": 2,
     "conference": "E"
   },
@@ -65,14 +65,14 @@
   {
     "wins": null,
     "losses": null,
-    "team": "CLE",
+    "team": "MIL",
     "rank": 10,
     "conference": "E"
   },
   {
     "wins": null,
     "losses": null,
-    "team": "MIL",
+    "team": "CLE",
     "rank": 11,
     "conference": "E"
   },
@@ -121,14 +121,14 @@
   {
     "wins": null,
     "losses": null,
-    "team": "DAL",
+    "team": "LAL",
     "rank": 3,
     "conference": "W"
   },
   {
     "wins": null,
     "losses": null,
-    "team": "LAL",
+    "team": "DAL",
     "rank": 4,
     "conference": "W"
   },
@@ -156,21 +156,21 @@
   {
     "wins": null,
     "losses": null,
-    "team": "SAC",
+    "team": "PHO",
     "rank": 8,
     "conference": "W"
   },
   {
     "wins": null,
     "losses": null,
-    "team": "POR",
+    "team": "SAC",
     "rank": 9,
     "conference": "W"
   },
   {
     "wins": null,
     "losses": null,
-    "team": "PHO",
+    "team": "POR",
     "rank": 10,
     "conference": "W"
   },
@@ -198,14 +198,14 @@
   {
     "wins": null,
     "losses": null,
-    "team": "NO",
+    "team": "OKC",
     "rank": 14,
     "conference": "W"
   },
   {
     "wins": null,
     "losses": null,
-    "team": "OKC",
+    "team": "NO",
     "rank": 15,
     "conference": "W"
   }

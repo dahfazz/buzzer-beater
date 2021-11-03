@@ -1,33 +1,45 @@
 body {
-  padding: 170px ​0 80px;
+  padding: 0;
   margin: 0;
   background: #000;
+
+  --border: #333;
 }
+.homebody {padding: 200px 0 90px;}
+.stbody {padding: 170px 0 90px;}
+.topbody {padding: 150px 0 90px;}
+.teambody {padding: 150px 0 90px;}
 
 .mainheader {
-  padding: 1rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--border);
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 10;
-  background: black;;
+  background: black;
 }
 .mainheader .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
 }
 
 .secondaryheader {
   padding: 1rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--border);
   display: flex;
   justify-content: start;
   align-items: center;
   position: fixed;
-  top: 85px;
+  top: 61px;
   right: 0;
   left: 0;
   z-index: 10;
@@ -41,22 +53,49 @@ body {
 }
 
 .datewrapper {
-  display: flex;
+  overflow-y: auto;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 112px;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  z-index: 10;
+  background: black;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid var(--border);
 }
-
+.datewrapper li {
+  display: inline-block;
+}
 .datewrapper a {
-  background: transparent;
-  border: 1px solid transparent;
+  padding: 5px;
+  font-family: "Noto Sans", sans-serif;
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 42px;
-  padding: 0;
-  aspect-ratio: 1;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
   text-decoration: none;
+}
+.datewrapper a.current {
+  color: black;
+  background: white;
+}
+.datewrapper a span {
+  line-height: .9;
+}
+.datewrapper a .day {
+  font-size: 1rem
+}
+.datewrapper a .month {
+  font-size: .6rem
 }
 
 .date {
@@ -104,10 +143,12 @@ body {
   transition: transform 300ms;
 }
 
+.open .team.away,
 .withscores .team.away {
   transform: translate(-50%);
 }
 
+.open .team.home,
 .withscores .team.home {
   transform: translate(50%);
 }
@@ -128,8 +169,8 @@ body {
 
 .flag {
   font-family: "Noto Sans", sans-serif;
-  color: #fff;
-  border: 1px solid #666;
+  color: #666;
+  border: 1px solid var(--border);
   background: rgba(255, 255, 255, .1);
   padding: 4px 10px;
   border-radius: 12px;
@@ -272,123 +313,6 @@ body {
   margin-left: 0;
 }
 
-/* LOGOS */
-.otherlogo {
-  height: 50px;
-  aspect-ratio: 1;
-  color: white;
-  position: relative;
-  background: #ff333315;
-  border: 1px solid #ff333350;
-  width: 52px;
-}
-
-.otherlogo span {
-  display: block;
-  font-family: "ds_digital";
-  font-size: 2rem;
-  height: 46px;
-  width: 100%;
-  text-align: center;
-  line-height: 52px;
-  position: absolute;
-}
-
-.otherlogo .bg::before,
-.otherlogo .bg::after {
-  content: '0';
-  color: rgba(255, 0, 0, .15);
-  width: 50%;
-  display: inline-block;
-  width: 20px;
-  text-align: right;
-}
-
-.otherlogo .time::before,
-.otherlogo .time::after {
-  color: #f33;
-  width: 50%;
-  display: inline-block;
-  width: 20px;
-  text-align: right;
-  z-index: 1;
-}
-
-.otherlogo .time::before {
-  content: 'B';
-  transition: all 200ms;
-}
-.otherlogo .time::after {
-  content: 'B';
-  transition: all 200ms;
-}
-
-.otherlogo .time::before {
-  animation: countdown1 5s 1;
-  animation-fill-mode: forwards;
-  transition: all 200ms;
-}
-.otherlogo .time::after {
-  animation: countdown2 5s 1;
-  animation-fill-mode: forwards;
-  transition: all 200ms;
-}
-
-@keyframes countdown1 {
-  0% {content: '2'}
-  4% {content: '2'}
-  8% {content: '2'}
-  12% {content: '2'}
-  16% {content: '2'}
-  20% {content: '1'}
-  24% {content: '1'}
-  28% {content: '1'}
-  32% {content: '1'}
-  36% {content: '1'}
-  40% {content: '1'}
-  44% {content: '1'}
-  48% {content: '1'}
-  52% {content: '1'}
-  56% {content: '1'}
-  60% {content: '0'}
-  64% {content: '0'}
-  68% {content: '0'}
-  72% {content: '0'}
-  76% {content: '0'}
-  80% {content: '0'}
-  84% {content: '0'}
-  88% {content: '0'}
-  92% {content: '0'}
-  96% {content: 'B'}
-}
-@keyframes countdown2 {
-  0% {content: '4'}
-  4% {content: '3'}
-  8% {content: '2'}
-  12% {content: '1'}
-  16% {content: '0'}
-  20% {content: '9'}
-  24% {content: '8'}
-  28% {content: '7'}
-  32% {content: '6'}
-  36% {content: '5'}
-  40% {content: '4'}
-  44% {content: '3'}
-  48% {content: '2'}
-  52% {content: '1'}
-  56% {content: '0'}
-  60% {content: '9'}
-  64% {content: '8'}
-  68% {content: '7'}
-  72% {content: '6'}
-  76% {content: '5'}
-  80% {content: '4'}
-  84% {content: '3'}
-  88% {content: '2'}
-  92% {content: '1'}
-  96% {content: 'B'}
-}
-
 footer {
   box-shadow: 0 -3px 3px rgba(0,0,0,.6);
   background-color: #000;
@@ -473,4 +397,21 @@ footer a.active {
 .standing li:nth-child(8) {
   border-bottom: 1px dashed white;
   padding-bottom: 1rem;
+}
+
+.notif {
+  position: fixed;
+    left: 0;
+    right: 0;
+    width: 240px;
+    background: rgba(0,0,0,.8);
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    bottom: 2rem;
+    border-radius: 30px;
+    margin: auto;
+    z-index: 9000;
 }

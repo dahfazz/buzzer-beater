@@ -1,4 +1,5 @@
-const TEAMS = require('./teams');
+const TEAMS = require('./teams.json');
+const MONTHS = require('./months.json');
 
 module.exports = (data) => {
   let winner = 'A';
@@ -9,14 +10,12 @@ module.exports = (data) => {
 
   const top = data.delta < 10;
 
-  MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-
   const date = new Date(data.date);
   const day = date.getDate();
   const month = MONTHS[date.getMonth()]
   const year = date.getFullYear()
 
-  return `<li class="item ${top ? 'top' : ''}">
+  return `<li class="js-long-press item ${top ? 'top' : ''}">
   <div class="gamedate">
     <span class="day">${day}</span>
     <span class='month'>${month}</span>

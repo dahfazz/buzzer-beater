@@ -1,5 +1,32 @@
 [
   {
+    "teamA": "DAL",
+    "teamB": "ATL",
+    "scoreA": "87",
+    "scoreB": "113",
+    "delta": 26,
+    "sum": 200,
+    "date": "2021-10-21"
+  },
+  {
+    "teamA": "MIL",
+    "teamB": "MIA",
+    "scoreA": "95",
+    "scoreB": "137",
+    "delta": 42,
+    "sum": 232,
+    "date": "2021-10-21"
+  },
+  {
+    "teamA": "LAC",
+    "teamB": "GS",
+    "scoreA": "113",
+    "scoreB": "115",
+    "delta": 2,
+    "sum": 228,
+    "date": "2021-10-21"
+  },
+  {
     "teamA": "BK",
     "teamB": "MIL",
     "scoreA": "104",
@@ -16,6 +43,141 @@
     "delta": 7,
     "sum": 235,
     "date": "2021-10-19"
+  },
+  {
+    "teamA": "MIL",
+    "teamB": "DET",
+    "scoreA": "117",
+    "scoreB": "89",
+    "delta": 28,
+    "sum": 206,
+    "date": "2021-11-02"
+  },
+  {
+    "teamA": "MIA",
+    "teamB": "DAL",
+    "scoreA": "125",
+    "scoreB": "110",
+    "delta": 15,
+    "sum": 235,
+    "date": "2021-11-02"
+  },
+  {
+    "teamA": "SAC",
+    "teamB": "UTA",
+    "scoreA": "113",
+    "scoreB": "119",
+    "delta": 6,
+    "sum": 232,
+    "date": "2021-11-02"
+  },
+  {
+    "teamA": "NO",
+    "teamB": "PHO",
+    "scoreA": "100",
+    "scoreB": "112",
+    "delta": 12,
+    "sum": 212,
+    "date": "2021-11-02"
+  },
+  {
+    "teamA": "HOU",
+    "teamB": "LAL",
+    "scoreA": "117",
+    "scoreB": "119",
+    "delta": 2,
+    "sum": 236,
+    "date": "2021-11-02"
+  },
+  {
+    "teamA": "CHA",
+    "teamB": "CLE",
+    "scoreA": "123",
+    "scoreB": "112",
+    "delta": 11,
+    "sum": 235,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "NY",
+    "teamB": "ORL",
+    "scoreA": "121",
+    "scoreB": "96",
+    "delta": 25,
+    "sum": 217,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "IND",
+    "teamB": "WAS",
+    "scoreA": "134",
+    "scoreB": "135",
+    "delta": 1,
+    "sum": 269,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "TOR",
+    "teamB": "BOS",
+    "scoreA": "115",
+    "scoreB": "83",
+    "delta": 32,
+    "sum": 198,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "BK",
+    "teamB": "PHI",
+    "scoreA": "114",
+    "scoreB": "109",
+    "delta": 5,
+    "sum": 223,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "NO",
+    "teamB": "CHI",
+    "scoreA": "112",
+    "scoreB": "128",
+    "delta": 16,
+    "sum": 240,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "OKC",
+    "teamB": "HOU",
+    "scoreA": "91",
+    "scoreB": "124",
+    "delta": 33,
+    "sum": 215,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "SA",
+    "teamB": "DEN",
+    "scoreA": "96",
+    "scoreB": "102",
+    "delta": 6,
+    "sum": 198,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "UTA",
+    "teamB": "SAC",
+    "scoreA": "110",
+    "scoreB": "101",
+    "delta": 9,
+    "sum": 211,
+    "date": "2021-10-22"
+  },
+  {
+    "teamA": "PHO",
+    "teamB": "LAL",
+    "scoreA": "115",
+    "scoreB": "105",
+    "delta": 10,
+    "sum": 220,
+    "date": "2021-10-22"
   },
   {
     "teamA": "BOS",
@@ -117,483 +279,6 @@
     "date": "2021-10-30"
   },
   {
-    "teamA": "SAC",
-    "teamB": "DAL",
-    "scoreA": "99",
-    "scoreB": "105",
-    "delta": 6,
-    "sum": 204,
-    "date": "2021-10-31"
-  },
-  {
-    "teamA": "POR",
-    "teamB": "CHA",
-    "scoreA": "113",
-    "scoreB": "125",
-    "delta": 12,
-    "sum": 238,
-    "date": "2021-10-31"
-  },
-  {
-    "teamA": "UTA",
-    "teamB": "MIL",
-    "scoreA": "107",
-    "scoreB": "95",
-    "delta": 12,
-    "sum": 202,
-    "date": "2021-10-31"
-  },
-  {
-    "teamA": "DET",
-    "teamB": "BK",
-    "scoreA": "91",
-    "scoreB": "117",
-    "delta": 26,
-    "sum": 208,
-    "date": "2021-10-31"
-  },
-  {
-    "teamA": "HOU",
-    "teamB": "LAL",
-    "scoreA": "85",
-    "scoreB": "95",
-    "delta": 10,
-    "sum": 180,
-    "date": "2021-10-31"
-  },
-  {
-    "teamA": "CHA",
-    "teamB": "CLE",
-    "scoreA": "123",
-    "scoreB": "112",
-    "delta": 11,
-    "sum": 235,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "NY",
-    "teamB": "ORL",
-    "scoreA": "121",
-    "scoreB": "96",
-    "delta": 25,
-    "sum": 217,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "IND",
-    "teamB": "WAS",
-    "scoreA": "134",
-    "scoreB": "135",
-    "delta": 1,
-    "sum": 269,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "TOR",
-    "teamB": "BOS",
-    "scoreA": "115",
-    "scoreB": "83",
-    "delta": 32,
-    "sum": 198,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "BK",
-    "teamB": "PHI",
-    "scoreA": "114",
-    "scoreB": "109",
-    "delta": 5,
-    "sum": 223,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "NO",
-    "teamB": "CHI",
-    "scoreA": "112",
-    "scoreB": "128",
-    "delta": 16,
-    "sum": 240,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "OKC",
-    "teamB": "HOU",
-    "scoreA": "91",
-    "scoreB": "124",
-    "delta": 33,
-    "sum": 215,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "SA",
-    "teamB": "DEN",
-    "scoreA": "96",
-    "scoreB": "102",
-    "delta": 6,
-    "sum": 198,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "UTA",
-    "teamB": "SAC",
-    "scoreA": "110",
-    "scoreB": "101",
-    "delta": 9,
-    "sum": 211,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "PHO",
-    "teamB": "LAL",
-    "scoreA": "115",
-    "scoreB": "105",
-    "delta": 10,
-    "sum": 220,
-    "date": "2021-10-22"
-  },
-  {
-    "teamA": "DAL",
-    "teamB": "ATL",
-    "scoreA": "87",
-    "scoreB": "113",
-    "delta": 26,
-    "sum": 200,
-    "date": "2021-10-21"
-  },
-  {
-    "teamA": "MIL",
-    "teamB": "MIA",
-    "scoreA": "95",
-    "scoreB": "137",
-    "delta": 42,
-    "sum": 232,
-    "date": "2021-10-21"
-  },
-  {
-    "teamA": "LAC",
-    "teamB": "GS",
-    "scoreA": "113",
-    "scoreB": "115",
-    "delta": 2,
-    "sum": 228,
-    "date": "2021-10-21"
-  },
-  {
-    "teamA": "PHI",
-    "teamB": "NY",
-    "scoreA": "99",
-    "scoreB": "112",
-    "delta": 13,
-    "sum": 211,
-    "date": "2021-10-26"
-  },
-  {
-    "teamA": "GS",
-    "teamB": "OKC",
-    "scoreA": "106",
-    "scoreB": "98",
-    "delta": 8,
-    "sum": 204,
-    "date": "2021-10-26"
-  },
-  {
-    "teamA": "HOU",
-    "teamB": "DAL",
-    "scoreA": "106",
-    "scoreB": "116",
-    "delta": 10,
-    "sum": 222,
-    "date": "2021-10-26"
-  },
-  {
-    "teamA": "LAL",
-    "teamB": "SA",
-    "scoreA": "125",
-    "scoreB": "121",
-    "delta": 4,
-    "sum": 246,
-    "date": "2021-10-26"
-  },
-  {
-    "teamA": "DEN",
-    "teamB": "UTA",
-    "scoreA": "110",
-    "scoreB": "122",
-    "delta": 12,
-    "sum": 232,
-    "date": "2021-10-26"
-  },
-  {
-    "teamA": "DET",
-    "teamB": "PHI",
-    "scoreA": "102",
-    "scoreB": "110",
-    "delta": 8,
-    "sum": 212,
-    "date": "2021-10-28"
-  },
-  {
-    "teamA": "ATL",
-    "teamB": "WAS",
-    "scoreA": "111",
-    "scoreB": "122",
-    "delta": 11,
-    "sum": 233,
-    "date": "2021-10-28"
-  },
-  {
-    "teamA": "NY",
-    "teamB": "CHI",
-    "scoreA": "104",
-    "scoreB": "103",
-    "delta": 1,
-    "sum": 207,
-    "date": "2021-10-28"
-  },
-  {
-    "teamA": "UTA",
-    "teamB": "HOU",
-    "scoreA": "122",
-    "scoreB": "91",
-    "delta": 31,
-    "sum": 213,
-    "date": "2021-10-28"
-  },
-  {
-    "teamA": "SA",
-    "teamB": "DAL",
-    "scoreA": "99",
-    "scoreB": "104",
-    "delta": 5,
-    "sum": 203,
-    "date": "2021-10-28"
-  },
-  {
-    "teamA": "MEM",
-    "teamB": "GS",
-    "scoreA": "104",
-    "scoreB": "101",
-    "delta": 3,
-    "sum": 205,
-    "date": "2021-10-28"
-  },
-  {
-    "teamA": "ORL",
-    "teamB": "TOR",
-    "scoreA": "109",
-    "scoreB": "110",
-    "delta": 1,
-    "sum": 219,
-    "date": "2021-10-29"
-  },
-  {
-    "teamA": "IND",
-    "teamB": "BK",
-    "scoreA": "98",
-    "scoreB": "105",
-    "delta": 7,
-    "sum": 203,
-    "date": "2021-10-29"
-  },
-  {
-    "teamA": "CHA",
-    "teamB": "MIA",
-    "scoreA": "99",
-    "scoreB": "114",
-    "delta": 15,
-    "sum": 213,
-    "date": "2021-10-29"
-  },
-  {
-    "teamA": "SAC",
-    "teamB": "NO",
-    "scoreA": "113",
-    "scoreB": "109",
-    "delta": 4,
-    "sum": 222,
-    "date": "2021-10-29"
-  },
-  {
-    "teamA": "DAL",
-    "teamB": "DEN",
-    "scoreA": "75",
-    "scoreB": "106",
-    "delta": 31,
-    "sum": 181,
-    "date": "2021-10-29"
-  },
-  {
-    "teamA": "LAC",
-    "teamB": "POR",
-    "scoreA": "92",
-    "scoreB": "111",
-    "delta": 19,
-    "sum": 203,
-    "date": "2021-10-29"
-  },
-  {
-    "teamA": "CLE",
-    "teamB": "LAL",
-    "scoreA": "101",
-    "scoreB": "113",
-    "delta": 12,
-    "sum": 214,
-    "date": "2021-10-29"
-  },
-  {
-    "teamA": "BOS",
-    "teamB": "CHA",
-    "scoreA": "140",
-    "scoreB": "129",
-    "delta": 11,
-    "sum": 269,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "MIL",
-    "teamB": "IND",
-    "scoreA": "119",
-    "scoreB": "109",
-    "delta": 10,
-    "sum": 228,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "DET",
-    "teamB": "ATL",
-    "scoreA": "104",
-    "scoreB": "122",
-    "delta": 18,
-    "sum": 226,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "WAS",
-    "teamB": "BK",
-    "scoreA": "90",
-    "scoreB": "104",
-    "delta": 14,
-    "sum": 194,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "ORL",
-    "teamB": "MIA",
-    "scoreA": "90",
-    "scoreB": "107",
-    "delta": 17,
-    "sum": 197,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "CHI",
-    "teamB": "TOR",
-    "scoreA": "111",
-    "scoreB": "108",
-    "delta": 3,
-    "sum": 219,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "NO",
-    "teamB": "MIN",
-    "scoreA": "107",
-    "scoreB": "98",
-    "delta": 9,
-    "sum": 205,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "CLE",
-    "teamB": "DEN",
-    "scoreA": "99",
-    "scoreB": "87",
-    "delta": 12,
-    "sum": 186,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "POR",
-    "teamB": "LAC",
-    "scoreA": "86",
-    "scoreB": "116",
-    "delta": 30,
-    "sum": 202,
-    "date": "2021-10-25"
-  },
-  {
-    "teamA": "ATL",
-    "teamB": "CLE",
-    "scoreA": "95",
-    "scoreB": "101",
-    "delta": 6,
-    "sum": 196,
-    "date": "2021-10-23"
-  },
-  {
-    "teamA": "MIA",
-    "teamB": "IND",
-    "scoreA": "91",
-    "scoreB": "102",
-    "delta": 11,
-    "sum": 193,
-    "date": "2021-10-23"
-  },
-  {
-    "teamA": "DAL",
-    "teamB": "TOR",
-    "scoreA": "103",
-    "scoreB": "95",
-    "delta": 8,
-    "sum": 198,
-    "date": "2021-10-23"
-  },
-  {
-    "teamA": "DET",
-    "teamB": "CHI",
-    "scoreA": "82",
-    "scoreB": "97",
-    "delta": 15,
-    "sum": 179,
-    "date": "2021-10-23"
-  },
-  {
-    "teamA": "NO",
-    "teamB": "MIN",
-    "scoreA": "89",
-    "scoreB": "96",
-    "delta": 7,
-    "sum": 185,
-    "date": "2021-10-23"
-  },
-  {
-    "teamA": "MIL",
-    "teamB": "SA",
-    "scoreA": "121",
-    "scoreB": "111",
-    "delta": 10,
-    "sum": 232,
-    "date": "2021-10-23"
-  },
-  {
-    "teamA": "PHO",
-    "teamB": "POR",
-    "scoreA": "105",
-    "scoreB": "134",
-    "delta": 29,
-    "sum": 239,
-    "date": "2021-10-23"
-  },
-  {
-    "teamA": "MEM",
-    "teamB": "LAC",
-    "scoreA": "120",
-    "scoreB": "114",
-    "delta": 6,
-    "sum": 234,
-    "date": "2021-10-23"
-  },
-  {
     "teamA": "CHA",
     "teamB": "ORL",
     "scoreA": "120",
@@ -684,6 +369,150 @@
     "date": "2021-10-27"
   },
   {
+    "teamA": "BOS",
+    "teamB": "CHA",
+    "scoreA": "140",
+    "scoreB": "129",
+    "delta": 11,
+    "sum": 269,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "MIL",
+    "teamB": "IND",
+    "scoreA": "119",
+    "scoreB": "109",
+    "delta": 10,
+    "sum": 228,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "DET",
+    "teamB": "ATL",
+    "scoreA": "104",
+    "scoreB": "122",
+    "delta": 18,
+    "sum": 226,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "WAS",
+    "teamB": "BK",
+    "scoreA": "90",
+    "scoreB": "104",
+    "delta": 14,
+    "sum": 194,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "ORL",
+    "teamB": "MIA",
+    "scoreA": "90",
+    "scoreB": "107",
+    "delta": 17,
+    "sum": 197,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "CHI",
+    "teamB": "TOR",
+    "scoreA": "111",
+    "scoreB": "108",
+    "delta": 3,
+    "sum": 219,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "NO",
+    "teamB": "MIN",
+    "scoreA": "107",
+    "scoreB": "98",
+    "delta": 9,
+    "sum": 205,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "CLE",
+    "teamB": "DEN",
+    "scoreA": "99",
+    "scoreB": "87",
+    "delta": 12,
+    "sum": 186,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "POR",
+    "teamB": "LAC",
+    "scoreA": "86",
+    "scoreB": "116",
+    "delta": 30,
+    "sum": 202,
+    "date": "2021-10-25"
+  },
+  {
+    "teamA": "ORL",
+    "teamB": "TOR",
+    "scoreA": "109",
+    "scoreB": "110",
+    "delta": 1,
+    "sum": 219,
+    "date": "2021-10-29"
+  },
+  {
+    "teamA": "IND",
+    "teamB": "BK",
+    "scoreA": "98",
+    "scoreB": "105",
+    "delta": 7,
+    "sum": 203,
+    "date": "2021-10-29"
+  },
+  {
+    "teamA": "CHA",
+    "teamB": "MIA",
+    "scoreA": "99",
+    "scoreB": "114",
+    "delta": 15,
+    "sum": 213,
+    "date": "2021-10-29"
+  },
+  {
+    "teamA": "SAC",
+    "teamB": "NO",
+    "scoreA": "113",
+    "scoreB": "109",
+    "delta": 4,
+    "sum": 222,
+    "date": "2021-10-29"
+  },
+  {
+    "teamA": "DAL",
+    "teamB": "DEN",
+    "scoreA": "75",
+    "scoreB": "106",
+    "delta": 31,
+    "sum": 181,
+    "date": "2021-10-29"
+  },
+  {
+    "teamA": "LAC",
+    "teamB": "POR",
+    "scoreA": "92",
+    "scoreB": "111",
+    "delta": 19,
+    "sum": 203,
+    "date": "2021-10-29"
+  },
+  {
+    "teamA": "CLE",
+    "teamB": "LAL",
+    "scoreA": "101",
+    "scoreB": "113",
+    "delta": 12,
+    "sum": 214,
+    "date": "2021-10-29"
+  },
+  {
     "teamA": "CHA",
     "teamB": "BK",
     "scoreA": "111",
@@ -736,6 +565,303 @@
     "delta": 3,
     "sum": 239,
     "date": "2021-10-24"
+  },
+  {
+    "teamA": "PHI",
+    "teamB": "NY",
+    "scoreA": "99",
+    "scoreB": "112",
+    "delta": 13,
+    "sum": 211,
+    "date": "2021-10-26"
+  },
+  {
+    "teamA": "GS",
+    "teamB": "OKC",
+    "scoreA": "106",
+    "scoreB": "98",
+    "delta": 8,
+    "sum": 204,
+    "date": "2021-10-26"
+  },
+  {
+    "teamA": "HOU",
+    "teamB": "DAL",
+    "scoreA": "106",
+    "scoreB": "116",
+    "delta": 10,
+    "sum": 222,
+    "date": "2021-10-26"
+  },
+  {
+    "teamA": "LAL",
+    "teamB": "SA",
+    "scoreA": "125",
+    "scoreB": "121",
+    "delta": 4,
+    "sum": 246,
+    "date": "2021-10-26"
+  },
+  {
+    "teamA": "DEN",
+    "teamB": "UTA",
+    "scoreA": "110",
+    "scoreB": "122",
+    "delta": 12,
+    "sum": 232,
+    "date": "2021-10-26"
+  },
+  {
+    "teamA": "SAC",
+    "teamB": "DAL",
+    "scoreA": "99",
+    "scoreB": "105",
+    "delta": 6,
+    "sum": 204,
+    "date": "2021-10-31"
+  },
+  {
+    "teamA": "POR",
+    "teamB": "CHA",
+    "scoreA": "113",
+    "scoreB": "125",
+    "delta": 12,
+    "sum": 238,
+    "date": "2021-10-31"
+  },
+  {
+    "teamA": "UTA",
+    "teamB": "MIL",
+    "scoreA": "107",
+    "scoreB": "95",
+    "delta": 12,
+    "sum": 202,
+    "date": "2021-10-31"
+  },
+  {
+    "teamA": "DET",
+    "teamB": "BK",
+    "scoreA": "91",
+    "scoreB": "117",
+    "delta": 26,
+    "sum": 208,
+    "date": "2021-10-31"
+  },
+  {
+    "teamA": "HOU",
+    "teamB": "LAL",
+    "scoreA": "85",
+    "scoreB": "95",
+    "delta": 10,
+    "sum": 180,
+    "date": "2021-10-31"
+  },
+  {
+    "teamA": "ATL",
+    "teamB": "CLE",
+    "scoreA": "95",
+    "scoreB": "101",
+    "delta": 6,
+    "sum": 196,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "MIA",
+    "teamB": "IND",
+    "scoreA": "91",
+    "scoreB": "102",
+    "delta": 11,
+    "sum": 193,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "DAL",
+    "teamB": "TOR",
+    "scoreA": "103",
+    "scoreB": "95",
+    "delta": 8,
+    "sum": 198,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "DET",
+    "teamB": "CHI",
+    "scoreA": "82",
+    "scoreB": "97",
+    "delta": 15,
+    "sum": 179,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "NO",
+    "teamB": "MIN",
+    "scoreA": "89",
+    "scoreB": "96",
+    "delta": 7,
+    "sum": 185,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "MIL",
+    "teamB": "SA",
+    "scoreA": "121",
+    "scoreB": "111",
+    "delta": 10,
+    "sum": 232,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "PHO",
+    "teamB": "POR",
+    "scoreA": "105",
+    "scoreB": "134",
+    "delta": 29,
+    "sum": 239,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "MEM",
+    "teamB": "LAC",
+    "scoreA": "120",
+    "scoreB": "114",
+    "delta": 6,
+    "sum": 234,
+    "date": "2021-10-23"
+  },
+  {
+    "teamA": "DET",
+    "teamB": "PHI",
+    "scoreA": "102",
+    "scoreB": "110",
+    "delta": 8,
+    "sum": 212,
+    "date": "2021-10-28"
+  },
+  {
+    "teamA": "ATL",
+    "teamB": "WAS",
+    "scoreA": "111",
+    "scoreB": "122",
+    "delta": 11,
+    "sum": 233,
+    "date": "2021-10-28"
+  },
+  {
+    "teamA": "NY",
+    "teamB": "CHI",
+    "scoreA": "104",
+    "scoreB": "103",
+    "delta": 1,
+    "sum": 207,
+    "date": "2021-10-28"
+  },
+  {
+    "teamA": "UTA",
+    "teamB": "HOU",
+    "scoreA": "122",
+    "scoreB": "91",
+    "delta": 31,
+    "sum": 213,
+    "date": "2021-10-28"
+  },
+  {
+    "teamA": "SA",
+    "teamB": "DAL",
+    "scoreA": "99",
+    "scoreB": "104",
+    "delta": 5,
+    "sum": 203,
+    "date": "2021-10-28"
+  },
+  {
+    "teamA": "MEM",
+    "teamB": "GS",
+    "scoreA": "104",
+    "scoreB": "101",
+    "delta": 3,
+    "sum": 205,
+    "date": "2021-10-28"
+  },
+  {
+    "teamA": "CLE",
+    "teamB": "CHA",
+    "scoreA": "113",
+    "scoreB": "110",
+    "delta": 3,
+    "sum": 223,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "SA",
+    "teamB": "IND",
+    "scoreA": "118",
+    "scoreB": "131",
+    "delta": 13,
+    "sum": 249,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "POR",
+    "teamB": "PHI",
+    "scoreA": "103",
+    "scoreB": "113",
+    "delta": 10,
+    "sum": 216,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "WAS",
+    "teamB": "ATL",
+    "scoreA": "111",
+    "scoreB": "118",
+    "delta": 7,
+    "sum": 229,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "CHI",
+    "teamB": "BOS",
+    "scoreA": "128",
+    "scoreB": "114",
+    "delta": 14,
+    "sum": 242,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "TOR",
+    "teamB": "NY",
+    "scoreA": "113",
+    "scoreB": "104",
+    "delta": 9,
+    "sum": 217,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "DEN",
+    "teamB": "MEM",
+    "scoreA": "97",
+    "scoreB": "106",
+    "delta": 9,
+    "sum": 203,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "ORL",
+    "teamB": "MIN",
+    "scoreA": "115",
+    "scoreB": "97",
+    "delta": 18,
+    "sum": 212,
+    "date": "2021-11-01"
+  },
+  {
+    "teamA": "OKC",
+    "teamB": "LAC",
+    "scoreA": "94",
+    "scoreB": "99",
+    "delta": 5,
+    "sum": 193,
+    "date": "2021-11-01"
   },
   {
     "teamA": "IND",
@@ -835,86 +961,5 @@
     "delta": 12,
     "sum": 208,
     "date": "2021-10-20"
-  },
-  {
-    "teamA": "CLE",
-    "teamB": "CHA",
-    "scoreA": "113",
-    "scoreB": "110",
-    "delta": 3,
-    "sum": 223,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "SA",
-    "teamB": "IND",
-    "scoreA": "118",
-    "scoreB": "131",
-    "delta": 13,
-    "sum": 249,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "POR",
-    "teamB": "PHI",
-    "scoreA": "103",
-    "scoreB": "113",
-    "delta": 10,
-    "sum": 216,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "WAS",
-    "teamB": "ATL",
-    "scoreA": "111",
-    "scoreB": "118",
-    "delta": 7,
-    "sum": 229,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "CHI",
-    "teamB": "BOS",
-    "scoreA": "128",
-    "scoreB": "114",
-    "delta": 14,
-    "sum": 242,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "TOR",
-    "teamB": "NY",
-    "scoreA": "113",
-    "scoreB": "104",
-    "delta": 9,
-    "sum": 217,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "DEN",
-    "teamB": "MEM",
-    "scoreA": "97",
-    "scoreB": "106",
-    "delta": 9,
-    "sum": 203,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "ORL",
-    "teamB": "MIN",
-    "scoreA": "115",
-    "scoreB": "97",
-    "delta": 18,
-    "sum": 212,
-    "date": "2021-11-01"
-  },
-  {
-    "teamA": "OKC",
-    "teamB": "LAC",
-    "scoreA": "94",
-    "scoreB": "99",
-    "delta": 5,
-    "sum": 193,
-    "date": "2021-11-01"
   }
 ]
