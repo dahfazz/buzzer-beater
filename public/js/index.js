@@ -46,16 +46,3 @@ const closeAll = () => {
     lp.classList.remove('open');
   })
 }
-
-if (lps) {
-  const array = Array.from(lps);
-  array.forEach(lp => lp.addEventListener('long-press', e => {
-    closeAll();
-    e.currentTarget.classList.add('open');
-  }))
-  array.forEach(lp => lp.addEventListener('click', e => {
-    console.log('clickh')
-    closeAll();
-    notify('Stay pressed to show score');
-  }))
-}

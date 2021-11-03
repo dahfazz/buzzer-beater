@@ -15,7 +15,7 @@ module.exports = (data) => {
   const month = MONTHS[date.getMonth()]
   const year = date.getFullYear()
 
-  return `<li class="js-long-press item ${top ? 'top' : ''}">
+  return `<li class="item ${top ? 'top' : ''}">
   <div class="gamedate">
     <span class="day">${day}</span>
     <span class='month'>${month}</span>

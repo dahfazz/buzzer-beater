@@ -160,6 +160,7 @@ h1 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: black;
 }
 
 .item .team:last-child {
