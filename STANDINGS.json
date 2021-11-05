@@ -1,66 +1,66 @@
 [
   {
-    "team": "MIA",
+    "team": "PHI",
     "rank": 1,
     "conference": "E",
-    "wins": 6,
-    "losses": 1
+    "wins": 7,
+    "losses": 2
   },
   {
-    "team": "CHI",
+    "team": "MIA",
     "rank": 2,
     "conference": "E",
     "wins": 6,
-    "losses": 1
+    "losses": 2
   },
   {
-    "team": "NY",
+    "team": "CHI",
     "rank": 3,
     "conference": "E",
-    "wins": 5,
-    "losses": 2
-  },
-  {
-    "team": "WAS",
-    "rank": 4,
-    "conference": "E",
-    "wins": 5,
-    "losses": 2
-  },
-  {
-    "team": "PHI",
-    "rank": 5,
-    "conference": "E",
-    "wins": 5,
+    "wins": 6,
     "losses": 2
   },
   {
     "team": "TOR",
+    "rank": 4,
+    "conference": "E",
+    "wins": 6,
+    "losses": 3
+  },
+  {
+    "team": "BK",
+    "rank": 5,
+    "conference": "E",
+    "wins": 5,
+    "losses": 3
+  },
+  {
+    "team": "WAS",
     "rank": 6,
     "conference": "E",
     "wins": 5,
     "losses": 3
   },
   {
-    "team": "CHA",
+    "team": "NY",
     "rank": 7,
     "conference": "E",
     "wins": 5,
     "losses": 3
   },
   {
-    "team": "BK",
+    "team": "CLE",
     "rank": 8,
     "conference": "E",
-    "wins": 4,
-    "losses": 3
+    "wins": 5,
+    "losses": 4
   },
   {
-    "team": "ATL",
+    "team": "CHA",
     "rank": 9,
     "conference": "E",
-    "wins": 4,
-    "losses": 3
+    "wins": 5,
+    "losses": 4
   },
   {
     "team": "MIL",
@@ -70,143 +70,143 @@
     "losses": 4
   },
   {
-    "team": "CLE",
+    "team": "BOS",
     "rank": 11,
     "conference": "E",
     "wins": 4,
-    "losses": 4
-  },
-  {
-    "team": "BOS",
-    "rank": 12,
-    "conference": "E",
-    "wins": 2,
     "losses": 5
   },
   {
-    "team": "ORL",
-    "rank": 13,
+    "team": "ATL",
+    "rank": 12,
     "conference": "E",
-    "wins": 2,
-    "losses": 6
+    "wins": 4,
+    "losses": 5
   },
   {
     "team": "IND",
+    "rank": 13,
+    "conference": "E",
+    "wins": 3,
+    "losses": 6
+  },
+  {
+    "team": "ORL",
     "rank": 14,
     "conference": "E",
     "wins": 2,
-    "losses": 6
+    "losses": 7
   },
   {
     "team": "DET",
     "rank": 15,
     "conference": "E",
     "wins": 1,
-    "losses": 6
+    "losses": 7
   },
   {
     "team": "UTA",
     "rank": 1,
     "conference": "W",
-    "wins": 6,
+    "wins": 7,
     "losses": 1
   },
   {
     "team": "GS",
     "rank": 2,
     "conference": "W",
-    "wins": 5,
+    "wins": 6,
     "losses": 1
   },
   {
-    "team": "LAL",
+    "team": "DAL",
     "rank": 3,
     "conference": "W",
     "wins": 5,
     "losses": 3
   },
   {
-    "team": "DAL",
+    "team": "MEM",
     "rank": 4,
     "conference": "W",
-    "wins": 4,
+    "wins": 5,
     "losses": 3
   },
   {
-    "team": "MEM",
+    "team": "PHO",
     "rank": 5,
     "conference": "W",
     "wins": 4,
     "losses": 3
   },
   {
-    "team": "DEN",
+    "team": "LAL",
     "rank": 6,
     "conference": "W",
-    "wins": 4,
-    "losses": 3
+    "wins": 5,
+    "losses": 4
   },
   {
-    "team": "MIN",
+    "team": "DEN",
     "rank": 7,
     "conference": "W",
-    "wins": 3,
-    "losses": 3
-  },
-  {
-    "team": "PHO",
-    "rank": 8,
-    "conference": "W",
-    "wins": 3,
-    "losses": 3
+    "wins": 4,
+    "losses": 4
   },
   {
     "team": "SAC",
+    "rank": 8,
+    "conference": "W",
+    "wins": 4,
+    "losses": 4
+  },
+  {
+    "team": "LAC",
     "rank": 9,
     "conference": "W",
     "wins": 3,
     "losses": 4
   },
   {
-    "team": "POR",
+    "team": "MIN",
     "rank": 10,
     "conference": "W",
     "wins": 3,
     "losses": 4
   },
   {
-    "team": "LAC",
+    "team": "POR",
     "rank": 11,
     "conference": "W",
-    "wins": 2,
-    "losses": 4
-  },
-  {
-    "team": "SA",
-    "rank": 12,
-    "conference": "W",
-    "wins": 2,
+    "wins": 3,
     "losses": 5
   },
   {
-    "team": "HOU",
-    "rank": 13,
+    "team": "OKC",
+    "rank": 12,
     "conference": "W",
-    "wins": 1,
+    "wins": 2,
     "losses": 6
   },
   {
-    "team": "OKC",
+    "team": "SA",
+    "rank": 13,
+    "conference": "W",
+    "wins": 2,
+    "losses": 6
+  },
+  {
+    "team": "HOU",
     "rank": 14,
     "conference": "W",
     "wins": 1,
-    "losses": 6
+    "losses": 7
   },
   {
     "team": "NO",
     "rank": 15,
     "conference": "W",
     "wins": 1,
-    "losses": 7
+    "losses": 8
   }
 ]

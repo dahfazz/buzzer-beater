@@ -24,9 +24,11 @@ module.exports = (data) => {
   <div class="team away">
     <div class="logo" style="background-image: url('logos/${TEAMS[data.teamA].key.toLowerCase()}.gif')" class="logo"></div>
   </div>
+  <span class="rating">rating: ${data.rating}/100</span>
   <div class="score">
-    <span class="${winner === 'A' ? 'winner' : ''}">${data.scoreA}</span> - 
+    <span class="${winner === 'A' ? 'winner' : ''}">${data.scoreA}</span>
     <span class="${winner === 'B' ? 'winner' : ''}">${data.scoreB}</span>
+    <br>
   </div>
   <div class="team home">
     <div class="logo" style="background-image: url('logos/${TEAMS[data.teamB].key.toLowerCase()}.gif')" class="logo"></div>

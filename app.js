@@ -1,6 +1,9 @@
 const express = require('express');
 const PORT = process.env.PORT || 3000;
 
+const getStandings = require('./crawlers/standings');
+const getScores = require('./crawlers/scores');
+
 // ROUTES
 const home = require('./routes/home');
 const team = require('./routes/team');
@@ -14,6 +17,13 @@ app.get('/top', top);
 app.get('/team', team);
 app.get('/', home);
 app.get('/standings', standings);
+
+app.get('/crawl', (req, res) => {
+  getStandings();
+  getScores().then(() => {
+    res.end('Done')
+  });
+});
 
 app.use(express.static(__dirname + '/public'));
 

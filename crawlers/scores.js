@@ -73,8 +73,8 @@ const getSccores = async () => {
     requests.push(getDateGames(date))
   })
 
-  Promise.all(requests)
-    .then(() => fs.writeFileSync('SCORES.json', JSON.stringify(GAMES, null, 2)))
+  return Promise.all(requests)
+    .then(() => fs.writeFileSync('__SCORES.json', JSON.stringify(GAMES, null, 2)))
 }
 
 module.exports = getSccores;

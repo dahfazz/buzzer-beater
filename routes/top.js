@@ -10,7 +10,7 @@ const displayGame = require('../game');
 module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'text/html');
   
-  const games = SCORES.sort((a,b) => a.delta < b.delta ? -1 : 1).slice(0, 20);
+  const games = SCORES.filter(a => a.rating !== null).sort((a,b) => a.rating > b.rating ? -1 : 1).slice(0, 20);
 
   let html = `
   <!DOCTYPE html>
@@ -31,7 +31,7 @@ module.exports = async (req, res) => {
     <div class="container">
     <ul class="games">`;
 
-  games.sort((a, b) => a.rating < b.rating ? 1 : -1).forEach((game) => {
+  games.forEach((game) => {
     html += displayGame(game);
   });
 
