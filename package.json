@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "watch": "nodemon ./app.js localhost 3000"
+    "watch": "nodemon --watch ./app.js --watch public localhost 3000"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
     "express": "^4.17.1"
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   }
 }

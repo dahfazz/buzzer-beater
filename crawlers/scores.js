@@ -33,6 +33,8 @@ const fillDaysArray = (date) => {
 // GET GAMES FOR THIS DATE
 const getDateGames = async (date) => {
 
+  const _GAMES = [];
+
   const url = `https://www.covers.com/Sports/NBA/Matchups?selectedDate=${formatDateForURL(date)}`;
   const result = await axios.get(url);
   const $ = cheerio.load(result.data);
@@ -61,8 +63,10 @@ const getDateGames = async (date) => {
     obj.rating = getRating(obj)
 
     obj.date = formatDateForURL(date);
-    GAMES.push(obj)
+    _GAMES.push(obj)
   });
+
+  return _GAMES;
 }
 
 const getSccores = async () => {
@@ -77,4 +81,4 @@ const getSccores = async () => {
     .then(() => fs.writeFileSync('SCORES.json', JSON.stringify(GAMES, null, 2)))
 }
 
-module.exports = getSccores;
+module.exports = getDateGames;

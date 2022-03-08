@@ -22,20 +22,20 @@ const getDayAfter = (_date) => {
 };
 
 module.exports = async (req, res) => {
-  
+
   res.setHeader('Content-Type', 'text/html');
 
-    const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
-    date = req.query.date || dateFormat(`${yesterday.getFullYear()}-${yesterday.getMonth() + 1}-${yesterday.getDate()}`, 'yyyy-mm-dd');
+  const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
+  date = req.query.date || dateFormat(`${yesterday.getFullYear()}-${yesterday.getMonth() + 1}-${yesterday.getDate()}`, 'yyyy-mm-dd');
 
-    previous = dateFormat(getDayBefore(date), 'yyyy-mm-dd')
-    next = dateFormat(getDayAfter(date), 'yyyy-mm-dd')
-    
-    const games = SCORES.filter(game => {
-      return game.date === date
-    })
+  previous = dateFormat(getDayBefore(date), 'yyyy-mm-dd')
+  next = dateFormat(getDayAfter(date), 'yyyy-mm-dd')
 
-    let html = `
+  const games = SCORES.filter(game => {
+    return game.date === date
+  })
+
+  let html = `
     <!DOCTYPE html>
     <html lang="en">
     ${htmlHeader}
@@ -60,11 +60,11 @@ module.exports = async (req, res) => {
       <div class="container">
       <ul class="games">`;
 
-    games.sort((a, b) => a.rating < b.rating ? 1 : -1).forEach((game) => {
-      html += displayGame(game);
-    });
+  games.sort((a, b) => a.rating < b.rating ? 1 : -1).forEach((game) => {
+    html += displayGame(game);
+  });
 
-    html += `
+  html += `
     </>
     </div>
     ${footer(req.originalUrl)}
@@ -72,5 +72,5 @@ module.exports = async (req, res) => {
     </body>
     </html>`;
 
-    return res.send(html);
+  return res.send(html);
 }

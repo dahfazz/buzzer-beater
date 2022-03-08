@@ -6,6 +6,7 @@ const getScores = require('./crawlers/scores');
 
 // ROUTES
 const home = require('./routes/home');
+const tweet = require('./routes/tweet');
 const team = require('./routes/team');
 const standings = require('./routes/standings');
 const top = require('./routes/top');
@@ -15,6 +16,7 @@ const app = express();
 // ROUTER
 app.get('/top', top);
 app.get('/team', team);
+app.get('/', tweet);
 app.get('/', home);
 app.get('/standings', standings);
 
