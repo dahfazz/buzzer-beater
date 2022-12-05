@@ -34,7 +34,6 @@ module.exports = async (req, res) => {
       })
 
       html += `\n\n🟩 final score difference < 8\n`
-        
       html += `</textarea>
     </body>
   </html>`;
