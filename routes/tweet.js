@@ -30,7 +30,7 @@ module.exports = async (req, res) => {
       html += `Replay assistant\n\n`
         
       games.forEach(game => {
-        html += `${game.delta < 8 ? '🟩' : '⬛'} ${displayTeam(game.teamA)}-${displayTeam(game.teamB)}\n`
+        html += `${game.delta < 6 ? '🟩' : '⬛'} ${displayTeam(game.teamA)}-${displayTeam(game.teamB)}\n`
       })
 
       html += `\n\n🟩 final score difference < 8\n`
