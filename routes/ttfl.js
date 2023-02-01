@@ -1,4 +1,5 @@
 const helpers = require('../crawlers/ttfl');
+const pics = require('./pics');
 
 module.exports = async (req, res) => {
 
@@ -43,45 +44,58 @@ module.exports = async (req, res) => {
       <link rel="icon" type="image/png" sizes="144x144" href="favicon.png">
       <link rel="apple-touch-icon" type="image/png" sizes="110x110" href="favicon.png">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <style>
+      .player-blocked {
+        background: rgba(0,0,0,1)
+      }
+      .player-blocked .position-absolute.p-2 {
+        background: rgba(0,0,0,.95)
+      }
+      </style>
     </head>
 
     </head>
     <body>
     <div class="container g-0">
-    <div class="row justify-content-center">
-    <div class="col col-lg-6">
-    <ul class="list-group">`
+    <div class="row g-2">`
 
 
     tonight.filter(a => !!a.player).sort((a, b) => a.TTFL < b.TTFL ? 1 : -1).forEach((line, index) => {
+      line.player = line.player.replaceAll('č', 'c')
+      line.player = line.player.replaceAll('ć', 'c')
+      line.player = line.player.replaceAll('ģ', 'g')
+      line.player = line.player.replaceAll('ü', 'u')
+      line.player = line.player.replaceAll('Ş', 'S')
+      line.player = line.player.replaceAll('ņ', 'n')
       const injuryStatus = getInjuryStatus(line.player);
-      html += `<li style="`;
 
-      html += index % 2 ? '' : 'background: rgba(0, 0, 0, .05)'
-
-      html += `" class="list-group-item align-items-center d-flex justify-content-between"><div><span id="player-${line.player.replaceAll(' ', '-')}" class="fw-bold">${line.player}</span> (${line.team_id} vs ${nightGames.oppositions[line.team_id]})`
+      html += `<div class="position-relative col col-lg-2" id="player-${line.player.replaceAll(' ', '-')}">
+      <div class="position-relative" style="height: 280px; background: url(${pics[line.player]}) no-repeat center; background-size: cover">
+      <div class="position-absolute p-2" style="top:0; right: 0; bottom: 0; left: 0; background: rgba(0, 0,0,.5)">
+      <span style="" class="fs-5 fw-bold text-white">${line.player}<br><span class="fs-6 fw-light">${line.team_id} vs ${nightGames.oppositions[line.team_id]}</span></span>`
 
       if (injuryStatus) {
-        html += `<span class="ms-2 badge bg-danger">${injuryStatus.status}</span>`
+        html += `<span style="bottom:0; top:0;right:0;left:0; margin: auto;" class="fs-4 position-absolute d-flex justify-content-center align-items-center text-danger">${injuryStatus.status}</span>`
       }
 
 
 
-      html += `</div>`
 
       html += `
-      <div class="d-flex justify-content-end"><select data-player="${line.player}" class="me-2 form-select select-blocking-days">
+      <select data-player="${line.player}" style="height: 46px; bottom: 10px; left: 10px; width: 110px" class="me-2 form-select position-absolute select-blocking-days">
       <option value="">bloqué ?</option>`
 
-      Array.from(Array(30).keys()).forEach(nb => {
+      Array.from(Array(31).keys()).forEach(nb => {
 
-        html += `<option value = "${nb}" > ${nb}</option>`
+        html += `<option value="${nb}">${nb} days</option>`
       })
 
       html += `</select>
-      <span class="badge bg-primary d-flex align-items-center">${parseInt(line.TTFL, 10)}</span></div></li>\n`
+      <span style="bottom: 10px; right: 10px" class="position-absolute fs-3 badge bg-primary d-flex align-items-center">${parseInt(line.TTFL, 10)}</span></div></div>
+      </div>`
     })
-    html += `</ul></div>
+    html += `
+    </div>
     </div>
     </div>
     <script>
@@ -114,11 +128,9 @@ module.exports = async (req, res) => {
 
         if (storage) {
           if (isInFuture) {
-            const nameEl = document.querySelector('#player-' + player.replaceAll(' ', '-'));
-            if (nameEl){
-              nameEl.classList.remove('fw-bold')
-              nameEl.classList.add('text-secondary')
-              nameEl.classList.add('fw-light')
+            const playerEl = document.querySelector('#player-' + player.replaceAll(' ', '-'));
+            if (playerEl){
+              playerEl.classList.add('player-blocked')
             }
             select.value = Math.round(daysBetween(today, storage));
           } else {
