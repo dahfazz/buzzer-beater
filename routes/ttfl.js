@@ -1,4 +1,4 @@
-const getTTFLscores = require('../crawlers/ttfl');
+const helpers = require('../crawlers/ttfl');
 
 module.exports = async (req, res) => {
 
@@ -6,8 +6,13 @@ module.exports = async (req, res) => {
 
 
   const load = async () => {
-    const lines = await getTTFLscores()
+    const lines = await helpers.getTTFLscores()
+    const injuries = await helpers.getInjuries()
 
+    const getInjuryStatus = (player) => {
+      const key = player.toLowerCase();
+      return injuries[key]
+    }
 
     let html = `
     <!DOCTYPE html>
@@ -43,7 +48,15 @@ module.exports = async (req, res) => {
 
 
     lines.filter(a => !!a.player).sort((a, b) => a.TTFL < b.TTFL ? 1 : -1).forEach(line => {
-      html += `<li class="list-group-item d-flex justify-content-between">${line.player} <span class="badge bg-primary">${parseInt(line.TTFL, 10)}</span></li>\n`
+      const injuryStatus = getInjuryStatus(line.player);
+      console.log(injuryStatus)
+      html += `<li class="list-group-item d-flex justify-content-between"><div>${line.player}`
+
+      if (injuryStatus) {
+        html += `<span class="ms-2 badge bg-danger">${injuryStatus.status}</span>`
+      }
+
+      html += `</div> <span class="badge bg-primary">${parseInt(line.TTFL, 10)}</span></li>\n`
     })
     html += `</ul></div>
     </div>

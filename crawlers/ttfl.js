@@ -28,4 +28,22 @@ const getTTFLscores = async () => {
   return PLAYERS;
 }
 
-module.exports = getTTFLscores;
+const getInjuries = async () => {
+  const result = await axios.get(`https://www.espn.com/nba/injuries`);
+  const $ = cheerio.load(result.data);
+
+  const INJURIES = {}
+
+  $('table tbody tr').each(async (x, line) => {
+    const p = {};
+    const player = $(line).find('td.col-name').text().toLowerCase();
+    p.player = player;
+    p.status = $(line).find('td.col-stat').text()
+    p.desc = $(line).find('td.col-desc').text()
+    INJURIES[player] = p
+  });
+
+  return INJURIES;
+}
+
+module.exports = { getTTFLscores, getInjuries };
