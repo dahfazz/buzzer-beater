@@ -64,6 +64,8 @@ const getNightGames = async () => {
         return 'NYK';
       case 'L.A. Lakers':
         return 'LAL';
+      case 'Brooklyn':
+        return 'BRK';
       case 'L.A. Clippers':
         return 'LAC';
       case 'New Orleans':
