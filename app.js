@@ -10,6 +10,7 @@ const tweet = require('./routes/tweet');
 const team = require('./routes/team');
 const standings = require('./routes/standings');
 const top = require('./routes/top');
+const ttfl = require('./routes/ttfl');
 
 const app = express();
 
@@ -17,7 +18,7 @@ const app = express();
 app.get('/top', top);
 app.get('/team', team);
 app.get('/', tweet);
-app.get('/', home);
+app.get('/ttfl', ttfl);
 app.get('/standings', standings);
 
 app.get('/crawl', (req, res) => {
@@ -29,4 +30,4 @@ app.get('/crawl', (req, res) => {
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
+app.listen(PORT, () => console.log(`Listening on ${PORT}`))
