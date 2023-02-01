@@ -8,6 +8,12 @@ module.exports = async (req, res) => {
   const load = async () => {
     const lines = await helpers.getTTFLscores()
     const injuries = await helpers.getInjuries()
+    const nightGames = await helpers.getNightGames()
+
+    const tonight = lines.filter(line => {
+      return nightGames.engaged.indexOf(line.team_id) > -1
+    })
+
 
     const getInjuryStatus = (player) => {
       const key = player.toLowerCase();
@@ -41,16 +47,19 @@ module.exports = async (req, res) => {
 
     </head>
     <body>
-    <div class="container">
+    <div class="container g-0">
     <div class="row justify-content-center">
-    <div class="col-4">
+    <div class="col col-lg-4">
     <ul class="list-group">`
 
 
-    lines.filter(a => !!a.player).sort((a, b) => a.TTFL < b.TTFL ? 1 : -1).forEach(line => {
+    tonight.filter(a => !!a.player).sort((a, b) => a.TTFL < b.TTFL ? 1 : -1).forEach((line, index) => {
       const injuryStatus = getInjuryStatus(line.player);
-      console.log(injuryStatus)
-      html += `<li class="list-group-item d-flex justify-content-between"><div>${line.player}`
+      html += `<li style="`;
+
+      html += index % 2 ? '' : 'background: rgba(0, 0, 0, .1)'
+
+      html += `" class="list-group-item d-flex justify-content-between"><div><span>${line.player}</span> (${line.team_id} vs ${nightGames.oppositions[line.team_id]})`
 
       if (injuryStatus) {
         html += `<span class="ms-2 badge bg-danger">${injuryStatus.status}</span>`

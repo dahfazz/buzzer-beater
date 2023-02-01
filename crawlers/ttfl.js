@@ -46,4 +46,64 @@ const getInjuries = async () => {
   return INJURIES;
 }
 
-module.exports = { getTTFLscores, getInjuries };
+const getNightGames = async () => {
+  const today = new Date()
+  const year = today.getFullYear()
+  let month = today.getMonth() + 1
+  month = month < 10 ? '0' + month : month
+  let day = today.getDate()
+  day = day < 10 ? '0' + day : day
+  const URL = `https://www.cbssports.com/nba/schedule/${year}${month}${day}/`;
+  const result = await axios.get(URL);
+  const $ = cheerio.load(result.data);
+
+  const makeTeamName = (team) => {
+
+    switch (team) {
+      case 'New York':
+        return 'NYK';
+      case 'L.A. Lakers':
+        return 'LAL';
+      case 'L.A. Clippers':
+        return 'LAC';
+      case 'New Orleans':
+        return 'NOP';
+      default:
+        return team.substr(0, 3).toUpperCase()
+    }
+  }
+
+  const GAMES = {
+    engaged: [],
+    oppositions: {}
+  }
+
+  $('table.TableBase-table tbody tr').each(async (x, line) => {
+    let home, away;
+    $(line).find('td').each(async (x, cell) => {
+      if (x === 0) {
+        away = makeTeamName($(cell).text())
+      }
+      if (x === 1) {
+        home = makeTeamName($(cell).text())
+      }
+
+      if (home && away) {
+        if (GAMES.engaged.indexOf(home) === -1) {
+          GAMES.engaged.push(home)
+        }
+        if (GAMES.engaged.indexOf(away) === -1) {
+          GAMES.engaged.push(away)
+        }
+
+        GAMES.oppositions[home] = away;
+        GAMES.oppositions[away] = home;
+      }
+
+    })
+  });
+
+  return GAMES;
+}
+
+module.exports = { getTTFLscores, getInjuries, getNightGames };
