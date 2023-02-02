@@ -54,7 +54,8 @@ const getNightGames = async () => {
   let day = today.getDate()
   day = day < 10 ? '0' + day : day
   // const URL = `https://www.cbssports.com/nba/schedule/${year}${month}${day}/`;
-  const URL = `https://www.cbssports.com/nba/schedule/`;
+  // const URL = `https://www.cbssports.com/nba/schedule/`;
+  const URL = `https://www.cbssports.com/nba/schedule/20230202/`;
   const result = await axios.get(URL);
   const $ = cheerio.load(result.data);
 
