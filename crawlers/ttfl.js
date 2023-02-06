@@ -1,5 +1,3 @@
-const fs = require('fs');
-
 const axios = require('axios');
 const cheerio = require('cheerio');
 
@@ -46,7 +44,7 @@ const getInjuries = async () => {
   return INJURIES;
 }
 
-const getNightGames = async () => {
+const getNightGames = async (date) => {
   const today = new Date()
   const year = today.getFullYear()
   let month = today.getMonth() + 1
@@ -54,8 +52,8 @@ const getNightGames = async () => {
   let day = today.getDate()
   day = day < 10 ? '0' + day : day
   // const URL = `https://www.cbssports.com/nba/schedule/${year}${month}${day}/`;
-  // const URL = `https://www.cbssports.com/nba/schedule/`;
-  const URL = `https://www.cbssports.com/nba/schedule/20230202/`;
+  const URL = `https://www.cbssports.com/nba/schedule/${date}`;
+
   const result = await axios.get(URL);
   const $ = cheerio.load(result.data);
 
