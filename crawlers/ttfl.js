@@ -37,6 +37,7 @@ const getInjuries = async () => {
     const player = $(line).find('td.col-name').text().toLowerCase();
     p.player = player;
     p.status = $(line).find('td.col-stat').text()
+    p.statusCode = p.status === 'Out' ? 1 : 0;
     p.desc = $(line).find('td.col-desc').text()
     INJURIES[player] = p
   });
@@ -45,13 +46,6 @@ const getInjuries = async () => {
 }
 
 const getNightGames = async (date) => {
-  const today = new Date()
-  const year = today.getFullYear()
-  let month = today.getMonth() + 1
-  month = month < 10 ? '0' + month : month
-  let day = today.getDate()
-  day = day < 10 ? '0' + day : day
-  // const URL = `https://www.cbssports.com/nba/schedule/${year}${month}${day}/`;
   const URL = `https://www.cbssports.com/nba/schedule/${date}`;
 
   const result = await axios.get(URL);

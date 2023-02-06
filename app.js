@@ -11,6 +11,9 @@ const team = require('./routes/team');
 const standings = require('./routes/standings');
 const top = require('./routes/top');
 const ttfl = require('./routes/ttfl');
+const ttflService = require('./services/ttfl');
+const injuryService = require('./services/injuries');
+const scheduleService = require('./services/schedule');
 
 const app = express();
 
@@ -20,6 +23,9 @@ app.get('/team', team);
 app.get('/', tweet);
 app.get('/ttfl', ttfl);
 app.get('/standings', standings);
+app.get('/services/ttfl', ttflService);
+app.get('/services/injuries', injuryService);
+app.get('/services/schedule', scheduleService);
 
 app.get('/crawl', (req, res) => {
   getStandings();
