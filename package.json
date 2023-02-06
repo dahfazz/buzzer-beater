@@ -16,6 +16,7 @@
   "license": "ISC",
   "homepage": "https://github.com/dahfazz/buzzer-beater",
   "devDependencies": {
+    "cors": "^2.8.5",
     "create-react-app": "^5.0.1",
     "nodemon": "^2.0.14"
   },
