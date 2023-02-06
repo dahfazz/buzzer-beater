@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { setConstantValue } from 'typescript';
+import { scheduler } from 'timers/promises';
 
-function App() {
+const App = () => {
+  const [schedule, setSchedule] = useState();
+
+  useEffect(() => {
+    const init = async () => {
+      const req = await fetch('https://buzzer-beater.onrender.com/services/schedule')
+      const json = await req.json()
+      setSchedule(json);
+    }
+
+    init()
+  }, [])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {JSON.stringify(schedule)}
     </div>
   );
 }

@@ -1,6 +1,10 @@
 const express = require('express');
 const PORT = process.env.PORT || 3000;
 
+var cors = require('cors')
+
+app.use(cors())
+
 const getStandings = require('./crawlers/standings');
 const getScores = require('./crawlers/scores');
 
