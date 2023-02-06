@@ -3,7 +3,6 @@ const PORT = process.env.PORT || 3000;
 
 var cors = require('cors')
 
-app.use(cors())
 
 const getStandings = require('./crawlers/standings');
 const getScores = require('./crawlers/scores');
@@ -20,6 +19,7 @@ const injuryService = require('./services/injuries');
 const scheduleService = require('./services/schedule');
 
 const app = express();
+app.use(cors())
 
 // ROUTER
 app.get('/top', top);
