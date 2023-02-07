@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { setConstantValue } from 'typescript';
-import { scheduler } from 'timers/promises';
 
 const App = () => {
   const [schedule, setSchedule] = useState();
@@ -11,6 +8,7 @@ const App = () => {
     const init = async () => {
       const req = await fetch('https://buzzer-beater.onrender.com/services/schedule')
       const json = await req.json()
+      console.log(json)
       setSchedule(json);
     }
 
@@ -18,6 +16,7 @@ const App = () => {
   }, [])
   return (
     <div className="App">
+      <h1>Hello.</h1>
       {JSON.stringify(schedule)}
     </div>
   );
