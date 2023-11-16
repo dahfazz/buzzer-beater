@@ -4,7 +4,8 @@ const DROMADAIRES = require('../DROMADAIRES.json');
 const DB = require('../public/DB.json')
 
 module.exports = async (req, res) => {
-  const PLAYER = req.query.dromadaire
+  const GM = 'Valou07';
+  const PLAYER = req.query.dromadaire || GM;
   const PICKS = DB[PLAYER].picks;
 
   const getDatePick = (date) => {
