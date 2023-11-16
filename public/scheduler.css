@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.has-pick {
+  background: #6610f260;
+}
+
+.has-pick.is-past {
+  background: #6610f280;
+}
+
+.no-pick {
+  border: 1px solid var(--bs-indigo);
+}
+
+.search {
+  position: relative;
+}
+
+.search .form-control:focus + .results {
+  display: block;
+}
+
+.results {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 42px;
+  z-index: 99;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.result {
+  padding: 1rem;
+}
+
+.has-pick .search {
+  display: none;
+}
+
+.no-pick .cancel-btn {
+  display: none;
+}

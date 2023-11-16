@@ -1,6 +1,6 @@
 const { getTTFLscores } = require('../crawlers/ttfl');
 
-module.exports = async (req, res) => {
+module.exports = async (_, res) => {
 
   res.setHeader('Content-Type', 'application/json');
 

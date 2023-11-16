@@ -1,0 +1,8444 @@
+[
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "DET",
+    "away": "POR",
+    "awayPts": "110",
+    "homePts": "101"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "TOR",
+    "away": "MIL",
+    "awayPts": "111",
+    "homePts": "130"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "ATL",
+    "away": "WAS",
+    "awayPts": "121",
+    "homePts": "130"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "BOS",
+    "away": "IND",
+    "awayPts": "104",
+    "homePts": "155"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "MIA",
+    "away": "BKL",
+    "awayPts": "109",
+    "homePts": "105"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "NYK",
+    "away": "CLE",
+    "awayPts": "95",
+    "homePts": "89"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "OKC",
+    "away": "NOP",
+    "awayPts": "110",
+    "homePts": "106"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "HOU",
+    "away": "CHO",
+    "awayPts": "119",
+    "homePts": "128"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "MIN",
+    "away": "DEN",
+    "awayPts": "89",
+    "homePts": "110"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "DAL",
+    "away": "CHI",
+    "awayPts": "105",
+    "homePts": "114"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "UTA",
+    "away": "MEM",
+    "awayPts": "109",
+    "homePts": "133"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "GSW",
+    "away": "SAC",
+    "awayPts": "101",
+    "homePts": "102"
+  },
+  {
+    "date": "Wed, Nov 1, 2023",
+    "home": "LAL",
+    "away": "LAC",
+    "awayPts": "125",
+    "homePts": "130"
+  },
+  {
+    "date": "Thu, Nov 2, 2023",
+    "home": "PHI",
+    "away": "TOR",
+    "awayPts": "99",
+    "homePts": "114"
+  },
+  {
+    "date": "Thu, Nov 2, 2023",
+    "home": "NOP",
+    "away": "DET",
+    "awayPts": "116",
+    "homePts": "125"
+  },
+  {
+    "date": "Thu, Nov 2, 2023",
+    "home": "UTA",
+    "away": "ORL",
+    "awayPts": "115",
+    "homePts": "113"
+  },
+  {
+    "date": "Thu, Nov 2, 2023",
+    "home": "PHO",
+    "away": "SAS",
+    "awayPts": "132",
+    "homePts": "121"
+  },
+  {
+    "date": "Fri, Nov 3, 2023",
+    "home": "IND",
+    "away": "CLE",
+    "awayPts": "116",
+    "homePts": "121"
+  },
+  {
+    "date": "Fri, Nov 3, 2023",
+    "home": "MIL",
+    "away": "NYK",
+    "awayPts": "105",
+    "homePts": "110"
+  },
+  {
+    "date": "Fri, Nov 3, 2023",
+    "home": "CHI",
+    "away": "BKL",
+    "awayPts": "109",
+    "homePts": "107"
+  },
+  {
+    "date": "Fri, Nov 3, 2023",
+    "home": "MIA",
+    "away": "WAS",
+    "awayPts": "114",
+    "homePts": "121"
+  },
+  {
+    "date": "Fri, Nov 3, 2023",
+    "home": "OKC",
+    "away": "GSW",
+    "awayPts": "141",
+    "homePts": "139"
+  },
+  {
+    "date": "Fri, Nov 3, 2023",
+    "home": "DEN",
+    "away": "DAL",
+    "awayPts": "114",
+    "homePts": "125"
+  },
+  {
+    "date": "Fri, Nov 3, 2023",
+    "home": "POR",
+    "away": "MEM",
+    "awayPts": "113",
+    "homePts": "115"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "PHI",
+    "away": "PHO",
+    "awayPts": "100",
+    "homePts": "112"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "IND",
+    "away": "CHO",
+    "awayPts": "125",
+    "homePts": "124"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "NOP",
+    "away": "ATL",
+    "awayPts": "123",
+    "homePts": "105"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "ORL",
+    "away": "LAL",
+    "awayPts": "101",
+    "homePts": "120"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "BKL",
+    "away": "BOS",
+    "awayPts": "124",
+    "homePts": "114"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "HOU",
+    "away": "SAC",
+    "awayPts": "89",
+    "homePts": "107"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "MIN",
+    "away": "UTA",
+    "awayPts": "95",
+    "homePts": "123"
+  },
+  {
+    "date": "Sat, Nov 4, 2023",
+    "home": "DEN",
+    "away": "CHI",
+    "awayPts": "101",
+    "homePts": "123"
+  },
+  {
+    "date": "Sun, Nov 5, 2023",
+    "home": "DET",
+    "away": "PHO",
+    "awayPts": "120",
+    "homePts": "106"
+  },
+  {
+    "date": "Sun, Nov 5, 2023",
+    "home": "SAS",
+    "away": "TOR",
+    "awayPts": "123",
+    "homePts": "116"
+  },
+  {
+    "date": "Sun, Nov 5, 2023",
+    "home": "CLE",
+    "away": "GSW",
+    "awayPts": "104",
+    "homePts": "115"
+  },
+  {
+    "date": "Sun, Nov 5, 2023",
+    "home": "DAL",
+    "away": "CHO",
+    "awayPts": "118",
+    "homePts": "124"
+  },
+  {
+    "date": "Sun, Nov 5, 2023",
+    "home": "POR",
+    "away": "MEM",
+    "awayPts": "112",
+    "homePts": "100"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "DET",
+    "away": "GSW",
+    "awayPts": "120",
+    "homePts": "109"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "IND",
+    "away": "SAS",
+    "awayPts": "111",
+    "homePts": "152"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "ORL",
+    "away": "DAL",
+    "awayPts": "117",
+    "homePts": "102"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "PHI",
+    "away": "WAS",
+    "awayPts": "128",
+    "homePts": "146"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "BKL",
+    "away": "MIL",
+    "awayPts": "129",
+    "homePts": "125"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "MIA",
+    "away": "LAL",
+    "awayPts": "107",
+    "homePts": "108"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "NYK",
+    "away": "LAC",
+    "awayPts": "97",
+    "homePts": "111"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "CHI",
+    "away": "UTA",
+    "awayPts": "113",
+    "homePts": "130"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "HOU",
+    "away": "SAC",
+    "awayPts": "97",
+    "homePts": "122"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "MIN",
+    "away": "BOS",
+    "awayPts": "109",
+    "homePts": "114"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "OKC",
+    "away": "ATL",
+    "awayPts": "117",
+    "homePts": "126"
+  },
+  {
+    "date": "Mon, Nov 6, 2023",
+    "home": "DEN",
+    "away": "NOP",
+    "awayPts": "116",
+    "homePts": "134"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "CHO",
+    "away": "WAS",
+    "awayPts": "132",
+    "homePts": "116"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "IND",
+    "away": "UTA",
+    "awayPts": "118",
+    "homePts": "134"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "PHI",
+    "away": "BOS",
+    "awayPts": "103",
+    "homePts": "106"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "BKL",
+    "away": "LAC",
+    "awayPts": "93",
+    "homePts": "100"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "NYK",
+    "away": "SAS",
+    "awayPts": "105",
+    "homePts": "126"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "CHI",
+    "away": "PHO",
+    "awayPts": "116",
+    "homePts": "115"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "HOU",
+    "away": "LAL",
+    "awayPts": "94",
+    "homePts": "128"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "MEM",
+    "away": "MIA",
+    "awayPts": "108",
+    "homePts": "102"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "MIL",
+    "away": "DET",
+    "awayPts": "118",
+    "homePts": "120"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "MIN",
+    "away": "NOP",
+    "awayPts": "101",
+    "homePts": "122"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "OKC",
+    "away": "CLE",
+    "awayPts": "120",
+    "homePts": "128"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "DAL",
+    "away": "TOR",
+    "awayPts": "127",
+    "homePts": "116"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "DEN",
+    "away": "GSW",
+    "awayPts": "105",
+    "homePts": "108"
+  },
+  {
+    "date": "Wed, Nov 8, 2023",
+    "home": "SAC",
+    "away": "POR",
+    "awayPts": "118",
+    "homePts": "121"
+  },
+  {
+    "date": "Thu, Nov 9, 2023",
+    "home": "IND",
+    "away": "MIL",
+    "awayPts": "124",
+    "homePts": "126"
+  },
+  {
+    "date": "Thu, Nov 9, 2023",
+    "home": "ORL",
+    "away": "ATL",
+    "awayPts": "120",
+    "homePts": "119"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "DET",
+    "away": "PHI",
+    "awayPts": "114",
+    "homePts": "106"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "WAS",
+    "away": "CHO",
+    "awayPts": "124",
+    "homePts": "117"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "BOS",
+    "away": "BKL",
+    "awayPts": "107",
+    "homePts": "121"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "HOU",
+    "away": "NOP",
+    "awayPts": "101",
+    "homePts": "104"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "MEM",
+    "away": "UTA",
+    "awayPts": "127",
+    "homePts": "121"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "SAS",
+    "away": "MIN",
+    "awayPts": "117",
+    "homePts": "110"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "DAL",
+    "away": "LAC",
+    "awayPts": "126",
+    "homePts": "144"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "PHO",
+    "away": "LAL",
+    "awayPts": "122",
+    "homePts": "119"
+  },
+  {
+    "date": "Fri, Nov 10, 2023",
+    "home": "SAC",
+    "away": "OKC",
+    "awayPts": "98",
+    "homePts": "105"
+  },
+  {
+    "date": "Sat, Nov 11, 2023",
+    "home": "ORL",
+    "away": "MIL",
+    "awayPts": "97",
+    "homePts": "112"
+  },
+  {
+    "date": "Sat, Nov 11, 2023",
+    "home": "BOS",
+    "away": "TOR",
+    "awayPts": "94",
+    "homePts": "117"
+  },
+  {
+    "date": "Sat, Nov 11, 2023",
+    "home": "ATL",
+    "away": "MIA",
+    "awayPts": "117",
+    "homePts": "109"
+  },
+  {
+    "date": "Sat, Nov 11, 2023",
+    "home": "GSW",
+    "away": "CLE",
+    "awayPts": "118",
+    "homePts": "110"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "NYK",
+    "away": "CHO",
+    "awayPts": "107",
+    "homePts": "129"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "BKL",
+    "away": "WAS",
+    "awayPts": "94",
+    "homePts": "102"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "LAC",
+    "away": "MEM",
+    "awayPts": "105",
+    "homePts": "101"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "PHI",
+    "away": "IND",
+    "awayPts": "126",
+    "homePts": "137"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "CHI",
+    "away": "DET",
+    "awayPts": "108",
+    "homePts": "119"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "HOU",
+    "away": "DEN",
+    "awayPts": "104",
+    "homePts": "107"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "NOP",
+    "away": "DAL",
+    "awayPts": "136",
+    "homePts": "124"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "SAS",
+    "away": "MIA",
+    "awayPts": "118",
+    "homePts": "113"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "PHO",
+    "away": "OKC",
+    "awayPts": "111",
+    "homePts": "99"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "GSW",
+    "away": "MIN",
+    "awayPts": "116",
+    "homePts": "110"
+  },
+  {
+    "date": "Sun, Nov 12, 2023",
+    "home": "LAL",
+    "away": "POR",
+    "awayPts": "110",
+    "homePts": "116"
+  },
+  {
+    "date": "Mon, Nov 13, 2023",
+    "home": "BOS",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 13, 2023",
+    "home": "TOR",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 13, 2023",
+    "home": "MIL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 13, 2023",
+    "home": "SAC",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "CHO",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "DET",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "PHI",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "BKL",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "OKC",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "NOP",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "UTA",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "DEN",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "GSW",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 14, 2023",
+    "home": "LAL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "WAS",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "ATL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "PHI",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "TOR",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "CHI",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "PHO",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "LAL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 15, 2023",
+    "home": "POR",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 16, 2023",
+    "home": "MIA",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 16, 2023",
+    "home": "GSW",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "CHO",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "WAS",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "ATL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "CLE",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "SAS",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "TOR",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "CHI",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "NOP",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "POR",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "UTA",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 17, 2023",
+    "home": "LAC",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 18, 2023",
+    "home": "CHO",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 18, 2023",
+    "home": "NOP",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 18, 2023",
+    "home": "CHI",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 18, 2023",
+    "home": "MIL",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 18, 2023",
+    "home": "SAS",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 18, 2023",
+    "home": "GSW",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "BKL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "TOR",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "IND",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "CLE",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "DAL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "MEM",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "UTA",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "POR",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 19, 2023",
+    "home": "LAL",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "CHO",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "DET",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "WAS",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "CHI",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "MIN",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "NOP",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "SAS",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 20, 2023",
+    "home": "GSW",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 21, 2023",
+    "home": "ORL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 21, 2023",
+    "home": "ATL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 21, 2023",
+    "home": "PHI",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 21, 2023",
+    "home": "PHO",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 21, 2023",
+    "home": "LAL",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "CHO",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "ORL",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "ATL",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "BOS",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "CLE",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "IND",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "HOU",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "MIN",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "NOP",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "OKC",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "SAS",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "PHO",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "POR",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 22, 2023",
+    "home": "LAL",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "ORL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "MEM",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "NYK",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "TOR",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "HOU",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "IND",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "MIL",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "MIN",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "GSW",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Nov 24, 2023",
+    "home": "LAC",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 25, 2023",
+    "home": "OKC",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 25, 2023",
+    "home": "BKL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 25, 2023",
+    "home": "WAS",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 25, 2023",
+    "home": "CLE",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 25, 2023",
+    "home": "UTA",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Nov 25, 2023",
+    "home": "LAC",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "MIL",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "BOS",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "MEM",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "NYK",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "ORL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "BKL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "CLE",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Nov 26, 2023",
+    "home": "DEN",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 27, 2023",
+    "home": "DET",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 27, 2023",
+    "home": "IND",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 27, 2023",
+    "home": "PHI",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 27, 2023",
+    "home": "UTA",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Nov 27, 2023",
+    "home": "LAC",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "BOS",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "BKL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "CLE",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "MIA",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "NYK",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "MIN",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "DAL",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Nov 28, 2023",
+    "home": "SAC",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 29, 2023",
+    "home": "DET",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 29, 2023",
+    "home": "ORL",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 29, 2023",
+    "home": "TOR",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 29, 2023",
+    "home": "MEM",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 29, 2023",
+    "home": "NOP",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 29, 2023",
+    "home": "DEN",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Nov 29, 2023",
+    "home": "SAC",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "CLE",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "BKL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "MIA",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "NYK",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "CHI",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "MIN",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "OKC",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "SAS",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Nov 30, 2023",
+    "home": "GSW",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "",
+    "home": null,
+    "away": null,
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Apr 1, 2024",
+    "home": "CHO",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Apr 1, 2024",
+    "home": "DET",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Apr 1, 2024",
+    "home": "IND",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Apr 1, 2024",
+    "home": "ORL",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Apr 1, 2024",
+    "home": "CHI",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Apr 1, 2024",
+    "home": "NOP",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "PHI",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "TOR",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "WAS",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "DAL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "MIA",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "MIN",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "DEN",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "UTA",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 2, 2024",
+    "home": "SAC",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "CHO",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "WAS",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "ATL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "BOS",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "BKL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "MIL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "MIN",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "NOP",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 3, 2024",
+    "home": "PHO",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 4, 2024",
+    "home": "MIA",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 4, 2024",
+    "home": "NYK",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 4, 2024",
+    "home": "HOU",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 4, 2024",
+    "home": "LAC",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "CHO",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "IND",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "WAS",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "BOS",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "CHI",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "HOU",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "MEM",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "MIL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "NOP",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "DAL",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "PHO",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 5, 2024",
+    "home": "LAC",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Apr 6, 2024",
+    "home": "LAL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Apr 6, 2024",
+    "home": "BKL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Apr 6, 2024",
+    "home": "MEM",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Apr 6, 2024",
+    "home": "DEN",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "DAL",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "LAC",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "IND",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "BOS",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "CHO",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "ORL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "PHO",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "TOR",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "MIL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "SAS",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "BKL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "GSW",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 7, 2024",
+    "home": "LAL",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "CHO",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "PHI",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "TOR",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "ATL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "MIL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "CHI",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "HOU",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "MEM",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "MIN",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "OKC",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "UTA",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "LAL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "PHO",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Apr 9, 2024",
+    "home": "POR",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "CLE",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "ATL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "BKL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "MIA",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "MIL",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "OKC",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "DEN",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Apr 10, 2024",
+    "home": "LAC",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 11, 2024",
+    "home": "DET",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 11, 2024",
+    "home": "BOS",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 11, 2024",
+    "home": "UTA",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 11, 2024",
+    "home": "POR",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Apr 11, 2024",
+    "home": "SAC",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "PHI",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "WAS",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "BOS",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "CLE",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "NYK",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "MEM",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "MIA",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "MIN",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "OKC",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "SAS",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "DAL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "GSW",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "POR",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "LAC",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Apr 12, 2024",
+    "home": "SAC",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "BOS",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "CLE",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "IND",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "MIA",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "NYK",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "ORL",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "PHI",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "GSW",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "LAC",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "MEM",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "MIN",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "NOP",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "OKC",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "SAC",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Apr 14, 2024",
+    "home": "SAS",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "",
+    "home": null,
+    "away": null,
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 1, 2024",
+    "home": "BOS",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 1, 2024",
+    "home": "NYK",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 1, 2024",
+    "home": "UTA",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 1, 2024",
+    "home": "MEM",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "DET",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "WAS",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "ATL",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "IND",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "HOU",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "MEM",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "MIN",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "OKC",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "SAS",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 2, 2024",
+    "home": "DEN",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 3, 2024",
+    "home": "PHI",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 3, 2024",
+    "home": "ATL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 3, 2024",
+    "home": "CHI",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 3, 2024",
+    "home": "DAL",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 3, 2024",
+    "home": "NYK",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 3, 2024",
+    "home": "SAS",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "DET",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "WAS",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "BOS",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "CHO",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "MIA",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "MIN",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "OKC",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "UTA",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 4, 2024",
+    "home": "DEN",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 5, 2024",
+    "home": "CHO",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 5, 2024",
+    "home": "CLE",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 5, 2024",
+    "home": "PHI",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 5, 2024",
+    "home": "ATL",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 5, 2024",
+    "home": "BKL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 5, 2024",
+    "home": "NOP",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 6, 2024",
+    "home": "IND",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 6, 2024",
+    "home": "BKL",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 6, 2024",
+    "home": "MIA",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 6, 2024",
+    "home": "NYK",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 6, 2024",
+    "home": "CHI",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 6, 2024",
+    "home": "UTA",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 6, 2024",
+    "home": "PHO",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 7, 2024",
+    "home": "CHO",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 7, 2024",
+    "home": "PHI",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 7, 2024",
+    "home": "WAS",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 7, 2024",
+    "home": "BOS",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 7, 2024",
+    "home": "MIA",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 7, 2024",
+    "home": "LAC",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 7, 2024",
+    "home": "SAC",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "IND",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "ORL",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "BKL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "NYK",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "MEM",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "MIL",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "PHO",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "LAL",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 8, 2024",
+    "home": "POR",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 9, 2024",
+    "home": "PHI",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 9, 2024",
+    "home": "BOS",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 9, 2024",
+    "home": "TOR",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 9, 2024",
+    "home": "MIL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 9, 2024",
+    "home": "SAC",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 9, 2024",
+    "home": "LAL",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "DAL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "LAC",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "BKL",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "CHO",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "ORL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "WAS",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "ATL",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "NYK",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "TOR",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "GSW",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 10, 2024",
+    "home": "POR",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 11, 2024",
+    "home": "MIA",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 11, 2024",
+    "home": "OKC",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "CHO",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "CLE",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "ATL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "TOR",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "HOU",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "MEM",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "MIL",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "DAL",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "UTA",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 12, 2024",
+    "home": "LAC",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 13, 2024",
+    "home": "BKL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 13, 2024",
+    "home": "ORL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 13, 2024",
+    "home": "MIL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 13, 2024",
+    "home": "PHO",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 13, 2024",
+    "home": "POR",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 13, 2024",
+    "home": "LAL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "CHO",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "ORL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "PHI",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "BOS",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "CLE",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "TOR",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "MEM",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "NOP",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "DAL",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "DEN",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "PHO",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "UTA",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 14, 2024",
+    "home": "GSW",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 15, 2024",
+    "home": "MEM",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 15, 2024",
+    "home": "POR",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "CLE",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "IND",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "PHI",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "TOR",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "DAL",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "CHI",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "NOP",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "OKC",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "DEN",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "UTA",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "GSW",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 22, 2024",
+    "home": "SAC",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "ATL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "PHI",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "HOU",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "MEM",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "MIN",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "OKC",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "GSW",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "NOP",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "POR",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Feb 23, 2024",
+    "home": "LAL",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 24, 2024",
+    "home": "DET",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 24, 2024",
+    "home": "MIN",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Feb 24, 2024",
+    "home": "NYK",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "PHI",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "PHO",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "IND",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "WAS",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "ATL",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "GSW",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "HOU",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "NOP",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "UTA",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "POR",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Feb 25, 2024",
+    "home": "LAC",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 26, 2024",
+    "home": "DET",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 26, 2024",
+    "home": "IND",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 26, 2024",
+    "home": "MEM",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Feb 26, 2024",
+    "home": "SAC",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "CLE",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "ORL",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "WAS",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "ATL",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "BOS",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "MIN",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "NYK",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "CHI",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "MIL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "OKC",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Feb 27, 2024",
+    "home": "POR",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 28, 2024",
+    "home": "IND",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 28, 2024",
+    "home": "MIN",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 28, 2024",
+    "home": "TOR",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 28, 2024",
+    "home": "CHI",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 28, 2024",
+    "home": "DEN",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Feb 28, 2024",
+    "home": "LAC",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "CHO",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "ORL",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "BKL",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "NYK",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "SAS",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "PHO",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "DEN",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Feb 29, 2024",
+    "home": "LAL",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "",
+    "home": null,
+    "away": null,
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Oct 24, 2023",
+    "home": "DEN",
+    "away": "LAL",
+    "awayPts": "107",
+    "homePts": "119"
+  },
+  {
+    "date": "Tue, Oct 24, 2023",
+    "home": "GSW",
+    "away": "PHO",
+    "awayPts": "108",
+    "homePts": "104"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "ORL",
+    "away": "HOU",
+    "awayPts": "86",
+    "homePts": "116"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "NYK",
+    "away": "BOS",
+    "awayPts": "108",
+    "homePts": "104"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "IND",
+    "away": "WAS",
+    "awayPts": "120",
+    "homePts": "143"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "CHO",
+    "away": "ATL",
+    "awayPts": "110",
+    "homePts": "116"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "MIA",
+    "away": "DET",
+    "awayPts": "102",
+    "homePts": "103"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "TOR",
+    "away": "MIN",
+    "awayPts": "94",
+    "homePts": "97"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "BKL",
+    "away": "CLE",
+    "awayPts": "114",
+    "homePts": "113"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "MEM",
+    "away": "NOP",
+    "awayPts": "111",
+    "homePts": "104"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "CHI",
+    "away": "OKC",
+    "awayPts": "124",
+    "homePts": "104"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "UTA",
+    "away": "SAC",
+    "awayPts": "130",
+    "homePts": "114"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "SAS",
+    "away": "DAL",
+    "awayPts": "126",
+    "homePts": "119"
+  },
+  {
+    "date": "Wed, Oct 25, 2023",
+    "home": "LAC",
+    "away": "POR",
+    "awayPts": "111",
+    "homePts": "123"
+  },
+  {
+    "date": "Thu, Oct 26, 2023",
+    "home": "MIL",
+    "away": "PHI",
+    "awayPts": "117",
+    "homePts": "118"
+  },
+  {
+    "date": "Thu, Oct 26, 2023",
+    "home": "LAL",
+    "away": "PHO",
+    "awayPts": "95",
+    "homePts": "100"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "MEM",
+    "away": "DEN",
+    "awayPts": "108",
+    "homePts": "104"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "CHO",
+    "away": "DET",
+    "awayPts": "111",
+    "homePts": "99"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "ATL",
+    "away": "NYK",
+    "awayPts": "126",
+    "homePts": "120"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "CLE",
+    "away": "OKC",
+    "awayPts": "108",
+    "homePts": "105"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "BOS",
+    "away": "MIA",
+    "awayPts": "111",
+    "homePts": "119"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "CHI",
+    "away": "TOR",
+    "awayPts": "103",
+    "homePts": "104"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "SAS",
+    "away": "HOU",
+    "awayPts": "122",
+    "homePts": "126"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "DAL",
+    "away": "BKL",
+    "awayPts": "120",
+    "homePts": "125"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "UTA",
+    "away": "LAC",
+    "awayPts": "118",
+    "homePts": "120"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "POR",
+    "away": "ORL",
+    "awayPts": "102",
+    "homePts": "97"
+  },
+  {
+    "date": "Fri, Oct 27, 2023",
+    "home": "SAC",
+    "away": "GSW",
+    "awayPts": "122",
+    "homePts": "114"
+  },
+  {
+    "date": "Sat, Oct 28, 2023",
+    "home": "DET",
+    "away": "CHI",
+    "awayPts": "102",
+    "homePts": "118"
+  },
+  {
+    "date": "Sat, Oct 28, 2023",
+    "home": "WAS",
+    "away": "MEM",
+    "awayPts": "106",
+    "homePts": "113"
+  },
+  {
+    "date": "Sat, Oct 28, 2023",
+    "home": "NOP",
+    "away": "NYK",
+    "awayPts": "87",
+    "homePts": "96"
+  },
+  {
+    "date": "Sat, Oct 28, 2023",
+    "home": "CLE",
+    "away": "IND",
+    "awayPts": "125",
+    "homePts": "113"
+  },
+  {
+    "date": "Sat, Oct 28, 2023",
+    "home": "TOR",
+    "away": "PHI",
+    "awayPts": "114",
+    "homePts": "107"
+  },
+  {
+    "date": "Sat, Oct 28, 2023",
+    "home": "MIN",
+    "away": "MIA",
+    "awayPts": "90",
+    "homePts": "106"
+  },
+  {
+    "date": "Sat, Oct 28, 2023",
+    "home": "PHO",
+    "away": "UTA",
+    "awayPts": "104",
+    "homePts": "126"
+  },
+  {
+    "date": "Sun, Oct 29, 2023",
+    "home": "OKC",
+    "away": "DEN",
+    "awayPts": "128",
+    "homePts": "95"
+  },
+  {
+    "date": "Sun, Oct 29, 2023",
+    "home": "HOU",
+    "away": "GSW",
+    "awayPts": "106",
+    "homePts": "95"
+  },
+  {
+    "date": "Sun, Oct 29, 2023",
+    "home": "MIL",
+    "away": "ATL",
+    "awayPts": "127",
+    "homePts": "110"
+  },
+  {
+    "date": "Sun, Oct 29, 2023",
+    "home": "PHI",
+    "away": "POR",
+    "awayPts": "98",
+    "homePts": "126"
+  },
+  {
+    "date": "Sun, Oct 29, 2023",
+    "home": "LAC",
+    "away": "SAS",
+    "awayPts": "83",
+    "homePts": "123"
+  },
+  {
+    "date": "Sun, Oct 29, 2023",
+    "home": "SAC",
+    "away": "LAL",
+    "awayPts": "127",
+    "homePts": "132"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "IND",
+    "away": "CHI",
+    "awayPts": "112",
+    "homePts": "105"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "WAS",
+    "away": "BOS",
+    "awayPts": "126",
+    "homePts": "107"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "CHO",
+    "away": "BKL",
+    "awayPts": "133",
+    "homePts": "121"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "TOR",
+    "away": "POR",
+    "awayPts": "99",
+    "homePts": "91"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "ATL",
+    "away": "MIN",
+    "awayPts": "113",
+    "homePts": "127"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "MEM",
+    "away": "DAL",
+    "awayPts": "125",
+    "homePts": "110"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "MIL",
+    "away": "MIA",
+    "awayPts": "114",
+    "homePts": "122"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "NOP",
+    "away": "GSW",
+    "awayPts": "130",
+    "homePts": "102"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "OKC",
+    "away": "DET",
+    "awayPts": "112",
+    "homePts": "124"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "DEN",
+    "away": "UTA",
+    "awayPts": "102",
+    "homePts": "110"
+  },
+  {
+    "date": "Mon, Oct 30, 2023",
+    "home": "LAL",
+    "away": "ORL",
+    "awayPts": "103",
+    "homePts": "106"
+  },
+  {
+    "date": "Tue, Oct 31, 2023",
+    "home": "CLE",
+    "away": "NYK",
+    "awayPts": "109",
+    "homePts": "91"
+  },
+  {
+    "date": "Tue, Oct 31, 2023",
+    "home": "PHO",
+    "away": "SAS",
+    "awayPts": "115",
+    "homePts": "114"
+  },
+  {
+    "date": "Tue, Oct 31, 2023",
+    "home": "LAC",
+    "away": "ORL",
+    "awayPts": "102",
+    "homePts": "118"
+  },
+  {
+    "date": "",
+    "home": null,
+    "away": null,
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "DET",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "PHI",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "BOS",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "TOR",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "MEM",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "MIN",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "NOP",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "CHI",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 1, 2024",
+    "home": "LAC",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 2, 2024",
+    "home": "BKL",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 2, 2024",
+    "home": "MIA",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 2, 2024",
+    "home": "MEM",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 2, 2024",
+    "home": "LAL",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 2, 2024",
+    "home": "PHO",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "DAL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "BOS",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "MIN",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "ORL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "TOR",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "CLE",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "SAS",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 3, 2024",
+    "home": "PHO",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 4, 2024",
+    "home": "BKL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 4, 2024",
+    "home": "MIL",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 4, 2024",
+    "home": "MIN",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 4, 2024",
+    "home": "UTA",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 4, 2024",
+    "home": "SAC",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 4, 2024",
+    "home": "LAL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "CHO",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "CLE",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "BKL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "MIA",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "NYK",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "TOR",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "HOU",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "DAL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 5, 2024",
+    "home": "DEN",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "WAS",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "ATL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "PHI",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "HOU",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "UTA",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "GSW",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "POR",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 6, 2024",
+    "home": "LAL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 7, 2024",
+    "home": "DET",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 7, 2024",
+    "home": "IND",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 7, 2024",
+    "home": "DAL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 7, 2024",
+    "home": "PHO",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 7, 2024",
+    "home": "DEN",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 7, 2024",
+    "home": "GSW",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 7, 2024",
+    "home": "SAC",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "PHI",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "WAS",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "CLE",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "MEM",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "NYK",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "OKC",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "LAL",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 8, 2024",
+    "home": "POR",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 9, 2024",
+    "home": "LAC",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 9, 2024",
+    "home": "CHO",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 9, 2024",
+    "home": "DET",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 9, 2024",
+    "home": "GSW",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 9, 2024",
+    "home": "PHO",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 9, 2024",
+    "home": "DEN",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 9, 2024",
+    "home": "POR",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "LAC",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "ATL",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "MIA",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "NYK",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "ORL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "SAC",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "CLE",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "OKC",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 10, 2024",
+    "home": "LAL",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 11, 2024",
+    "home": "DET",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 11, 2024",
+    "home": "CLE",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 11, 2024",
+    "home": "CHI",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 11, 2024",
+    "home": "SAS",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 11, 2024",
+    "home": "DEN",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 11, 2024",
+    "home": "POR",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 12, 2024",
+    "home": "NYK",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 12, 2024",
+    "home": "MEM",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 12, 2024",
+    "home": "OKC",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 12, 2024",
+    "home": "SAS",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 12, 2024",
+    "home": "UTA",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 12, 2024",
+    "home": "LAC",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 12, 2024",
+    "home": "SAC",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "DET",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "ORL",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "IND",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "MIA",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "MEM",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "NOP",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "DAL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "POR",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 13, 2024",
+    "home": "SAC",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 14, 2024",
+    "home": "BOS",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 14, 2024",
+    "home": "CHI",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 14, 2024",
+    "home": "HOU",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 14, 2024",
+    "home": "MIL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 14, 2024",
+    "home": "OKC",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 14, 2024",
+    "home": "POR",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 15, 2024",
+    "home": "CHO",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 15, 2024",
+    "home": "DET",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 15, 2024",
+    "home": "TOR",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 15, 2024",
+    "home": "NOP",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 15, 2024",
+    "home": "SAS",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 15, 2024",
+    "home": "UTA",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "HOU",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "IND",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "NOP",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "PHI",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "CHI",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "MEM",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "LAL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "UTA",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 16, 2024",
+    "home": "SAC",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 17, 2024",
+    "home": "MIL",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 17, 2024",
+    "home": "DET",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 17, 2024",
+    "home": "DAL",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 17, 2024",
+    "home": "ORL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 17, 2024",
+    "home": "WAS",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 17, 2024",
+    "home": "SAS",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 17, 2024",
+    "home": "LAC",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "IND",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "BOS",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "PHI",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "CHI",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "UTA",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "GSW",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "SAC",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 18, 2024",
+    "home": "LAL",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 19, 2024",
+    "home": "ORL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 19, 2024",
+    "home": "WAS",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 19, 2024",
+    "home": "BKL",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 19, 2024",
+    "home": "SAS",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 19, 2024",
+    "home": "MIN",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "CLE",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "DET",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "BOS",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "TOR",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "OKC",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "GSW",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "PHO",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 20, 2024",
+    "home": "POR",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 21, 2024",
+    "home": "ORL",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 21, 2024",
+    "home": "WAS",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 21, 2024",
+    "home": "HOU",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 21, 2024",
+    "home": "MIL",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 21, 2024",
+    "home": "DAL",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 21, 2024",
+    "home": "DEN",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 21, 2024",
+    "home": "PHO",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "DET",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "TOR",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "MIA",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "MIN",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "SAS",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "GSW",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "POR",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 22, 2024",
+    "home": "LAL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "NYK",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "ORL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "ATL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "CHI",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "HOU",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "SAS",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "WAS",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 23, 2024",
+    "home": "POR",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 24, 2024",
+    "home": "DET",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 24, 2024",
+    "home": "LAC",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 24, 2024",
+    "home": "MIA",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 24, 2024",
+    "home": "MIL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 24, 2024",
+    "home": "MIN",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 24, 2024",
+    "home": "LAL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "CLE",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "ATL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "NYK",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "TOR",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "CHI",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "HOU",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "SAS",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "DEN",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "UTA",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "SAC",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Mar 25, 2024",
+    "home": "LAC",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 26, 2024",
+    "home": "MIA",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 26, 2024",
+    "home": "MIL",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 26, 2024",
+    "home": "NOP",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Mar 26, 2024",
+    "home": "SAC",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "CHO",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "ORL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "WAS",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "ATL",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "PHI",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "TOR",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "CHI",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "MEM",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "MIN",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "OKC",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "UTA",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Mar 27, 2024",
+    "home": "DEN",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 28, 2024",
+    "home": "ATL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Mar 28, 2024",
+    "home": "NOP",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "CHO",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "IND",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "ORL",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "WAS",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "BKL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "CLE",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "MIA",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "OKC",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "SAS",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "DEN",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "UTA",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Mar 29, 2024",
+    "home": "SAC",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 30, 2024",
+    "home": "NOP",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 30, 2024",
+    "home": "ORL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Mar 30, 2024",
+    "home": "ATL",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "DEN",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "BKL",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "CHO",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "TOR",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "WAS",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "HOU",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "MIN",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "NYK",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "SAS",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Mar 31, 2024",
+    "home": "SAC",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "",
+    "home": null,
+    "away": null,
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 1, 2023",
+    "home": "ORL",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 1, 2023",
+    "home": "BOS",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 1, 2023",
+    "home": "DAL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 1, 2023",
+    "home": "TOR",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 1, 2023",
+    "home": "NOP",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 1, 2023",
+    "home": "PHO",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "LAC",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "CHO",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "BKL",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "DET",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "CHI",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "MIA",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "MIL",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "DAL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "PHO",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "UTA",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "SAC",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 2, 2023",
+    "home": "LAL",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "CHO",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "DET",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "ORL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "PHI",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "ATL",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "NYK",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "HOU",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "MEM",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "MIL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "NOP",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "OKC",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "SAC",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 11, 2023",
+    "home": "LAC",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 12, 2023",
+    "home": "BOS",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 12, 2023",
+    "home": "DAL",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 12, 2023",
+    "home": "CHI",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 12, 2023",
+    "home": "PHO",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 12, 2023",
+    "home": "LAC",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "DET",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "WAS",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "MIA",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "TOR",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "HOU",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "MIL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "SAS",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "PHO",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 13, 2023",
+    "home": "UTA",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 14, 2023",
+    "home": "BOS",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 14, 2023",
+    "home": "MIA",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 14, 2023",
+    "home": "DAL",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 14, 2023",
+    "home": "DEN",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 14, 2023",
+    "home": "POR",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 14, 2023",
+    "home": "SAC",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 14, 2023",
+    "home": "LAC",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "CHO",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "PHI",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "WAS",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "BOS",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "SAS",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "TOR",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "MEM",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 15, 2023",
+    "home": "PHO",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "MIL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "CHO",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "CLE",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "MIA",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "MIN",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "GSW",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "DEN",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "POR",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "SAC",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 16, 2023",
+    "home": "LAC",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 17, 2023",
+    "home": "BOS",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 17, 2023",
+    "home": "SAS",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 17, 2023",
+    "home": "MIL",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 17, 2023",
+    "home": "PHO",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 17, 2023",
+    "home": "POR",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "CLE",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "IND",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "PHI",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "ATL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "MIA",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "TOR",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "OKC",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "DEN",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "UTA",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "SAC",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 18, 2023",
+    "home": "LAL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 19, 2023",
+    "home": "NOP",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 19, 2023",
+    "home": "MIL",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 19, 2023",
+    "home": "GSW",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 19, 2023",
+    "home": "POR",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "CLE",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "IND",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "ORL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "PHI",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "BKL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "TOR",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "CHI",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "HOU",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "DAL",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 20, 2023",
+    "home": "SAC",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "DET",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "CLE",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "CHI",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "MEM",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "MIL",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "OKC",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "MIN",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 21, 2023",
+    "home": "POR",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 22, 2023",
+    "home": "BKL",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 22, 2023",
+    "home": "PHI",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 22, 2023",
+    "home": "HOU",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 22, 2023",
+    "home": "MIA",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 22, 2023",
+    "home": "GSW",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 22, 2023",
+    "home": "SAC",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "NYK",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "LAC",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "CHO",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "IND",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "NOP",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "ATL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "BKL",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "TOR",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "CHI",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "OKC",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "DAL",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "GSW",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 23, 2023",
+    "home": "SAC",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 25, 2023",
+    "home": "NYK",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 25, 2023",
+    "home": "DEN",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 25, 2023",
+    "home": "LAL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 25, 2023",
+    "home": "MIA",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Dec 25, 2023",
+    "home": "PHO",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "DET",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "WAS",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "CHI",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "HOU",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "NOP",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "OKC",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "SAS",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "POR",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Dec 26, 2023",
+    "home": "LAC",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 27, 2023",
+    "home": "ORL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 27, 2023",
+    "home": "WAS",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 27, 2023",
+    "home": "BKL",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 27, 2023",
+    "home": "HOU",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 27, 2023",
+    "home": "OKC",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Dec 27, 2023",
+    "home": "DAL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "BOS",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "CHI",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "MIN",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "NOP",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "DEN",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "GSW",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "POR",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Dec 28, 2023",
+    "home": "LAL",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "ORL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "WAS",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "ATL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "BOS",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "CLE",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "HOU",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "DEN",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "PHO",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "POR",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Dec 29, 2023",
+    "home": "LAC",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 30, 2023",
+    "home": "UTA",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 30, 2023",
+    "home": "DET",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 30, 2023",
+    "home": "IND",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 30, 2023",
+    "home": "CHI",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 30, 2023",
+    "home": "MIN",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Dec 30, 2023",
+    "home": "GSW",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 31, 2023",
+    "home": "WAS",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 31, 2023",
+    "home": "NOP",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 31, 2023",
+    "home": "OKC",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 31, 2023",
+    "home": "SAS",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 31, 2023",
+    "home": "MEM",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Dec 31, 2023",
+    "home": "PHO",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "",
+    "home": null,
+    "away": null,
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "NYK",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "TOR",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "HOU",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "MIL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "DEN",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "PHO",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "UTA",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 1, 2024",
+    "home": "LAC",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 2, 2024",
+    "home": "PHI",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 2, 2024",
+    "home": "MEM",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 2, 2024",
+    "home": "NOP",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 2, 2024",
+    "home": "OKC",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 2, 2024",
+    "home": "GSW",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 2, 2024",
+    "home": "SAC",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "CLE",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "IND",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "ATL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "HOU",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "MEM",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "MIN",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "DAL",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "NYK",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "PHO",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "UTA",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "LAL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 3, 2024",
+    "home": "SAC",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 4, 2024",
+    "home": "SAS",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 4, 2024",
+    "home": "GSW",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "BOS",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "IND",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "BKL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "CLE",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "PHI",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "CHI",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "HOU",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "NOP",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "DAL",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "DEN",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "PHO",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "GSW",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "LAL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 5, 2024",
+    "home": "SAC",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 6, 2024",
+    "home": "IND",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 6, 2024",
+    "home": "WAS",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 6, 2024",
+    "home": "PHI",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 6, 2024",
+    "home": "HOU",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "CLE",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "BKL",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "ORL",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "SAC",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "DAL",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "DEN",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "PHO",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "GSW",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 7, 2024",
+    "home": "LAL",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 8, 2024",
+    "home": "CHO",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 8, 2024",
+    "home": "IND",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 8, 2024",
+    "home": "WAS",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 8, 2024",
+    "home": "MIA",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 8, 2024",
+    "home": "MIL",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 8, 2024",
+    "home": "LAC",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 9, 2024",
+    "home": "DET",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 9, 2024",
+    "home": "ORL",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 9, 2024",
+    "home": "NYK",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 9, 2024",
+    "home": "DAL",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 9, 2024",
+    "home": "LAL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "BOS",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "CHO",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "DET",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "IND",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "ATL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "MIA",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "CHI",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "GSW",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "UTA",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 10, 2024",
+    "home": "LAC",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 11, 2024",
+    "home": "CLE",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 11, 2024",
+    "home": "MIL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 11, 2024",
+    "home": "OKC",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 11, 2024",
+    "home": "DAL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 11, 2024",
+    "home": "LAL",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "PHI",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "ATL",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "DET",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "CHI",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "MEM",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "MIA",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "MIN",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "DEN",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "UTA",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 12, 2024",
+    "home": "SAS",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "BOS",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "ATL",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "MEM",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "MIL",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "OKC",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "DAL",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "SAS",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 13, 2024",
+    "home": "UTA",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 14, 2024",
+    "home": "DEN",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 14, 2024",
+    "home": "MIA",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 14, 2024",
+    "home": "MIL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 14, 2024",
+    "home": "MIN",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 14, 2024",
+    "home": "POR",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "PHI",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "DAL",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "NYK",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "WAS",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "ATL",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "MEM",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "CLE",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "BKL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "TOR",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "UTA",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 15, 2024",
+    "home": "LAL",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 16, 2024",
+    "home": "PHI",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 16, 2024",
+    "home": "PHO",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 16, 2024",
+    "home": "LAC",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "DET",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "ATL",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "BOS",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "CLE",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "NYK",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "TOR",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "NOP",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "LAL",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "UTA",
+    "away": "GSW",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 17, 2024",
+    "home": "POR",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 18, 2024",
+    "home": "NYK",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 18, 2024",
+    "home": "TOR",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 18, 2024",
+    "home": "UTA",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 18, 2024",
+    "home": "MIN",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 18, 2024",
+    "home": "SAC",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "CHO",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "ORL",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "BOS",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "MIA",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "NOP",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "GSW",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "POR",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 19, 2024",
+    "home": "LAL",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "DET",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "CHO",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "WAS",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "ATL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "NYK",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "CHI",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "HOU",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 20, 2024",
+    "home": "MIN",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 21, 2024",
+    "home": "LAC",
+    "away": "BKL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 21, 2024",
+    "home": "ORL",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 21, 2024",
+    "home": "WAS",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 21, 2024",
+    "home": "HOU",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 21, 2024",
+    "home": "PHO",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 21, 2024",
+    "home": "LAL",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "DET",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "ORL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "PHI",
+    "away": "SAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "TOR",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "MIN",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "DAL",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "PHO",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 22, 2024",
+    "home": "SAC",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 23, 2024",
+    "home": "IND",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 23, 2024",
+    "home": "BKL",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 23, 2024",
+    "home": "NOP",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 23, 2024",
+    "home": "OKC",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 23, 2024",
+    "home": "LAC",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "DET",
+    "away": "CHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "WAS",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "MIA",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "HOU",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "MIL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "SAS",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "DAL",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 24, 2024",
+    "home": "GSW",
+    "away": "ATL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 25, 2024",
+    "home": "IND",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 25, 2024",
+    "home": "WAS",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 25, 2024",
+    "home": "BKL",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 25, 2024",
+    "home": "MIA",
+    "away": "BOS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 25, 2024",
+    "home": "NYK",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 25, 2024",
+    "home": "GSW",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Thu, Jan 25, 2024",
+    "home": "LAL",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "ATL",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "CHO",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "IND",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "TOR",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "MEM",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "MIL",
+    "away": "CLE",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "NOP",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Fri, Jan 26, 2024",
+    "home": "SAS",
+    "away": "POR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "DET",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "NYK",
+    "away": "MIA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "DEN",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "BKL",
+    "away": "HOU",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "BOS",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "CHO",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "MIL",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "GSW",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "SAS",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sat, Jan 27, 2024",
+    "home": "DAL",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 28, 2024",
+    "home": "IND",
+    "away": "MEM",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 28, 2024",
+    "home": "ATL",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 28, 2024",
+    "home": "DET",
+    "away": "OKC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 28, 2024",
+    "home": "ORL",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Sun, Jan 28, 2024",
+    "home": "POR",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "CHO",
+    "away": "NYK",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "CLE",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "BOS",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "BKL",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "MIA",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "HOU",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "MEM",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "OKC",
+    "away": "MIN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "SAS",
+    "away": "WAS",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "DAL",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "DEN",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Mon, Jan 29, 2024",
+    "home": "POR",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 30, 2024",
+    "home": "ATL",
+    "away": "LAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 30, 2024",
+    "home": "BOS",
+    "away": "IND",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 30, 2024",
+    "home": "NYK",
+    "away": "UTA",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 30, 2024",
+    "home": "CHI",
+    "away": "TOR",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Tue, Jan 30, 2024",
+    "home": "GSW",
+    "away": "PHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "CHO",
+    "away": "CHI",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "CLE",
+    "away": "DET",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "WAS",
+    "away": "LAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "MIA",
+    "away": "SAC",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "HOU",
+    "away": "NOP",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "MIN",
+    "away": "DAL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "OKC",
+    "away": "DEN",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "SAS",
+    "away": "ORL",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "BKL",
+    "away": "PHO",
+    "awayPts": "",
+    "homePts": ""
+  },
+  {
+    "date": "Wed, Jan 31, 2024",
+    "home": "POR",
+    "away": "MIL",
+    "awayPts": "",
+    "homePts": ""
+  }
+]

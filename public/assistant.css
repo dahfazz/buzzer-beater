@@ -1,0 +1,7 @@
+.animated-logo {
+  width: 28px;
+  aspect-ratio: 1;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

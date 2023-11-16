@@ -1,0 +1,812 @@
+{
+  "Atlanta Hawks": {
+    "PG": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "SG": {
+      "value": 24,
+      "hard": false,
+      "easy": true
+    },
+    "SF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    },
+    "C": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Brooklyn Nets": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 20,
+      "hard": true,
+      "easy": false
+    },
+    "SF": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    },
+    "PF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Boston Celtics": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 17,
+      "hard": true,
+      "easy": false
+    },
+    "C": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Charlotte Hornets": {
+    "PG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 24,
+      "hard": false,
+      "easy": true
+    },
+    "SF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 27,
+      "hard": false,
+      "easy": true
+    },
+    "C": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Chicago Bulls": {
+    "PG": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "SG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Cleveland Cavaliers": {
+    "PG": {
+      "value": 29,
+      "hard": false,
+      "easy": true
+    },
+    "SG": {
+      "value": 18,
+      "hard": true,
+      "easy": false
+    },
+    "SF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 20,
+      "hard": true,
+      "easy": false
+    },
+    "C": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Dallas Mavericks": {
+    "PG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 19,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 27,
+      "hard": false,
+      "easy": true
+    },
+    "C": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    }
+  },
+  "Denver Nuggets": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 20,
+      "hard": true,
+      "easy": false
+    },
+    "SF": {
+      "value": 19,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Detroit Pistons": {
+    "PG": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    },
+    "SG": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "C": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Golden State Warriors": {
+    "PG": {
+      "value": 25,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "PF": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 24,
+      "hard": false,
+      "easy": true
+    }
+  },
+  "Houston Rockets": {
+    "PG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "SF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 17,
+      "hard": true,
+      "easy": false
+    }
+  },
+  "Indiana Pacers": {
+    "PG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 23,
+      "hard": false,
+      "easy": true
+    },
+    "PF": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    },
+    "C": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    }
+  },
+  "Los Angeles Clippers": {
+    "PG": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 24,
+      "hard": false,
+      "easy": true
+    },
+    "PF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 17,
+      "hard": true,
+      "easy": false
+    }
+  },
+  "Los Angeles Lakers": {
+    "PG": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    },
+    "C": {
+      "value": 19,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Memphis Grizzlies": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Miami Heat": {
+    "PG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "PF": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    },
+    "C": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Milwaukee Bucks": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 24,
+      "hard": false,
+      "easy": true
+    },
+    "SF": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 19,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Minnesota Timberwolves": {
+    "PG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 17,
+      "hard": true,
+      "easy": false
+    },
+    "C": {
+      "value": 16,
+      "hard": true,
+      "easy": false
+    }
+  },
+  "New Orleans Pelicans": {
+    "PG": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    },
+    "SG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "C": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    }
+  },
+  "New York Knicks": {
+    "PG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 24,
+      "hard": false,
+      "easy": true
+    },
+    "SF": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 20,
+      "hard": true,
+      "easy": false
+    },
+    "C": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Oklahoma City Thunder": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    },
+    "SF": {
+      "value": 18,
+      "hard": true,
+      "easy": false
+    },
+    "PF": {
+      "value": 25,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Orlando Magic": {
+    "PG": {
+      "value": 27,
+      "hard": false,
+      "easy": true
+    },
+    "SG": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "SF": {
+      "value": 17,
+      "hard": true,
+      "easy": false
+    },
+    "PF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 19,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Philadelphia 76ers": {
+    "PG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 20,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Phoenix Suns": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "SF": {
+      "value": 19,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 25,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Portland Trail Blazers": {
+    "PG": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "SG": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    },
+    "SF": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "PF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    }
+  },
+  "Sacramento Kings": {
+    "PG": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "SG": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 25,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 18,
+      "hard": true,
+      "easy": false
+    }
+  },
+  "San Antonio Spurs": {
+    "PG": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    },
+    "SG": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    },
+    "SF": {
+      "value": 19,
+      "hard": true,
+      "easy": false
+    },
+    "PF": {
+      "value": 26,
+      "hard": false,
+      "easy": true
+    },
+    "C": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Toronto Raptors": {
+    "PG": {
+      "value": 18,
+      "hard": true,
+      "easy": false
+    },
+    "SG": {
+      "value": 18,
+      "hard": true,
+      "easy": false
+    },
+    "SF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "PF": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Utah Jazz": {
+    "PG": {
+      "value": 20,
+      "hard": true,
+      "easy": false
+    },
+    "SG": {
+      "value": 24,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 24,
+      "hard": false,
+      "easy": true
+    },
+    "PF": {
+      "value": 25,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    }
+  },
+  "Washington Wizards": {
+    "PG": {
+      "value": 23,
+      "hard": false,
+      "easy": false
+    },
+    "SG": {
+      "value": 21,
+      "hard": false,
+      "easy": false
+    },
+    "SF": {
+      "value": 25,
+      "hard": false,
+      "easy": true
+    },
+    "PF": {
+      "value": 22,
+      "hard": false,
+      "easy": false
+    },
+    "C": {
+      "value": 27,
+      "hard": false,
+      "easy": true
+    }
+  }
+}

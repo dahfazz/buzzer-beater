@@ -4,8 +4,6 @@ const dateFormat = require('dateformat');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const getRating = require('../rating.js')
-
 const DATES = [];
 const GAMES = [];
 
@@ -49,18 +47,16 @@ const getDateGames = async (date) => {
 
     obj.scoreA = scoreA;
     obj.scoreB = scoreB;
-    
+
     obj.delta = Math.abs(parseInt(scoreA, 10) - parseInt(scoreB));
     obj.sum = Math.abs(parseInt(scoreA, 10) + parseInt(scoreB));
-    
+
     // OT
     const final = $(element).find('.cmg_matchup_list_status').text();
     if (final.indexOf('OT') > -1) {
       obj.delta = 0;
       obj.ot = true;
     }
-
-    obj.rating = getRating(obj)
 
     obj.date = formatDateForURL(date);
     _GAMES.push(obj)
@@ -69,7 +65,7 @@ const getDateGames = async (date) => {
   return _GAMES;
 }
 
-const getSccores = async () => {
+const getScores = async () => {
   fillDaysArray();
 
   const requests = [];
@@ -81,4 +77,4 @@ const getSccores = async () => {
     .then(() => fs.writeFileSync('SCORES.json', JSON.stringify(GAMES, null, 2)))
 }
 
-module.exports = getDateGames;
+module.exports = { getDateGames, getScores };
