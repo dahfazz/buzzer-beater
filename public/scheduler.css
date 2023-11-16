@@ -30,7 +30,6 @@ body {
   margin: 0;
   position: absolute;
   left: 0;
-  right: 0;
   top: 42px;
   z-index: 99;
   max-height: 200px;

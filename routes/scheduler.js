@@ -101,8 +101,8 @@ module.exports = async (req, res) => {
 
         json.map((j, i) => {
           const btn = document.createElement('button');
-          btn.classList.add('result', 'list-group-item', 'list-group-item-action', 'list-group-item-light')
-          btn.innerHTML = (i+1) + '. ' + j.player + ' (' + j.average + ')'
+          btn.classList.add('text-nowrap', 'result', 'list-group-item', 'list-group-item-action', 'list-group-item-light')
+          btn.innerHTML = (i+1) + '. ' + j.player + ' (' + j.average + ') vs ' + j.oppo
           btn.addEventListener('click', () => {
             target.value = j.player;
             
