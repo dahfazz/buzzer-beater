@@ -26,8 +26,8 @@ module.exports = async (_, res) => {
     all = cache;
   } else {
     const nba = (await getDateGames(yesterday, 'NBA'))
-    const wnba = (await getDateGames(yesterday, 'WNBA'))
-    all = [...nba, ...wnba]
+    // const wnba = (await getDateGames(yesterday, 'WNBA'))
+    all = [...nba]
 
     myCache.set(yesterday.toDateString(), all);
   }
@@ -53,9 +53,9 @@ module.exports = async (_, res) => {
   const HOT_DELTA = 6;
 
   all.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach(game => {
-    html += `<li class="${game.delta <= HOT_DELTA && 'hot'}">
-    <div class="logo ${game.league.toLowerCase()}"></div>
-    <div class="txt">${displayTeam(game.teamA)} <span class="score">${game.scoreA}</span> - <span class="score">${game.scoreB}</span> ${displayTeam(game.teamB)}</div>
+    html += `<li class="${game.delta <= HOT_DELTA && 'hot'}">`;
+    // <div class="logo ${game.league.toLowerCase()}"></div>
+    html += `<div class="txt">${displayTeam(game.teamA)} <span class="score">${game.scoreA}</span> - <span class="score">${game.scoreB}</span> ${displayTeam(game.teamB)}</div>
     </li>`
   })
 

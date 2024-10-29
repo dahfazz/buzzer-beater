@@ -48,7 +48,8 @@ body {
 }
 
 .scores .txt .score {
-  display: block !important
+  display: block !important;
+  padding: 0 1rem;
 }
 
 #toggle {

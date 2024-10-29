@@ -37,13 +37,14 @@ const getDateGames = async (date, league) => {
   const result = await axios.get(url);
   const $ = cheerio.load(result.data);
 
-  $('.cmg_matchup_game_box').each((_, element) => {
+  $('.covers-CoversScoreboard-gameBox-teamAndOdds').each((_, element) => {
     const obj = {}
-    obj.teamA = $(element).find('.cmg_matchup_list_column_1 .cmg_team_name').text().replace(/[^A-Za-z]/g, "")
-    obj.teamB = $(element).find('.cmg_matchup_list_column_3 .cmg_team_name').text().replace(/[^A-Za-z]/g, "")
+    obj.teamA = $(element).find('.covers-CoversScoreboard-gameBox-teamShortName-Records.away-team-gamebox-records .shortName').text().replace(/[^A-Za-z]/g, "")
+    obj.teamB = $(element).find('.covers-CoversScoreboard-gameBox-teamShortName-Records.home-team-gamebox-records .shortName').text().replace(/[^A-Za-z]/g, "")
 
-    const scoreA = $(element).find('.cmg_matchup_list_score_away').text()
-    const scoreB = $(element).find('.cmg_matchup_list_score_home').text()
+    const scoreTable = $(element).find('.covers-CoversScoreboard-gameBox-ScoringTable')
+    const scoreA = $(element).find('tr:nth-child(1) td.winner-highlight').text()
+    const scoreB = $(element).find('tr:nth-child(2) td.winner-highlight').text()
 
     obj.scoreA = scoreA;
     obj.scoreB = scoreB;
@@ -51,17 +52,19 @@ const getDateGames = async (date, league) => {
     obj.delta = Math.abs(parseInt(scoreA, 10) - parseInt(scoreB));
     obj.sum = Math.abs(parseInt(scoreA, 10) + parseInt(scoreB));
 
-    // OT
-    const final = $(element).find('.cmg_matchup_list_status').text();
-    if (final.indexOf('OT') > -1) {
-      obj.delta = 0;
-      obj.ot = true;
-    }
+    // // OT
+    // const final = $(element).find('.cmg_matchup_list_status').text();
+    // if (final.indexOf('OT') > -1) {
+    //   obj.delta = 0;
+    //   obj.ot = true;
+    // }
 
     obj.league = league;
     obj.url = url;
 
     obj.date = formatDateForURL(date);
+
+
     GAMES.push(obj)
   });
 
