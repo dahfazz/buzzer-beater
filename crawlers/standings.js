@@ -16,7 +16,7 @@ const getStandings = async () => {
         let obj = {};
 
         $(tr).find('th.left').each((_, th) => {
-          obj.team = $(th)
+          const team = $(th)
             .find('a')
             .text()
             .replace('NYK', 'NY')
@@ -26,30 +26,29 @@ const getStandings = async () => {
             .replace('SAS', 'SA')
             .replace('NOP', 'NO');
 
-          obj.rank = parseInt($(th)
+          const rank = parseInt($(th)
             .find('.seed')
             .text()
             .replace('(', "")
             .replace(')', "")
             .trim());
-          obj.conference = conf;
-        })
 
-        $(tr).find('td:nth-child(4)').each((_, td) => {
-          obj.wins = parseInt($(td).text())
-        })
-        $(tr).find('td:nth-child(5)').each((_, td) => {
-          obj.losses = parseInt($(td).text())
-        })
+          const wins = parseInt($(tr).find('td:nth-child(4)').text())
+          const loses = parseInt($(tr).find('td:nth-child(5)').text())
+          const pct = Math.floor(100 * wins / (wins + loses))
 
-        if (obj.team) {
-          STANDINGS.push(obj);
-        }
-      });
+          if (team) {
+            STANDINGS[team] = {
+              pct, rank, conf
+            }
+          }
+        })
+      })
     });
   })
 
-  fs.writeFileSync('STANDINGS.json', JSON.stringify(STANDINGS, null, 2))
+
+  return STANDINGS
 }
 
-module.exports = getStandings;
+module.exports = { getStandings };

@@ -1,7 +1,11 @@
 const { getDateGames } = require('../crawlers/scores')
+const { getStandings } = require('../crawlers/standings')
 
 const NodeCache = require("node-cache");
 const myCache = new NodeCache();
+
+let standings;
+getStandings().then(s => standings = s);
 
 const displayTeam = team => {
   switch (team) {
@@ -19,17 +23,17 @@ module.exports = async (_, res) => {
 
   const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
 
-  let all = []
+  let nba = []
   const cache = myCache.get(yesterday.toDateString());
 
   if (cache) {
-    all = cache;
+    nba = cache;
   } else {
-    const nba = (await getDateGames(yesterday, 'NBA'))
-    // const wnba = (await getDateGames(yesterday, 'WNBA'))
-    all = [...nba]
-
-    myCache.set(yesterday.toDateString(), all);
+    const nba = (await getDateGames(yesterday, 'NBA')).map(game => ({
+      ...game,
+      heat: standings[game.teamA].pct + standings[game.teamB].pct
+    }))
+    myCache.set(yesterday.toDateString(), nba);
   }
 
   let html = `
@@ -42,28 +46,22 @@ module.exports = async (_, res) => {
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link href="tweet.css" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
     <main>
       <ul class="moneytimes">`;
 
-  const HOT_DELTA = 6;
-
-  all.sort((a, b) => a.delta > b.delta ? 1 : -1).forEach(game => {
-    html += `<li class="${game.delta <= HOT_DELTA && 'hot'}">`;
-    // <div class="logo ${game.league.toLowerCase()}"></div>
-    html += `<div class="txt">${displayTeam(game.teamA)} <span class="score">${game.scoreA}</span> - <span class="score">${game.scoreB}</span> ${displayTeam(game.teamB)}</div>
+  nba.sort((a, b) => a.heat < b.heat ? 1 : -1).forEach(game => {
+    html += `<li>`;
+    html += `<div class="txt">${displayTeam(game.teamA)} - ${displayTeam(game.teamB)} ${game.delta <= 10 ? '[DELTA]' : ''} ${game.heat >= 100 ? '[MATCHUP]' : ''}</div>
     </li>`
   })
 
   html += `</ul></main>
-  <button id="toggle">Toggle scores</button>
     </body>
-
-    <script src="toggle.js"></script>
   </html>`;
 
   return res.send(html);
