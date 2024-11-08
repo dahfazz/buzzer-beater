@@ -21,7 +21,6 @@ module.exports = async (_, res) => {
       ...game,
       heat: standings[game.teamA].pct + standings[game.teamB].pct
     }))
-  }
 
   let html = `
     <!DOCTYPE html>
