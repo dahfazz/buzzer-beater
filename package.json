@@ -18,34 +18,18 @@
     "license": "ISC",
     "homepage": "https://github.com/dahfazz/buzzer-beater",
     "devDependencies": {
-        "@codeceptjs/configure": "^1.0.1",
-        "@codeceptjs/examples": "^1.2.4",
-        "@codeceptjs/ui": "^1.2.0",
         "@types/node": "^22.9.1",
-        "chrome-launcher": "^1.1.2",
-        "chromium": "^3.0.3",
-        "chromium-edge-launcher": "^1.0.0",
-        "codeceptjs": "^3.6.7",
-        "cors": "^2.8.5",
-        "create-react-app": "^5.0.1",
         "nodemon": "^2.0.22",
-        "playwright": "^1.49.0",
         "puppeteer": "^23.8.0",
         "ts-node": "^10.9.2",
         "tslib": "^2.8.1",
-        "typescript": "5.6.3"
-    },
-    "dependencies": {
-        "airtable": "^0.12.2",
-        "axios": "^0.19.2",
+        "typescript": "5.6.3",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-stealth": "^2.11.2",
         "body-parser": "^1.20.2",
         "chalk": "^5.3.0",
-        "cheerio": "^1.0.0-rc.3",
         "dateformat": "^3.0.3",
-        "express": "^4.17.1",
-        "node-cache": "^5.1.2",
-        "puppeteer-extra": "^3.3.6",
-        "puppeteer-extra-plugin-stealth": "^2.11.2"
+        "express": "^4.17.1"
     },
     "engines": {
         "node": "20.x"
