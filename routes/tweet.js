@@ -1,9 +1,6 @@
 const { getDateGames } = require('../crawlers/scores')
 const { getStandings } = require('../crawlers/standings')
 
-const NodeCache = require("node-cache");
-const myCache = new NodeCache();
-
 let standings;
 getStandings().then(s => standings = s);
 
@@ -13,28 +10,17 @@ const displayTeam = team => {
     case 'NY': return 'NYK';
     case 'SA': return 'SAS';
     default: return team;
-
   }
 }
 
 module.exports = async (_, res) => {
-
   res.setHeader('Content-Type', 'text/html');
 
   const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
-
-  let nba = []
-  const cache = myCache.get(yesterday.toDateString());
-
-  if (cache) {
-    nba = cache;
-  } else {
-    const nba = (await getDateGames(yesterday, 'NBA')).map(game => ({
+  const nba = (await getDateGames(yesterday, 'NBA')).map(game => ({
       ...game,
       heat: standings[game.teamA].pct + standings[game.teamB].pct
     }))
-    myCache.set(yesterday.toDateString(), nba);
-  }
 
   let html = `
     <!DOCTYPE html>
