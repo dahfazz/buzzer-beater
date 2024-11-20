@@ -1,0 +1,263 @@
+[
+  {
+    "away": {
+      "score": "143",
+      "team": "Houston Rockets",
+      "rating": "10-4"
+    },
+    "home": {
+      "score": "107",
+      "team": "Chicago Bulls",
+      "rating": "5-9"
+    },
+    "delta": 36,
+    "rating": 106,
+    "ties": 9,
+    "leads": 4,
+    "inactives": [
+      "Steven Adams",
+      "N'Faly Dante",
+      "Lonzo Ball",
+      "E.J. Liddell",
+      "Adama Sanogo",
+      "DJ Steward"
+    ]
+  },
+  {
+    "away": {
+      "score": "114",
+      "team": "Charlotte Hornets",
+      "rating": "5-8"
+    },
+    "home": {
+      "score": "128",
+      "team": "Cleveland Cavaliers",
+      "rating": "15-0"
+    },
+    "delta": 14,
+    "rating": 138,
+    "ties": 0,
+    "leads": 2,
+    "inactives": [
+      "DaQuan Jeffries",
+      "Tre Mann",
+      "Nick Richards",
+      "KJ Simpson",
+      "Mark Williams",
+      "Emoni Bates",
+      "Sam Merrill",
+      "Donovan Mitchell",
+      "Max Strus"
+    ]
+  },
+  {
+    "away": {
+      "score": "110",
+      "team": "Miami Heat",
+      "rating": "5-7"
+    },
+    "home": {
+      "score": "119",
+      "team": "Indiana Pacers",
+      "rating": "6-7"
+    },
+    "delta": 9,
+    "rating": 87,
+    "ties": 1,
+    "leads": 0,
+    "inactives": [
+      "Josh Christopher",
+      "Keshad Johnson",
+      "Isaiah Jackson",
+      "Tristen Newton",
+      "James Wiseman"
+    ]
+  },
+  {
+    "away": {
+      "score": "105",
+      "team": "Utah Jazz",
+      "rating": "3-10"
+    },
+    "home": {
+      "score": "116",
+      "team": "Los Angeles Clippers",
+      "rating": "7-7"
+    },
+    "delta": 11,
+    "rating": 73,
+    "ties": 0,
+    "leads": 0,
+    "inactives": [
+      "Taylor Hendricks",
+      "Walker Kessler",
+      "Micah Potter",
+      "Jason Preston",
+      "Oscar Tshiebwe",
+      "Cam Christie",
+      "Trentyn Flowers",
+      "Kawhi Leonard",
+      "P.J. Tucker"
+    ]
+  },
+  {
+    "away": {
+      "score": "90",
+      "team": "Denver Nuggets",
+      "rating": "7-5"
+    },
+    "home": {
+      "score": "105",
+      "team": "Memphis Grizzlies",
+      "rating": "8-6"
+    },
+    "delta": 15,
+    "rating": 115,
+    "ties": 1,
+    "leads": 3,
+    "inactives": [
+      "Aaron Gordon",
+      "DaRon Holmes",
+      "Nikola Jokić",
+      "Spencer Jones",
+      "Jalen Pickett",
+      "GG Jackson II",
+      "Ja Morant",
+      "Marcus Smart",
+      "Cam Spencer"
+    ]
+  },
+  {
+    "away": {
+      "score": "117",
+      "team": "Phoenix Suns",
+      "rating": "9-5"
+    },
+    "home": {
+      "score": "120",
+      "team": "Minnesota Timberwolves",
+      "rating": "8-6"
+    },
+    "delta": 3,
+    "rating": 121,
+    "ties": 1,
+    "leads": 3,
+    "inactives": [
+      "Bradley Beal",
+      "Jalen Bridges",
+      "Kevin Durant",
+      "Collin Gillespie",
+      "Jaylen Clark",
+      "Jesse Edwards",
+      "Leonard Miller",
+      "Daishen Nix"
+    ]
+  },
+  {
+    "away": {
+      "score": "104",
+      "team": "Brooklyn Nets",
+      "rating": "5-9"
+    },
+    "home": {
+      "score": "114",
+      "team": "New York Knicks",
+      "rating": "7-6"
+    },
+    "delta": 10,
+    "rating": 88,
+    "ties": 5,
+    "leads": 10,
+    "inactives": [
+      "Bojan Bogdanović",
+      "Nic Claxton",
+      "Jaylen Martin",
+      "Day'Ron Sharpe",
+      "Dariq Whitehead",
+      "Precious Achiuwa",
+      "Boo Buie",
+      "Kevin McCullar Jr.",
+      "Mitchell Robinson"
+    ]
+  },
+  {
+    "away": {
+      "score": "121",
+      "team": "Dallas Mavericks",
+      "rating": "7-7"
+    },
+    "home": {
+      "score": "119",
+      "team": "Oklahoma City Thunder",
+      "rating": "11-3"
+    },
+    "delta": 2,
+    "rating": 128,
+    "ties": 4,
+    "leads": 4,
+    "inactives": [
+      "Luka Dončić",
+      "Dante Exum",
+      "Jazian Gortman",
+      "Alex Caruso",
+      "Alex Ducas",
+      "Isaiah Hartenstein",
+      "Chet Holmgren",
+      "Nikola Topić",
+      "Jaylin Williams"
+    ]
+  },
+  {
+    "away": {
+      "score": "110",
+      "team": "Atlanta Hawks",
+      "rating": "6-8"
+    },
+    "home": {
+      "score": "114",
+      "team": "Portland Trail Blazers",
+      "rating": "6-8"
+    },
+    "delta": 4,
+    "rating": 84,
+    "ties": 1,
+    "leads": 3,
+    "inactives": [
+      "Dominick Barlow",
+      "Bogdan Bogdanović",
+      "Kobe Bufkin",
+      "Mouhamed Gueye",
+      "Seth Lundy",
+      "Cody Zeller",
+      "Bryce McGowens",
+      "Justin Minaya",
+      "Anfernee Simons"
+    ]
+  },
+  {
+    "away": {
+      "score": "124",
+      "team": "Detroit Pistons",
+      "rating": "7-8"
+    },
+    "home": {
+      "score": "104",
+      "team": "Washington Wizards",
+      "rating": "2-10"
+    },
+    "delta": 20,
+    "rating": 62,
+    "ties": 1,
+    "leads": 1,
+    "inactives": [
+      "Daniss Jenkins",
+      "Bobi Klintman",
+      "Cole Swider",
+      "Ausar Thompson",
+      "Alondes Williams",
+      "Saddiq Bey",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ]
+  }
+]
