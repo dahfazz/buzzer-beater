@@ -1,41 +1,54 @@
-const express = require('express');
-const bodyParser = require('body-parser')
-
-const fs = require('fs');
-const cors = require('cors')
-
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const body_parser_1 = require("body-parser");
+const main_1 = require("./bots/main");
 const PORT = process.env.PORT || 3000;
-const jsonParser = bodyParser.json()
-
-const getStandings = require('./crawlers/standings');
-const getScores = require('./crawlers/scores');
-
-// ROUTES
-const tweet = require('./routes/tweet');
-const team = require('./routes/team');
-const helper = require('./routes/helper');
-const assistant = require('./routes/assistant');
-const scheduler = require('./routes/scheduler');
-const standings = require('./routes/standings');
-const top = require('./routes/top');
-const ttfl = require('./routes/ttfl');
-const ttflService = require('./services/ttfl');
-const injuryService = require('./services/injuries');
-const scheduleService = require('./services/schedule');
-
-const app = express();
-app.use(cors())
-app.use(bodyParser.json())
-
+const jsonParser = (0, body_parser_1.json)();
+const displayTeam = (team) => {
+    switch (team) {
+        case 'GS': return 'GSW';
+        case 'NY': return 'NYK';
+        case 'SA': return 'SAS';
+        default: return team;
+    }
+};
+const app = (0, express_1.default)();
+app.use((0, body_parser_1.json)());
 // ROUTER
-app.get('/top', top);
-app.get('/helper', helper);
-app.get('/team', team);
-app.get('/', tweet);
-app.get('/assistant', assistant);
-app.get('/scheduler', scheduler);
-app.get('/standings', standings);
+app.get('/', async (_, res) => {
+    res.setHeader('Content-Type', 'text/html');
+    const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
+    const games = await (0, main_1.getEvaluations)(yesterday.getDate(), yesterday.getMonth() + 1, yesterday.getFullYear());
+    let html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Buzzer Beater</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="tweet.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
 
-app.use(express.static(__dirname + '/public'));
-
-app.listen(PORT, () => console.log(`Listening on ${PORT}`))
+    <body>
+    <main>
+      <ul class="moneytimes">`;
+    games.sort((a, b) => a.evaluation < b.evaluation ? 1 : -1).forEach(game => {
+        html += `<li>`;
+        html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} eval: ${game.evaluation}</div>
+    </li>`;
+    });
+    html += `</ul></main>
+    </body>
+  </html>`;
+    return res.send(html);
+});
+app.use(express_1.default.static(__dirname + '/public'));
+app.listen(PORT, () => console.log(`Listening on ${PORT}`));

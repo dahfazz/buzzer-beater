@@ -1,10 +1,6 @@
-const { getDateGames } = require('../crawlers/scores')
-const { getStandings } = require('../crawlers/standings')
+import { getEvaluations } from "../bots/main";
 
-let standings;
-getStandings().then(s => standings = s);
-
-const displayTeam = team => {
+const displayTeam = (team: string): string => {
   switch (team) {
     case 'GS': return 'GSW';
     case 'NY': return 'NYK';
@@ -17,10 +13,7 @@ module.exports = async (_, res) => {
   res.setHeader('Content-Type', 'text/html');
 
   const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
-  const nba = (await getDateGames(yesterday, 'NBA')).map(game => ({
-      ...game,
-      heat: standings[game.teamA].pct + standings[game.teamB].pct
-    }))
+  const games = await getEvaluations(yesterday.getDate(), yesterday.getMonth() + 1, yesterday.getFullYear())
 
   let html = `
     <!DOCTYPE html>
@@ -40,9 +33,9 @@ module.exports = async (_, res) => {
     <main>
       <ul class="moneytimes">`;
 
-  nba.sort((a, b) => a.heat < b.heat ? 1 : -1).forEach(game => {
+  games.sort((a, b) => a.evaluation < b.evaluation ? 1 : -1).forEach(game => {
     html += `<li>`;
-    html += `<div class="txt">${displayTeam(game.teamA)} - ${displayTeam(game.teamB)} ${game.delta <= 10 ? '[DELTA]' : ''} ${game.heat >= 100 ? '[MATCHUP]' : ''}</div>
+    html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} eval: ${game.evaluation}</div>
     </li>`
   })
 
