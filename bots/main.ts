@@ -43,7 +43,7 @@ export const getEvaluations = async (day: number, month: number, year: number): 
   const URL = `boxscores/?month=${month}&day=${day}&year=${year}`
 
   const DATA: Game[] = []
-  const browser = await puppeteer.launch({ headless: HEADLESS })
+  const browser = await puppeteer.launch({ headless: HEADLESS, executablePath: '/opt/render/project/src/node_modules/.bin' })
   const page = await browser.newPage();
   await page.goto(DOMAIN + URL, { waitUntil: 'domcontentloaded' });
 
