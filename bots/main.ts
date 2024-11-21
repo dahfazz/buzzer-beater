@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer'
+import * as puppeteer from 'puppeteer';
 
 const HEADLESS = true;
 
@@ -43,7 +43,8 @@ export const getEvaluations = async (day: number, month: number, year: number): 
   const URL = `boxscores/?month=${month}&day=${day}&year=${year}`
 
   const DATA: Game[] = []
-  const browser = await puppeteer.launch({ headless: HEADLESS, executablePath: '/opt/render/project/src/node_modules/.bin/chrome' })
+  // const browser = await puppeteer.launch({ headless: HEADLESS, executablePath: '/opt/render/project/src/node_modules/.bin/chrome' })
+  const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.goto(DOMAIN + URL, { waitUntil: 'domcontentloaded' });
 
