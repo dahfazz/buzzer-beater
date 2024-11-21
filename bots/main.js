@@ -26,7 +26,7 @@ const getEvaluations = async (day, month, year) => {
     const DOMAIN = 'https://www.basketball-reference.com/';
     const URL = `boxscores/?month=${month}&day=${day}&year=${year}`;
     const DATA = [];
-    const browser = await puppeteer_1.default.launch({ headless: HEADLESS, executablePath: './nodes_modules/.bin' });
+    const browser = await puppeteer_1.default.launch({ headless: HEADLESS });
     const page = await browser.newPage();
     await page.goto(DOMAIN + URL, { waitUntil: 'domcontentloaded' });
     await tryClick(page, '.osano-cm-denyAll');
@@ -73,3 +73,4 @@ const getEvaluations = async (day, month, year) => {
     return DATA;
 };
 exports.getEvaluations = getEvaluations;
+(0, exports.getEvaluations)(20, 11, 2024);

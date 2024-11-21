@@ -27,13 +27,11 @@
         "puppeteer": "^23.8.0",
         "ts-node": "^10.9.2",
         "tslib": "^2.8.1",
-        "typescript": "5.6.3"
+        "typescript": "5.6.3",
+        "chrome": "^0.1.0",
+        "chromium": "^3.0.3"
     },
     "engines": {
         "node": "20.x"
-    },
-    "dependencies": {
-        "chrome": "^0.1.0",
-        "chromium": "^3.0.3"
     }
 }
