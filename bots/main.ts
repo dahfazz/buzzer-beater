@@ -104,3 +104,5 @@ export const getEvaluations = async (day: number, month: number, year: number): 
 
   return DATA;
 }
+
+getEvaluations(20, 11, 2024)

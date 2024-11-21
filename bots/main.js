@@ -4,8 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getEvaluations = void 0;
-const puppeteer_extra_1 = __importDefault(require("puppeteer-extra"));
-const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const puppeteer_1 = __importDefault(require("puppeteer"));
 const HEADLESS = true;
 const calculateRating = (rating1, rating2) => {
     const path1 = rating1.split('-').map(s => parseInt(s.trim()));
@@ -27,7 +26,7 @@ const getEvaluations = async (day, month, year) => {
     const DOMAIN = 'https://www.basketball-reference.com/';
     const URL = `boxscores/?month=${month}&day=${day}&year=${year}`;
     const DATA = [];
-    const browser = await puppeteer_extra_1.default.use(StealthPlugin()).launch({ headless: HEADLESS });
+    const browser = await puppeteer_1.default.launch({ headless: HEADLESS, executablePath: './nodes_modules/.bin' });
     const page = await browser.newPage();
     await page.goto(DOMAIN + URL, { waitUntil: 'domcontentloaded' });
     await tryClick(page, '.osano-cm-denyAll');
@@ -68,7 +67,6 @@ const getEvaluations = async (day, month, year) => {
         };
         game.evaluation = evaluateGame(game);
         DATA.push(game);
-        // page.waitForSelector('.section_heading h2')
         await tryClick(page, '#modal-close');
     }
     await browser.close();
