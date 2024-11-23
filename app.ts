@@ -1,6 +1,8 @@
 import express from 'express'
 import { json } from 'body-parser'
-import { getEvaluations } from './bots/main';
+import { getEvaluations } from './bots/scores';
+
+import { Game } from './bots/scores'
 
 const PORT = process.env.PORT || 3000;
 const jsonParser = json()
@@ -42,9 +44,9 @@ app.get('/', async (_, res) => {
     <main>
       <ul class="moneytimes">`;
 
-  games.sort((a, b) => a.evaluation < b.evaluation ? 1 : -1).forEach(game => {
+  games.sort((a: Game, b: Game) => a.deltas.qt3 < b.deltas.qt3 ? -1 : 1).forEach((game: Game) => {
     html += `<li>`;
-    html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} eval: ${game.evaluation}</div>
+    html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} delta QT3: ${game.deltas.qt3}</div>
     </li>`
   })
 

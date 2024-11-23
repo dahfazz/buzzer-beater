@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node app.ts",
     "watch": "nodemon --watch ./routes/*.js --watch app.js --watch public localhost 3000",
-    "ts": "ts-node bots/main.ts",
+    "ts": "ts-node bots/scores.ts",
     "build": "tsc"
   },
   "repository": {
@@ -19,12 +19,13 @@
   "homepage": "https://github.com/dahfazz/buzzer-beater",
   "dependencies": {
     "@types/node": "^22.9.1",
-    "@types/puppeteer": "^1.6.0",
+    "axios": "^1.7.7",
     "body-parser": "^1.20.2",
     "chalk": "^5.3.0",
+    "cheerio": "^1.0.0",
+    "chrome": "^0.1.0",
     "chrome-launcher": "^0.10.2",
     "chrome-remote-interface": "^0.26.1",
-    "chrome": "^0.1.0",
     "chromium": "^3.0.3",
     "dateformat": "^3.0.3",
     "express": "^4.17.1",
