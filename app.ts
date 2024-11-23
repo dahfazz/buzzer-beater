@@ -46,7 +46,7 @@ app.get('/', async (_, res) => {
 
   games.sort((a: Game, b: Game) => a.deltas.qt3 < b.deltas.qt3 ? -1 : 1).forEach((game: Game) => {
     html += `<li>`;
-    html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} delta QT3: ${game.deltas.qt3}</div>
+    html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} delta QT3: ${game.deltas.qt3} ${game.deltas.qt4 <= game.deltas.qt3 ? '🔥' : ''}</div>
     </li>`
   })
 
