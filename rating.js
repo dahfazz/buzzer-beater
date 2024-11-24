@@ -1,7 +1,6 @@
 const STANDINGS = require('./STANDINGS.json');
 
 module.exports = (data) => {
-  console.log(data.teamA)
   let score = 100;
 
   const delta = data.delta || 0;

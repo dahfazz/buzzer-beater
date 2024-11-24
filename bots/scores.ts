@@ -26,36 +26,34 @@ export interface Game {
 }
 
 export const getEvaluations = async (day: number, month: number, year: number): Promise<Game[]> => {
-  const DOMAIN = 'https://www.basketball-reference.com/'
-  const URL = `boxscores/?month=${month}&day=${day}&year=${year}`
+  const URL = `https://www.covers.com/sports/nba/matchups?selectedDate=${year}-${month}-${day}`
 
   const DATA: Game[] = []
 
-  const resp: AxiosResponse = await axios.get(DOMAIN + URL);
+  const resp: AxiosResponse = await axios.get(URL);
   const $: CheerioAPI = load(resp.data);
 
-  const pbpURLs: string[] = [];
-  $('.game_summary').each((_, summary) => {
+  $('.covers-CoversScoreboard-gameBox').each((_, gameBox) => {
     const home: GameTeam = {
-      team: $(summary).find('.teams tbody tr:nth-child(2) td:not(.right) a').text(),
-      score: parseInt($(summary).find('.teams tbody tr:nth-child(2) td.right').text())
+      team: $(gameBox).find('h2').text().split('@')[1].trim(),
+      score: parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(2) .winner-highlight').text())
     }
     const away: GameTeam = {
-      team: $(summary).find('.teams tbody tr:nth-child(1) td:not(.right) a').text(),
-      score: parseInt($(summary).find('.teams tbody tr:nth-child(1) td.right').text())
+      team: $(gameBox).find('h2').text().split('@')[0].trim(),
+      score: parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(1) .winner-highlight').text())
     }
 
     const hScores = [
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(2) td.center:nth-child(2)').text()),
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(2) td.center:nth-child(3)').text()),
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(2) td.center:nth-child(4)').text()),
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(2) td.center:nth-child(5)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(2) td:nth-child(1)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(2) td:nth-child(2)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(2) td:nth-child(3)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(2) td:nth-child(4)').text()),
     ]
     const aScores = [
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(1) td.center:nth-child(2)').text()),
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(1) td.center:nth-child(3)').text()),
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(1) td.center:nth-child(4)').text()),
-      parseInt($(summary).find('table:not(.teams) tbody tr:nth-child(1) td.center:nth-child(5)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(1) td:nth-child(1)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(1) td:nth-child(2)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(1) td:nth-child(3)').text()),
+      parseInt($(gameBox).find('.covers-CoversScoreboard-gameBox-ScoringTable tbody tr:nth-child(1) td:nth-child(4)').text()),
     ]
 
     const scores = {

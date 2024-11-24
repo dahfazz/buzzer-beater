@@ -7,13 +7,13 @@ body {
 
 .moneytimes {
   margin: 1rem auto;
+  padding: 0;
 
   & li {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #999;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
 
     & .txt {
       display: flex;

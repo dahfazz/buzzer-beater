@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const body_parser_1 = require("body-parser");
-const main_1 = require("./bots/main");
+const scores_1 = require("./bots/scores");
 const PORT = process.env.PORT || 3000;
 const jsonParser = (0, body_parser_1.json)();
 const displayTeam = (team) => {
@@ -22,7 +22,7 @@ app.use((0, body_parser_1.json)());
 app.get('/', async (_, res) => {
     res.setHeader('Content-Type', 'text/html');
     const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
-    const games = await (0, main_1.getEvaluations)(yesterday.getDate(), yesterday.getMonth() + 1, yesterday.getFullYear());
+    const games = await (0, scores_1.getEvaluations)(yesterday.getDate(), yesterday.getMonth() + 1, yesterday.getFullYear());
     let html = `
     <!DOCTYPE html>
     <html lang="en">
@@ -40,9 +40,9 @@ app.get('/', async (_, res) => {
     <body>
     <main>
       <ul class="moneytimes">`;
-    games.sort((a, b) => a.evaluation < b.evaluation ? 1 : -1).forEach(game => {
+    games.sort((a, b) => a.deltas.qt3 < b.deltas.qt3 ? -1 : 1).forEach((game) => {
         html += `<li>`;
-        html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} eval: ${game.evaluation}</div>
+        html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} &nbsp;&nbsp;&nbsp;QT3: +/-${game.deltas.qt3} ${game.deltas.qt4 <= game.deltas.qt3 ? '🔥' : ''}</div>
     </li>`;
     });
     html += `</ul></main>
