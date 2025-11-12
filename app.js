@@ -5,9 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const body_parser_1 = require("body-parser");
-const scores_1 = require("./bots/scores");
+const axios_1 = __importDefault(require("axios"));
+const cheerio_1 = require("cheerio");
 const PORT = process.env.PORT || 3000;
-const jsonParser = (0, body_parser_1.json)();
 const displayTeam = (team) => {
     switch (team) {
         case 'GS': return 'GSW';
@@ -16,13 +16,36 @@ const displayTeam = (team) => {
         default: return team;
     }
 };
+const getEvaluations = async (day, month, year) => {
+    const URL = `https://www.covers.com/sports/nba/matchups?selectedDate=${year}-${month}-${day}`;
+    const DATA = [];
+    const resp = await axios_1.default.get(URL);
+    const $ = (0, cheerio_1.load)(resp.data);
+    $('.gamebox').each((_, gameBox) => {
+        const home = {
+            team: $(gameBox).find('.gamebox-header').text().split('@')[1].trim(),
+            score: parseInt($(gameBox).find('.team-score.home').text())
+        };
+        const away = {
+            team: $(gameBox).find('.gamebox-header').text().split('@')[0].trim(),
+            score: parseInt($(gameBox).find('.team-score.away').text())
+        };
+        DATA.push({
+            home,
+            away,
+            delta: Math.abs(home.score - away.score)
+        });
+    });
+    return DATA;
+};
 const app = (0, express_1.default)();
 app.use((0, body_parser_1.json)());
 // ROUTER
 app.get('/', async (_, res) => {
     res.setHeader('Content-Type', 'text/html');
     const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
-    const games = await (0, scores_1.getEvaluations)(yesterday.getDate(), yesterday.getMonth() + 1, yesterday.getFullYear());
+    const games = await getEvaluations(yesterday.getDate(), yesterday.getMonth() + 1, yesterday.getFullYear());
+    console.log(games);
     let html = `
     <!DOCTYPE html>
     <html lang="en">
@@ -40,9 +63,9 @@ app.get('/', async (_, res) => {
     <body>
     <main>
       <ul class="moneytimes">`;
-    games.sort((a, b) => a.deltas.qt3 < b.deltas.qt3 ? -1 : 1).forEach((game) => {
+    games.sort((a, b) => a.delta - b.delta).forEach((game) => {
         html += `<li>`;
-        html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} &nbsp;&nbsp;&nbsp;QT3: +/-${game.deltas.qt3} ${game.deltas.qt4 <= game.deltas.qt3 ? '🔥' : ''}</div>
+        html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} (${game.delta})</div>
     </li>`;
     });
     html += `</ul></main>
