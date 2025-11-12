@@ -1,11 +1,9 @@
 import express from 'express'
 import { json } from 'body-parser'
-import { getEvaluations } from './bots/scores';
-
-import { Game } from './bots/scores'
+import axios, { AxiosResponse } from 'axios';
+import { CheerioAPI, load } from 'cheerio';
 
 const PORT = process.env.PORT || 3000;
-const jsonParser = json()
 
 const displayTeam = (team: string): string => {
   switch (team) {
@@ -16,6 +14,45 @@ const displayTeam = (team: string): string => {
   }
 }
 
+interface GameTeam {
+  score: number,
+  team: string,
+}
+export interface Game {
+  away: GameTeam,
+  home: GameTeam,
+  delta?: number,
+}
+
+const getEvaluations = async (day: number, month: number, year: number): Promise<Game[]> => {
+  const URL = `https://www.covers.com/sports/nba/matchups?selectedDate=${year}-${month}-${day}`
+  const DATA: Game[] = []
+
+  const resp: AxiosResponse = await axios.get(URL);
+  const $: CheerioAPI = load(resp.data);
+
+  $('.gamebox').each((_, gameBox) => {
+
+    const home: GameTeam = {
+      team: $(gameBox).find('.gamebox-header').text().split('@')[1].trim(),
+      score: parseInt($(gameBox).find('.team-score.home').text())
+    }
+    const away: GameTeam = {
+      team: $(gameBox).find('.gamebox-header').text().split('@')[0].trim(),
+      score: parseInt($(gameBox).find('.team-score.away').text())
+    }
+
+    DATA.push({
+      home,
+      away,
+      delta: Math.abs(home.score - away.score)
+    })
+
+  })
+
+  return DATA;
+}
+
 const app = express();
 app.use(json())
 
@@ -24,7 +61,10 @@ app.get('/', async (_, res) => {
   res.setHeader('Content-Type', 'text/html');
 
   const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
+
   const games = await getEvaluations(yesterday.getDate(), yesterday.getMonth() + 1, yesterday.getFullYear())
+
+  console.log(games)
 
   let html = `
     <!DOCTYPE html>
@@ -44,9 +84,9 @@ app.get('/', async (_, res) => {
     <main>
       <ul class="moneytimes">`;
 
-  games.sort((a: Game, b: Game) => a.deltas.qt3 < b.deltas.qt3 ? -1 : 1).forEach((game: Game) => {
+  games.sort((a: Game, b: Game) => a.delta - b.delta).forEach((game: Game) => {
     html += `<li>`;
-    html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} &nbsp;&nbsp;&nbsp;QT3: +/-${game.deltas.qt3} ${game.deltas.qt4 <= game.deltas.qt3 ? '🔥' : ''}</div>
+    html += `<div class="txt">${displayTeam(game.away.team)} - ${displayTeam(game.home.team)} (${game.delta})</div>
     </li>`
   })
 
